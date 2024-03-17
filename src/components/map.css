@@ -21,6 +21,21 @@
     z-index: 2;
 
 }
+.leaflet-mini-map{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    background-color: white;
+    padding: 8px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+
+    z-index: 999;
+    height: 150px;
+    width: 150px;
+}
+
 @media screen and (max-width: 600px) { 
     .map_legend_infosee {
         position: absolute;
@@ -56,7 +71,7 @@
     top: 0px;
     left: 10%;
     /* Adjust top position as needed */
-    width: 100%;
+    width: 70%;
     /* Adjust left position as needed */
     /* background-color: white; */
     padding: 10px;
@@ -64,7 +79,7 @@
     border-radius: 5px;
     /* position: sticky; */
     
-    z-index: 999;
+    z-index: 9;
 }
 
 /* .leaflet-touch .leaflet-bar {
