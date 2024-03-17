@@ -1,9 +1,4 @@
 import LeafletMap from "./components/LeafletMap";
-
-
-
-
-
 function App() {
   return (
     <div>

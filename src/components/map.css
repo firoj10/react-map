@@ -21,6 +21,35 @@
     z-index: 2;
 
 }
+@media screen and (max-width: 600px) { 
+    .map_legend_infosee {
+        position: absolute;
+        top: 260px;
+        /* Adjust top position as needed */
+        left: 10px;
+        /* Adjust left position as needed */
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+    
+    }
+ }
+ @media (min-width: 768px) {
+    .desktop-map{
+      height: 100vh;
+      background-color: lightblue;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .mobile-map {
+      height: 100vh;
+      background-color: lightblue;
+    }
+  }
 
 .header {
     /* position: absolute; */
@@ -33,11 +62,11 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    position: sticky;
-
-
-
+    /* position: sticky; */
+    
+    z-index: 999;
 }
+
 /* .leaflet-touch .leaflet-bar {
   z-index: 4 !important;
 } */
