@@ -68,10 +68,10 @@
 
 .header {
     /* position: absolute; */
-    top: 0px;
-    left: 10%;
+    /* top: 0px;
+    left: 10%; */
     /* Adjust top position as needed */
-    width: 70%;
+    width: 100%;
     /* Adjust left position as needed */
     /* background-color: white; */
     padding: 10px;

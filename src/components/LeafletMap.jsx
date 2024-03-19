@@ -17,7 +17,7 @@ function LeafletMap() {
 
   useEffect(() => {
       const fetchData = async () => {
-          const response = await fetch('/../src/data/bangladesh.json');
+          const response = await fetch('./bangladesh.json');
           const data = await response.json();
           setGeojsonData(data);
       };
@@ -28,9 +28,6 @@ function LeafletMap() {
 const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768); 
   const [legendOpen, setLegendOpen] = useState(false); 
 
-
-
-  
   const toggleLegend = () => {
     setLegendOpen(!legendOpen);
   };
@@ -39,9 +36,7 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
     const handleResize = () => {
       const isDesktop = window.innerWidth > 768;
       setIsDesktop(isDesktop);
-     
-
-    };
+     };
 
     window.addEventListener('resize', handleResize);
 
@@ -58,7 +53,7 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
 
   return (
     <div className="map-containeree">
-      <div className="header " style={{zIndex:9, position:'fixed'}} >
+      <div className="header " style={{}} >
         <div className="card" style={{backgroundColor:"white", color:'blue', border:'none'}}>
           <div className="row" style={{alignItems:'center'}}>
             <div className="col-12 col-md-3" style={{alignItems:'center'}}>
@@ -87,8 +82,7 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
             {legendOpen ? "Hide List" : "Show List"}
           </button>
         </div>
-      )}
-
+      )} 
           </div>
           {legendOpen && (
         <table className="table table-striped table-hover">
