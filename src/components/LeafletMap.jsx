@@ -61,7 +61,7 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
             </div>
             <div className="col-12 col-md-9 " style={{alignItems:'center', textAlign:'right', color: 'blue'}}>
           
-            <h5 className='pe-2'>বাংলাদেশের নির্দেশিত সকল ভৌগোলিক নির্দেশক লিস্ট</h5>
+            <h5 className='pe-2'>List of all directed geographical indicators in Bangladesh</h5>
          
             </div>
           </div>
@@ -88,9 +88,9 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
         <table className="table table-striped table-hover">
           <thead className='sticky-top'>
             <tr>
-              <th className='table-top-title'>ভৌগোলিক নিদর্শন</th>
-              <th className='table-top-title'>জেলা/অঞ্চল</th>
-              <th className='table-top-title'>ওয়েবসাইট </th>
+            <th className='table-top-title'>Geographical Features</th>
+            <th className='table-top-title'>District/Region</th>
+            <th className='table-top-title'>Website</th>
             </tr>
           </thead>
           <tbody>
@@ -104,7 +104,7 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
                 </td>
                 <td style={{ paddingRight: '8px', textAlign: 'right' }}>
                   <span className='table-title'>
-                    <a href={product.webLink}> পরিদর্শন</a>
+                    <a href={product.webLink}>Website</a>
                   </span>
                 </td>
               </tr>
@@ -132,30 +132,53 @@ const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
           <TileLayer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png" />
         </BaseLayer>
       </LayersControl>
-      {geojsonData && <GeoJSON data={geojsonData} style={{ color: '#454B1B' }} />}
+      {/* {geojsonData && <GeoJSON data={geojsonData} style={{ color: '#454b1b9e', }} />} */}
+      <div>
+  {geojsonData && (
+    <GeoJSON
+      data={geojsonData}
+      style={() => ({
+        fillColor: "#dc354596",
+        fillOpacity: 2,
+        color: "#2c310a", // Border color
+        weight: 1, // Border width
+        zIndex:-1
+      })}
+    />
+  )}
+</div>
       {locations.map((location, index) => (
         <Marker key={index} position={location.position}>
           <Popup style={{ zIndex: '999' }}>
-            <div className='row '>
-              <div  className='col-4 col-md-6'>
-              <p><img className='rounded' alt={location.name} src={location.img} decoding="async" width="100%" height="93" /></p>
-              <h6 className='fw-bold'>তালিকা</h6>
-              <ul>
-             <li>বাগদা চিংড়ি</li>
-             <li>ফজলি আম</li>
-              <li>খিরসাপাতি</li>
-              <li>ইলিশ</li>
-           </ul>
+          <div className="row">
+            <div className="col-12">
+            <p><img className='rounded' alt={location.name} src={location.img} decoding="async" width="100%" height="110" /></p>
+            </div>
+            {/* <div className="col-4">
+            <h6 className='fw-bold'>{location.name}</h6><span className=''>({location.district}) </span>
+            </div> */}
+          </div>
 
-              </div>
-              <div  className='col-8 col-md-6'>
+
+            <div className='row '>
+              <div  className='col-12 col-md-12'>
+              
+              {/* <h6 className='fw-bold'>List</h6>
+            <ul>
+                <li>Bagda Chingri</li>
+                <li>Fojli Mango</li>
+                <li>Khirshapati</li>
+                <li>Hilsa Fish</li>
+           </ul> */}
+
+             
               <div className=''>
-                <h6 className='fw-bold'>{location.name}</h6><span className='px-2'>({location.district}) </span>
+                <h6 className='fw-bold'>{location.name}</h6><span className=''>({location.district}) </span>
               </div>
               <p>{location.description}</p>
              
            <div className='text-center fw-bold'>
-             <a href="">  ওয়েবসাইট পরিদর্শন</a>
+           <a href="">Visit Website</a>
           </div> 
             </div>
             </div>
