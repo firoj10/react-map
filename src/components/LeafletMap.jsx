@@ -4,11 +4,12 @@ import "leaflet/dist/leaflet.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../../public/marker-icon-2x.png'
-import logo from './../../public/b.png'
 import { products } from './../data/products/products.js'
 import { locations } from './../data/location/location.js'
 import "./map.css";
 import MiniMapControl from './MiniMapControl';
+import { NavLink } from 'react-router-dom';
+import Header from './Header.jsx';
 
 function LeafletMap() {
   const { BaseLayer } = LayersControl;
@@ -53,20 +54,7 @@ function LeafletMap() {
 
   return (
     <div className="map-containeree">
-      <div className="header " style={{backgroundColor: "black",  border: 'none'}} >
-        <div className="card" style={{ backgroundColor: "black", color: 'blue', border: 'none' }}>
-          <div className="row" style={{ alignItems: 'center' }}>
-            <div className="col-12 col-md-12" style={{ alignItems: 'center' }}>
-              <img src={logo} alt="" width={180} height={80} />
-            </div>
-            {/* <div className="col-12 col-md-9 " style={{ alignItems: 'center', textAlign: 'right', color: 'blue' }}>
-
-              <h5 className='pe-2'>List of all directed geographical indicators in Bangladesh</h5>
-
-            </div> */}
-          </div>
-        </div>
-      </div>
+     <Header></Header>
       <div className={`map_legend_infosee ${legendOpen ? 'open' : 'closed'}`}>
         <div id="map_data_infos" style={{ maxHeight: '310px', overflow: 'auto' }}>
           <div className='close-btn'>
@@ -105,7 +93,9 @@ function LeafletMap() {
                     </td>
                     <td style={{ paddingRight: '8px', textAlign: 'right' }}>
                       <span className='table-title'>
-                        <a href={product.webLink}>Website</a>
+                        {/* <a href={product.webLink}>Website</a> */}
+                        <NavLink to="/mapDetails" target="_blank" rel="noopener noreferrer">Website</NavLink>
+
                       </span>
                     </td>
                   </tr>
@@ -162,7 +152,7 @@ function LeafletMap() {
               <div className='row '>
                 <div className='col-12 col-md-12'>
 
-                  <h6 className='fw-bold'>List</h6>
+                  {/* <h6 className='fw-bold'>List</h6> */}
                   <div className=''>
                     <h6 className='fw-bold'>{location.name}</h6><span className=''>({location.district}) </span>
                   </div>

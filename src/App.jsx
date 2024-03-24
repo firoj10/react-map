@@ -1,9 +1,8 @@
-import LeafletMap from "./components/LeafletMap";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
     <div>
-    <LeafletMap />
-
+    <Outlet></Outlet>
    </div>
   );
 }

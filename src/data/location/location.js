@@ -66,21 +66,6 @@ export const locations = [
     }, img: rajshiresom
   },
   {
-    position: [24.3745, 88.6042],
-    name: 'Rajshahi Silk',
-    district: 'Rajshahi 26, April 2021',
-    material: 'Rajshahi silk is primarily made from mulberry silk',
-    description: {
-      des1: '- exquisite craftsmanship and intricate designs.',
-      des2: '- meticulous craftsmanship, vibrant colors, and intricate designs',
-      des3: '- Intricate Designs and Patterns',
-    }, 
-       img: moslin
-  },
-
-
-
-  {
     position: [23.2331, 90.6713],
     name: 'Chandpur Ilish',
     district: 'Chandpur (17,August 2017)',
@@ -92,6 +77,18 @@ export const locations = [
       des4: '- Ilish is prized for its taste and rich nutritional content',
     }, 
        img: moslin    
+  },
+  {
+    position: [24.3745, 88.6042],
+    name: 'Rajshahi Silk',
+    district: 'Rajshahi 26, April 2021',
+    material: 'Rajshahi silk is primarily made from mulberry silk',
+    description: {
+      des1: '- exquisite craftsmanship and intricate designs.',
+      des2: '- meticulous craftsmanship, vibrant colors, and intricate designs',
+      des3: '- Intricate Designs and Patterns',
+    }, 
+       img: moslin
   },
 
   {
@@ -106,6 +103,46 @@ export const locations = [
       des4: '-  Traditional Delicacy ',
     },    img: fojliam
   },
+  {
+    position: [24.5998, 88.2605],
+    name: 'Ashwina Mango',
+    district: 'Chapai Nawabganj(05, july 2023)',
+    material: '',
+    description: {
+      des1: '-	Distinct Flavor: Ashwina mangoes offer a unique blend of sweetness, tanginess, and floral notes.',
+      des2: '-	Smooth Texture: Known for its juicy and smooth texture.',
+      des3: '-	Vibrant Appearance: Bright yellow or orange skin with occasional red  blushes, medium to large in size.',
+      des4: '',
+
+    },
+    img: sotoronji
+
+  },
+  {
+    position: [24.5998, 88.2700],
+    name: 'Langra Mango',
+    district: 'Chapai Nawabganj(05, july 2023)',
+    material: '',
+    description: {
+      des1: '-	Langra Mango from Chapainawabganj stands out for its exceptional taste, aroma, and texture',
+      des2: '	-	Unique taste: A perfect blend of sweetness and tanginess with hints of citrus and floral notes.',
+      des3: '-	Tender texture: Juicy, fibreless flesh that melts in the mouth.',
+      des4: '-	Enticing aroma: Sweet fragrance that adds to its allure.',
+
+    },
+    img: sotoronji
+
+  },
+
+
+
+
+
+
+
+
+
+
   {
     position: [25.7500, 89.2500],
     name: 'Sataranji or Handicrafts',
@@ -275,80 +312,74 @@ export const locations = [
 
 
 
+  
+
+
   {
-    position: [24.5960, 88.4754],
-    name: 'Ashwina Mango',
-    district: 'Chapai Nawabganj(05, july 2023)',
+    position: [22.8158, 89.5686],
+    name: 'Black Bengal Goat',
+    district: 'Khulna(09, January 2024)',
     material: '',
     description: {
-      des1: '-	Distinct Flavor: Ashwina mangoes offer a unique blend of sweetness, tanginess, and floral notes.',
-      des2: '-	Smooth Texture: Known for its juicy and smooth texture.',
-      des3: '-	Vibrant Appearance: Bright yellow or orange skin with occasional red  blushes, medium to large in size.',
-      des4: '',
+      des1: '-	Adaptability: Black Bengal goats are well-adapted to the hot and humid climate of Bangladesh.',
+      des2: '-	High fertility and prolificacy: These goats have high reproductive rates, with does (female goats) often giving birth to twins or even triplets.',
+      des3: '-	Disease resistance: Resilient to common goat diseases.',
+      des4: '-	High-quality meat and skin: The meat of Black Bengal goats is considered to be of high quality, tender, and flavorful.',
 
     },
     img: sotoronji
 
-  },
-  {
-    position: [24.5100, 88.4754],
-    name: 'Langra Mango',
-    district: 'Chapai Nawabganj(05, july 2023)',
-    material: '',
-    description: {
-      des1: '-	Distinct Flavor: Ashwina mangoes offer a unique blend of sweetness, tanginess, and floral notes.',
-      des2: '-	Smooth Texture: Known for its juicy and smooth texture.',
-      des3: '-	Vibrant Appearance: Bright yellow or orange skin with occasional red  blushes, medium to large in size.',
-      des4: '',
-
-    },
-    img: sotoronji
-
-  },
-
-
-
-
-
-
-
-
-
-
-  {
-    position: [24.8955, 91.8687],
-    name: 'Sylhet\'s Sital Pati',
-    district: 'Sylhet (October 27,2017)',
-    material: 'Handcrafted from Murta reeds',
-    description: {
-      des1: 'Providing natural cooling.',
-      des2: '- Used as mats, wall hangings, or table runners',
-      des3: '- Symbolizes traditional craftsmanship and heritage in Bangladesh.',
-      des4: '- Eco-friendly production using local materials and techniques.',
-
-    },
-    img: siletsitolpati
-  },
-
-  {
-    position: [24.3927, 89.9158],
-    name: 'Tangail\'s Chomchom',
-    district: 'Tangail',
-    description: 'Jamdani is a type of fabric made of cotton yarn in a unique method. Jamdani weaving involves the use of a supplementary weft to create intricate patterns. Typically, at least 300 count yarn is used in muslin weaving.',
-    img: chomcom
   },
   {
     position: [23.9013, 89.1205],
-    name: 'Kushtia\'s Til Khoja',
-    district: 'Kushtia',
-    description: 'Jamdani is a type of fabric made of cotton yarn in a unique method. Jamdani weaving involves the use of a supplementary weft to create intricate patterns. Typically, at least 300 count yarn is used in muslin weaving.',
-    img: kumillahro
+    name: 'Tiler Khaja',
+    district: 'Kustia',
+    material: '',
+    description: {
+      des1: '-	Rich Flavor: Its unique blend of ingredients, including flour, ghee, sugar, and spices',
+      des2: '-	Local Tradition: The candy has a long-standing tradition in Bangladesh',
+      des3: '-	Craftsmanship: Making Tiler Khaja requires skill and craftsmanship due to its labor-intensive preparation process.',
+      des4: '',
+
+    },    img: kumillahro
   },
-  {
-    position: [23.1664, 89.2089],
-    name: 'Jashore\'s Date Palm Jaggery',
-    district: 'Jashore',
-    description: 'Jamdani is a type of fabric made of cotton yarn in a unique method. Jamdani weaving involves the use of a supplementary weft to create intricate patterns. Typically, at least 300 count yarn is used in muslin weaving.',
-    img: kejurgur
-  }
+
+
+
+
+
+
+
+
+
+  // {
+  //   position: [24.8955, 91.8687],
+  //   name: 'Sylhet\'s Sital Pati',
+  //   district: 'Sylhet (October 27,2017)',
+  //   material: 'Handcrafted from Murta reeds',
+  //   description: {
+  //     des1: 'Providing natural cooling.',
+  //     des2: '- Used as mats, wall hangings, or table runners',
+  //     des3: '- Symbolizes traditional craftsmanship and heritage in Bangladesh.',
+  //     des4: '- Eco-friendly production using local materials and techniques.',
+
+  //   },
+  //   img: siletsitolpati
+  // },
+
+  // {
+  //   position: [24.3927, 89.9158],
+  //   name: 'Tangail\'s Chomchom',
+  //   district: 'Tangail',
+  //   description: 'Jamdani is a type of fabric made of cotton yarn in a unique method. Jamdani weaving involves the use of a supplementary weft to create intricate patterns. Typically, at least 300 count yarn is used in muslin weaving.',
+  //   img: chomcom
+  // },
+
+  // {
+  //   position: [23.1664, 89.2089],
+  //   name: 'Jashore\'s Date Palm Jaggery',
+  //   district: 'Jashore',
+  //   description: 'Jamdani is a type of fabric made of cotton yarn in a unique method. Jamdani weaving involves the use of a supplementary weft to create intricate patterns. Typically, at least 300 count yarn is used in muslin weaving.',
+  //   img: kejurgur
+  // }
 ];

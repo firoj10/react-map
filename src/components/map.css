@@ -37,46 +37,32 @@
 }
 .close-btn button {
     text-align: right;
-    background-color: yellow;
+    background-color: #90A77B;
     color: black;
     font-weight: bold;
     border: none !important;
-    /* border-radius: 10px;
-    margin-bottom: 2px; */
+    border-radius: 5px;
+
 
 }
 @media screen and (max-width: 600px) { 
     .map_legend_infosee {
         position: absolute;
-        top: 260px;
+        top: 160px;
         /* Adjust top position as needed */
         left: 10px;
         /* Adjust left position as needed */
         background-color: white;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 2;
-    
-    }
-    .map_legend_infosee {
-        position: absolute;
-        top: 170px;
-        /* Adjust top position as needed */
-        left: 10px;
-        /* Adjust left position as needed */
-        background-color: white;
-        padding: 5px;
-        border: 1px solid #ccc;
+        padding: 0px;
+        /* border: 1px solid #ccc; */
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         z-index: 2;
     
     }
     .close-btn button {
-     
-        font-weight: normal;
+     border-radius: 5px;
+        font-weight: bold;
         border: none !important;
         font-size: 13px;
        
@@ -103,6 +89,7 @@
     left: 10%; */
     /* Adjust top position as needed */
     width: 100%;
+    /* margin-left: 5px; */
     /* Adjust left position as needed */
     /* background-color: white; */
     /* padding: 10px; */
@@ -132,10 +119,10 @@
 
 }
 
-.sticky-top {
+/* .sticky-top {
     background-color: #fff !important;
 
-}
+} */
 
 
 
