@@ -45,6 +45,9 @@
 
 
 }
+.description{
+    font-size: 12px;
+}
 @media screen and (max-width: 600px) { 
     .map_legend_infosee {
         position: absolute;

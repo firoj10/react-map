@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './page/ErrorPage.jsx';
 import MapDetails from './page/MapDetails.jsx';
 import LeafletMap from './components/LeafletMap.jsx';
+import Contact from './page/contact/Contact.jsx';
 
 
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'mapDetails',
         element: <MapDetails></MapDetails>
+      },
+      {
+        path:'contact',
+        element: <Contact></Contact>
       },
    
   ]

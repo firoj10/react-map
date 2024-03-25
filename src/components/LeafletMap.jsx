@@ -143,7 +143,7 @@ function LeafletMap() {
             <Popup style={{ zIndex: '999' }}>
               <div className="row">
                 <div className="col-12">
-                  <p><img className='rounded' alt={location.name} src={location.img} decoding="async" width="100%" height="110" /></p>
+                  <p><img className='rounded' alt={location.name} src={location.img} decoding="async" width="100%" height="130" /></p>
                 </div>
                
               </div>
@@ -157,15 +157,15 @@ function LeafletMap() {
                     <h6 className='fw-bold'>{location.name}</h6><span className=''>({location.district}) </span>
                   </div>
                   {/* <p>{location.description}</p> */}
-                  <p>{location.material ? location.material : ' '}</p>
-                   <p>{location.description ?.des1 ? location.description.des1 : ' '}</p>
-                   <p>{location.description ?.des2 ? location.description.des2 : ' '}</p> 
-                 <p>{location.description ?.des3 ? location.description.des3 : ' '}</p>
-                   <p>{location.description ?.des4 ? location.description.des4 : ' '}</p>
-                 <p>{location.description ?.des5 ? location.description.des5 : ' '}</p>
-                  <p>{location.description ?.des5 ? location.description.des6 : ' '}</p>
-                 <p>{location.description ?.des7 ? location.description.des7 : ' '}</p>
-                   <p>{location.description ?.des8 ? location.description.des8 : ' '}</p> 
+                  <p className='m-2 fw-bold fs-7'>{location.material ? location.material : ' '}</p>
+                   <p className='m-1 description'>{location.description ?.des1 ? location.description.des1 : ' '}</p>
+                   <p className='m-1 description'>{location.description ?.des2 ? location.description.des2 : ' '}</p> 
+                 <p className='m-1 description'>{location.description ?.des3 ? location.description.des3 : ' '}</p>
+                   <p className='m-1 description'>{location.description ?.des4 ? location.description.des4 : ' '}</p>
+                 <p className='m-1 description'>{location.description ?.des5 ? location.description.des5 : ' '}</p>
+                  <p className='m-1 description'>{location.description ?.des5 ? location.description.des6 : ' '}</p>
+                 <p className='m-1 description'>{location.description ?.des7 ? location.description.des7 : ' '}</p>
+                   <p className='m-1 description'>{location.description ?.des8 ? location.description.des8 : ' '}</p> 
 
                   <div className='text-center fw-bold'>
                     <a href="">Visit Website</a>

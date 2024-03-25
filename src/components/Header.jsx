@@ -5,8 +5,8 @@ function Header() {
   return (
     <div className="header "  >
         <div className="card" style={{backgroundColor: "#090909",  border: 'none', borderRadius: '0px'}}>
-          <div className="row" style={{ alignItems: 'center' }}>
-            <div className="col-12 col-md-12" style={{ alignItems: 'center' }}>
+          <div className="" style={{ alignItems: 'center' }}>
+            <div className="" style={{ alignItems: 'center' }}>
               <img src={logo} alt="" width={180} height={80} />
             </div>
             {/* <div className="col-12 col-md-9 " style={{ alignItems: 'center', textAlign: 'right', color: 'blue' }}>
