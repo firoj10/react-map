@@ -40,6 +40,7 @@ import moslin from './../../../public/location-img/moslin.jpg'
 
 export const locations = [
   {
+    id: 1,
     position: [23.8103, 90.4125],
     name: 'Jamdani Saree',
     district: 'Dhaka, Sonargaon (17 November 2016)',
@@ -55,6 +56,7 @@ export const locations = [
   },
 
   {
+    id: 2,
     position: [23.6156, 90.6848], // Sonargaon's latitude and longitude
     name: 'Sonargaon', // Name of the place
     district: 'Narayanganj (28,December 2020)', // District name
@@ -66,6 +68,7 @@ export const locations = [
     }, img: rajshiresom
   },
   {
+    id: 3,
     position: [23.2331, 90.6713],
     name: 'Chandpur Ilish',
     district: 'Chandpur (17,August 2017)',
@@ -75,10 +78,11 @@ export const locations = [
       des2: '- Ilish holds significant cultural importance',
       des3: '- The seasonal availability of Ilish creates anticipation and tradition',
       des4: '- Ilish is prized for its taste and rich nutritional content',
-    }, 
-       img: moslin    
+    },
+    img: moslin
   },
   {
+    id: 4,
     position: [24.3745, 88.6042],
     name: 'Rajshahi Silk',
     district: 'Rajshahi 26, April 2021',
@@ -87,11 +91,12 @@ export const locations = [
       des1: '- exquisite craftsmanship and intricate designs.',
       des2: '- meticulous craftsmanship, vibrant colors, and intricate designs',
       des3: '- Intricate Designs and Patterns',
-    }, 
-       img: moslin
+    },
+    img: moslin
   },
 
   {
+    id: 5,
     position: [24.5998, 88.2750],
     name: 'Khirshapat Mango',
     district: 'Chapainawabganj (27, January 2017)',
@@ -101,9 +106,10 @@ export const locations = [
       des2: '- Khirsapati mangoes are valued for their nutritional benefit.',
       des3: '- only available for a limited time from April to June',
       des4: '-  Traditional Delicacy ',
-    },    img: fojliam
+    }, img: fojliam
   },
   {
+    id: 6,
     position: [24.5998, 88.2605],
     name: 'Ashwina Mango',
     district: 'Chapai Nawabganj(05, july 2023)',
@@ -119,6 +125,7 @@ export const locations = [
 
   },
   {
+    id: 7,
     position: [24.5998, 88.2700],
     name: 'Langra Mango',
     district: 'Chapai Nawabganj(05, july 2023)',
@@ -144,6 +151,7 @@ export const locations = [
 
 
   {
+    id: 8,
     position: [25.7500, 89.2500],
     name: 'Sataranji or Handicrafts',
     district: 'Rangpur (June 17,2021)',
@@ -162,6 +170,7 @@ export const locations = [
 
 
   {
+    id: 9,
     position: [23.4683, 91.1783],
     name: 'Cumilla Rosmalai',
     district: 'Cumilla (1 January 2024.)',
@@ -177,6 +186,7 @@ export const locations = [
 
   },
   {
+    id: 10,
     position: [24.5960, 88.2754],
     name: 'Kali Jira Rice',
     district: 'Chapai Nawabganj(26, april 2021)',
@@ -192,6 +202,7 @@ export const locations = [
 
   },
   {
+    id: 11,
     position: [23.9539, 90.9757],
     name: ' Sada Mati ',
     district: 'Bijoypur(26, april 2021)',
@@ -207,6 +218,7 @@ export const locations = [
 
   },
   {
+    id: 12,
     position: [25.6275, 88.6376],
     name: 'Katarivog Rice',
     district: 'Dinajpur (26, april 2021)',
@@ -218,20 +230,13 @@ export const locations = [
       des4: '-	Fine Texture and Taste: When cooked, its grains remain separate and fluffy with a slightly sweet flavor',
 
     },
-        img: katarivog
+    img: katarivog
   },
 
 
-  // {
-  //   position: [24.8700, 90.7296],
-  //   name: 'Sadamati of Netrokona',
-  //   district: 'Netrokona',
-  //   description: 'Jamdani is a type of fabric made of cotton yarn in a unique method. Jamdani weaving involves the use of a supplementary weft to create intricate patterns. Typically, at least 300 count yarn is used in muslin weaving.',
-  //   img: sadamati
-  // },
-
 
   {
+    id: 13,
     position: [22.8456, 89.5403],
     name: 'Bagda Prawn ',
     district: 'Khulna (24, april 2021)',
@@ -242,10 +247,11 @@ export const locations = [
       des3: '-	Cultural Significance: Their presence in local cuisines adds to their fame and popularity.',
       des4: '-	Bagda Prawns are in high demand globally due to their delicious flavor, large size, and distinctive appearance.',
 
-    },    img: bagdachingri
+    }, img: bagdachingri
   },
 
   {
+    id: 14,
     position: [24.8466, 89.3723],
     name: 'Bogura Doi',
     district: 'Bogura (05, July 2023)',
@@ -257,9 +263,10 @@ export const locations = [
       des4: '-	Cultural Significance: Symbolizes local culinary heritage.',
       des5: '-	Local Identity: Associated with Bogura district in Bangladesh.',
 
-    },    img: boguradoi
+    }, img: boguradoi
   },
   {
+    id: 15,
     position: [24.3633, 88.7241],
     name: 'fazli mango',
     district: 'Rajshahi (22, May 2022)',
@@ -271,7 +278,7 @@ export const locations = [
       des4: '-	Nutritional Benefits: Fazli mangoes are rich in vitamins, minerals, and antioxidants',
       des5: '',
 
-    },    img: boguradoi
+    }, img: boguradoi
   },
 
 
@@ -307,12 +314,12 @@ export const locations = [
       des4: '-	Unique Taste: Distinctive flavor with a perfect balance of sweetness.',
       des5: '',
 
-    },    img: natorkacha
+    }, img: natorkacha
   },
 
 
 
-  
+
 
 
   {
@@ -341,7 +348,7 @@ export const locations = [
       des3: '-	Craftsmanship: Making Tiler Khaja requires skill and craftsmanship due to its labor-intensive preparation process.',
       des4: '',
 
-    },    img: kumillahro
+    }, img: kumillahro
   },
 
 
@@ -383,3 +390,18 @@ export const locations = [
   //   img: kejurgur
   // }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

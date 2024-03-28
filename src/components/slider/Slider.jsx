@@ -1,9 +1,5 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import s1 from './../../../public/slider/s1.jpg';
-import s2 from './../../../public/slider/s2.jpg';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -14,7 +10,8 @@ import './Slider.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
- function Slider() {
+ function Slider({data}) {
+  const sliderimg = data.sliderimg;
   return (
     <>
       <Swiper
@@ -38,10 +35,10 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
       >
          <div className="swiper-button-prev"></div> 
       <div className="swiper-button-next"></div> 
-        <SwiperSlide data-hash="slide1" className=''><img src={s1}  alt="" /></SwiperSlide>
-        <SwiperSlide data-hash="slide2" className=''><img src={s2}  alt="" /></SwiperSlide>
-        <SwiperSlide data-hash="slide3" className=''><img src={s1}  alt="" /></SwiperSlide>
-        <SwiperSlide data-hash="slide4" className=''><img src={s2}  alt="" /></SwiperSlide>
+        <SwiperSlide data-hash="slide1" className=''><img src={sliderimg.img_1? sliderimg.img_1 : ''}  alt="" /></SwiperSlide>
+        <SwiperSlide data-hash="slide2" className=''><img src={sliderimg.img_2? sliderimg.img_2 :''}  alt="" /></SwiperSlide>
+        <SwiperSlide data-hash="slide3" className=''><img src={sliderimg.img_3? sliderimg.img_3 :''}  alt="" /></SwiperSlide>
+        {/* <SwiperSlide data-hash="slide4" className=''><img src={s2}  alt="" /></SwiperSlide> */}
       
         
       </Swiper>

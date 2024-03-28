@@ -4,17 +4,18 @@ import "leaflet/dist/leaflet.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../../public/marker-icon-2x.png'
-import { products } from './../data/products/products.js'
-import { locations } from './../data/location/location.js'
+
+// import { locations } from './../data/location/location.js'
 import "./map.css";
 import MiniMapControl from './MiniMapControl';
-import { NavLink } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 import Header from './Header.jsx';
 
 function LeafletMap() {
   const { BaseLayer } = LayersControl;
 
   const [geojsonData, setGeojsonData] = useState(null);
+  const [locations, setlocations] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,6 +26,25 @@ function LeafletMap() {
 
     fetchData();
   }, []);
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const response = await fetch('./location.json');
+  //     const data = await response.json();
+  //     setlocations(data);
+  //   };
+
+  //   fetchData();
+  // }, []);
+  useEffect(() => {
+    fetch('./location.json')
+      .then((res) => res.json())
+      .then((data) => {
+        setlocations(data);
+      });
+  }, []);
+
+
 
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
   const [legendOpen, setLegendOpen] = useState(false);
@@ -82,19 +102,22 @@ function LeafletMap() {
                 </tr>
               </thead>
               <tbody>
-                {products.map((product, index) => (
+                {locations?.map((location, index) => (
                   <tr key={index}>
                     <td style={{ paddingLeft: '8px', textAlign: 'left' }}>
-                      <span className='table-title'>{product.name}</span>
+                      <span className='table-title'>{location.name}</span>
                     </td>
 
                     <td style={{ paddingLeft: '8px', textAlign: 'left' }}>
-                      <span className='table-title'>{product.district}</span>
+                      <span className='table-title'>{location.district}</span>
                     </td>
                     <td style={{ paddingRight: '8px', textAlign: 'right' }}>
                       <span className='table-title'>
                         {/* <a href={product.webLink}>Website</a> */}
-                        <NavLink to="/mapDetails" target="_blank" rel="noopener noreferrer">Website</NavLink>
+                        {/* <NavLink to="/mapDetails" target="_blank" rel="noopener noreferrer">Website</NavLink> */}
+                        <Link target="_blank"  to={`/mapDetails/${location.id}`}>
+                          View Details
+                        </Link>
 
                       </span>
                     </td>
@@ -113,13 +136,13 @@ function LeafletMap() {
           <BaseLayer  name="OpenStreetMap.Mapnik">
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           </BaseLayer>
-          <BaseLayer name="OpenStreetMap.BlackAndWhite">
+          <BaseLayer  name="OpenStreetMap.BlackAndWhite">
             <TileLayer url="https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png" />
           </BaseLayer>
-          <BaseLayer name="USGS.USImageryTopo">
+          <BaseLayer checked  name="USGS.USImageryTopo">
             <TileLayer url="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}" />
           </BaseLayer>
-          <BaseLayer checked name="Carto Dark">
+          <BaseLayer name="Carto Dark">
             <TileLayer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png" />
           </BaseLayer>
         </LayersControl>
@@ -138,7 +161,7 @@ function LeafletMap() {
             />
           )}
         </div>
-        {locations.map((location, index) => (
+        {locations?.map((location, index) => (
           <Marker key={index} position={location.position}>
             <Popup style={{ zIndex: '999' }}>
               <div className="row">
@@ -158,18 +181,23 @@ function LeafletMap() {
                   </div>
                   {/* <p>{location.description}</p> */}
                   <p className='m-2 fw-bold fs-7'>{location.material ? location.material : ' '}</p>
-                   <p className='m-1 description'>{location.description ?.des1 ? location.description.des1 : ' '}</p>
-                   <p className='m-1 description'>{location.description ?.des2 ? location.description.des2 : ' '}</p> 
-                 <p className='m-1 description'>{location.description ?.des3 ? location.description.des3 : ' '}</p>
-                   <p className='m-1 description'>{location.description ?.des4 ? location.description.des4 : ' '}</p>
-                 <p className='m-1 description'>{location.description ?.des5 ? location.description.des5 : ' '}</p>
-                  <p className='m-1 description'>{location.description ?.des5 ? location.description.des6 : ' '}</p>
-                 <p className='m-1 description'>{location.description ?.des7 ? location.description.des7 : ' '}</p>
-                   <p className='m-1 description'>{location.description ?.des8 ? location.description.des8 : ' '}</p> 
+                   <p className='m-1 description'>{location.productlist ?.des1 ? location.productlist.des1 : ' '}</p>
+                   <p className='m-1 description'>{location.productlist ?.des2 ? location.productlist.des2 : ' '}</p> 
+                 <p className='m-1 description'>{location.productlist ?.des3 ? location.productlist.des3 : ' '}</p>
+                   <p className='m-1 description'>{location.productlist ?.des4 ? location.productlist.des4 : ' '}</p>
+                 <p className='m-1 description'>{location.productlist ?.des5 ? location.productlist.des5 : ' '}</p>
+                  <p className='m-1 description'>{location.productlist ?.des5 ? location.productlist.des6 : ' '}</p>
+                 <p className='m-1 description'>{location.productlist ?.des7 ? location.productlist.des7 : ' '}</p>
+                   <p className='m-1 description'>{location.productlist ?.des8 ? location.productlist.des8 : ' '}</p> 
 
                   <div className='text-center fw-bold'>
-                    <a href="">Visit Website</a>
-                  </div>
+                    {/* <a href="">Visit Website</a> */}
+                    {/* <Link to={`/mapDetails/${location.id}`}><button className=" p-3   bg-orange-900  text-white ">View Details</button></Link> */}
+                    <Link  to={`/mapDetails/${location.id}`}>
+                    View Details
+                    </Link>
+                   
+                   </div>
                 </div>
               </div>
 
