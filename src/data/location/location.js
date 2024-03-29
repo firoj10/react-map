@@ -280,11 +280,6 @@ export const locations = [
 
     }, img: boguradoi
   },
-
-
-
-
-
   {
     position: [25.0189, 90.0172],
     name: 'Tulshimala Rice ',

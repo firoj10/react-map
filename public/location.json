@@ -31,17 +31,19 @@
     "name": "Muslin saree",
     "district": "Narayanganj (28,December 2020)",
     "material": "Crafted from premium cotton yarns",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "- traditionally handwoven on looms by skilled artisans",
       "des2": "- Renowned for its lightweight feel and gentle touch",
       "des3": "- symbols of tradition, beauty"
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/GvqDsHX/moslin.jpg",
+      "img_2": "https://i.ibb.co/GvqDsHX/moslin.jpg",
+      "img_3": "https://i.ibb.co/GvqDsHX/moslin.jpg"
     },
-    "img": "rajshiresom"
+    "img": "https://i.ibb.co/GvqDsHX/moslin.jpg"
   },
   {
     "id": "3",
@@ -70,17 +72,19 @@
     "name": "Rajshahi Silk",
     "district": "Rajshahi 26, April 2021",
     "material": "Rajshahi silk is primarily made from mulberry silk",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "- exquisite craftsmanship and intricate designs.",
       "des2": "- meticulous craftsmanship, vibrant colors, and intricate designs",
       "des3": "- Intricate Designs and Patterns"
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/3FP26qP/sotoronji.jpg",
+      "img_2": "https://i.ibb.co/3FP26qP/sotoronji.jpg",
+      "img_3": "https://i.ibb.co/3FP26qP/sotoronji.jpg"
     },
-    "img": "moslin"
+    "img": "https://i.ibb.co/3FP26qP/sotoronji.jpg"
   },
   {
     "id": "5",
@@ -88,6 +92,8 @@
     "name": "Khirshapat Mango",
     "district": "Chapainawabganj (27, January 2017)",
     "material": "",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "- unique and delightful taste",
       "des2": "- Khirsapati mangoes are valued for their nutritional benefit.",
@@ -95,17 +101,19 @@
       "des4": "-  Traditional Delicacy "
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+      "img_2": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+      "img_3": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
     },
-    "img": "fojliam"
+    "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
   },
   {
     "id": "6",
     "position": [24.5998, 88.2605],
     "name": "Ashwina Mango",
     "district": "Chapai Nawabganj(05, july 2023)",
+    "longdescription": "",
+    "sortdescription": "",
     "material": "",
     "productlist": {
       "des1": "-\tDistinct Flavor: Ashwina mangoes offer a unique blend of sweetness, tanginess, and floral notes.",
@@ -113,11 +121,11 @@
       "des3": "-\tVibrant Appearance: Bright yellow or orange skin with occasional red  blushes, medium to large in size."
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/N7v3vVt/ascinaam.jpg",
+      "img_2": "https://i.ibb.co/N7v3vVt/ascinaam.jpg",
+      "img_3": "https://i.ibb.co/N7v3vVt/ascinaam.jpg"
     },
-    "img": "sotoronji"
+    "img": "https://i.ibb.co/N7v3vVt/ascinaam.jpg"
   },
   {
     "id": "7",
@@ -125,6 +133,8 @@
     "name": "Langra Mango",
     "district": "Chapai Nawabganj(05, july 2023)",
     "material": "",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "-\tLangra Mango from Chapainawabganj stands out for its exceptional taste, aroma, and texture",
       "des2": "\t-\tUnique taste: A perfect blend of sweetness and tanginess with hints of citrus and floral notes.",
@@ -132,11 +142,11 @@
       "des4": "-\tEnticing aroma: Sweet fragrance that adds to its allure."
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+      "img_2": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+      "img_3": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
     },
-    "img": "sotoronji"
+    "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
   },
   {
     "id": "8",
@@ -144,6 +154,8 @@
     "name": "Sataranji ",
     "district": "Rangpur (June 17,2021)",
     "material": "Handloom from cotton, jute, wool and some other types of fibers.",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "-\t700 years old traditional art form",
       "des2": "-\tintricate weaving technique",
@@ -151,11 +163,11 @@
       "des4": "-\tSustainable Artform"
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg",
+      "img_2": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg",
+      "img_3": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg"
     },
-    "img": "sotoronji"
+    "img": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg"
   },
   {
     "id": "9",
@@ -163,17 +175,19 @@
     "name": "Cumilla Rosmalai",
     "district": "Cumilla (1 January 2024.)",
     "material": "",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "- Cultural Significance: This sweet holds cultural significance in Cumilla and surrounding regions",
       "des2": "- Ingredients:  The main ingredients used include rice flour, sugar, coconut, and milk. These ingredients are mixed together to form a dough, which is then shaped and cooked to perfection",
       "des3": "-\t- Texture and Flavor:It has a soft and chewy texture with a sweet and creamy flavor profile. The combination of rice flour, sugar, coconut, and milk creates a delightful blend of sweetness and richness."
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/0hJv0nF/kumillahro.jpg",
+      "img_2": "https://i.ibb.co/0hJv0nF/kumillahro.jpg",
+      "img_3": "https://i.ibb.co/0hJv0nF/kumillahro.jpg"
     },
-    "img": "sotoronji"
+    "img": "https://i.ibb.co/0hJv0nF/kumillahro.jpg"
   },
   {
     "id": "10",
@@ -181,17 +195,19 @@
     "name": "Kali Jira Rice",
     "district": "Chapai Nawabganj(26, april 2021)",
     "material": "",
+    "longdescription": "",
+    "sortdescription": "",
     "productlist": {
       "des1": "-Aroma and Flavor: Distinctive floral and nutty aroma, with a delicate and slightly nutty flavor.",
       "des2": "-Availability: Predominantly found in the Bengal region",
       "des3": "-Aromatic Flavor: Kalijira Chals aromatic flavor is prized"
     },
     "sliderimg":{
-      "img_1": "",
-      "img_2": "",
-      "img_3": ""
+      "img_1": "https://i.ibb.co/DLchb1m/katarivog.jpg",
+      "img_2": "https://i.ibb.co/DLchb1m/katarivog.jpg",
+      "img_3": "https://i.ibb.co/DLchb1m/katarivog.jpg"
     },
-    "img": "sotoronji"
+    "img": "https://i.ibb.co/DLchb1m/katarivog.jpg"
   },
 
 
@@ -201,6 +217,8 @@
       "name": "Sada Mati",
       "district": "Bijoypur(26, april 2021)",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Exceptionally pure and fine-textured.,",
         "des2": "- Texture: The clay has a soft and smooth texture",
@@ -208,11 +226,11 @@
         "des4": "- Geographical Origin: Specific to Bijoypur village in Bangladesh"
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/L6f218Q/sadamati.jpg",
+        "img_2": "https://i.ibb.co/L6f218Q/sadamati.jpg",
+        "img_3": "https://i.ibb.co/L6f218Q/sadamati.jpg"
       },
-      "img": "sotoronji"
+      "img": "https://i.ibb.co/L6f218Q/sadamati.jpg"
     },
     {
       "id": "12",
@@ -220,6 +238,8 @@
       "name": "Katarivog Rice",
       "district": "Dinajpur (26, april 2021)",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Aromatic Profile: One of the most distinctive features of Kataribhog Rice is its intense aroma.",
         "des2": "- Cultural Significance: It holds importance in Bangladeshi culture, often served during special occasions and ceremonies.",
@@ -227,11 +247,11 @@
         "des4": "- Fine Texture and Taste: When cooked, its grains remain separate and fluffy with a slightly sweet flavor"
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/DLchb1m/katarivog.jpg",
+        "img_2": "https://i.ibb.co/DLchb1m/katarivog.jpg",
+        "img_3": "https://i.ibb.co/DLchb1m/katarivog.jpg"
       },
-      "img": "katarivog"
+      "img": "https://i.ibb.co/DLchb1m/katarivog.jpg"
     },
     {
       "id": "13",
@@ -239,6 +259,8 @@
       "name": "Bagda Prawn",
       "district": "Khulna (24, april 2021)",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- unique and valuable species in the world of seafood.",
         "des2": "- Delicious Flavor: Bagda Prawns are prized for their succulent meat, which has a delicate and flavorful taste",
@@ -246,11 +268,11 @@
         "des4": "- Bagda Prawns are in high demand globally due to their delicious flavor, large size, and distinctive appearance."
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg",
+        "img_2": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg",
+        "img_3": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg"
       },
-      "img": "bagdachingri"
+      "img": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg"
     },
     {
       "id": "14",
@@ -258,6 +280,8 @@
       "name": "Bogura Doi",
       "district": "Bogura (05, July 2023)",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Creamy Texture: Known for its exceptionally creamy texture.",
         "des2": "- Tangy Flavor: Distinctive tangy taste sets it apart.",
@@ -266,11 +290,11 @@
         "des5": "- Local Identity: Associated with Bogura district in Bangladesh."
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/7WVvThQ/boguradoi.jpg",
+        "img_2": "https://i.ibb.co/7WVvThQ/boguradoi.jpg",
+        "img_3": "https://i.ibb.co/7WVvThQ/boguradoi.jpg"
       },
-      "img": "boguradoi"
+      "img": "https://i.ibb.co/7WVvThQ/boguradoi.jpg"
     },
     {
       "id": "15",
@@ -278,6 +302,8 @@
       "name": "Fazli Mango",
       "district": "Rajshahi (22, May 2022)",
       "material": "The Rajshahi Fazli mango is popular because of its large size, sweet taste, and pleasant aroma.",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Size: Fazli mangoes are known for their large size",
         "des2": "- Flavor: It has a rich, sweet taste with a pleasant aroma,",
@@ -285,11 +311,11 @@
         "des4": "- Nutritional Benefits: Fazli mangoes are rich in vitamins, minerals, and antioxidants"
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+        "img_2": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+        "img_3": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
       },
-      "img": "boguradoi"
+      "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
     },
     {
       "id": "16",
@@ -297,6 +323,8 @@
       "name": "Tulshimala Rice",
       "district": "Sherpur 05, July 2023",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Tulshimala rice is a premium quality aromatic rice",
         "des2": "- Texture and Taste: This rice variety has long grains and a delicate texture,",
@@ -304,11 +332,11 @@
         "des4": "- Culinary Adaptability: Tulshimala rice is also valued for its adaptability to various international recipes"
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg",
+        "img_2": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg",
+        "img_3": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg"
       },
-      "img": "tulcimadan"
+      "img": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg"
     },
     {
       "id": "17",
@@ -316,6 +344,8 @@
       "name": "Natore’s Kachagolla",
       "district": "Natore  (08, August 2023)",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Popularity and Demand: Sought-after delicacy across Bangladesh due to its reputation.",
         "des2": "- Cultural Significance: Symbolizes tradition and heritage in Natore.",
@@ -323,11 +353,11 @@
         "des4": "- Unique Taste: Distinctive flavor with a perfect balance of sweetness."
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png",
+        "img_2": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png",
+        "img_3": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png"
       },
-      "img": "natorkacha"
+      "img": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png"
     },
     {
       "id": "18",
@@ -335,6 +365,8 @@
       "name": "Black Bengal Goat",
       "district": "Khulna(09, January 2024)",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Adaptability: Black Bengal goats are well-adapted to the hot and humid climate of Bangladesh.",
         "des2": "- High fertility and prolificacy: These goats have high reproductive rates, with does (female goats) often giving birth to twins or even triplets.",
@@ -342,11 +374,11 @@
         "des4": "- High-quality meat and skin: The meat of Black Bengal goats is considered to be of high quality, tender, and flavorful."
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/0cfzGLV/goat.png",
+        "img_2": "https://i.ibb.co/0cfzGLV/goat.png",
+        "img_3": "https://i.ibb.co/0cfzGLV/goat.png"
       },
-      "img": "sotoronji"
+      "img":"https://i.ibb.co/0cfzGLV/goat.png"
     },
     {
       "id": "19",
@@ -354,6 +386,8 @@
       "name": "Tiler Khaja",
       "district": "Kustia",
       "material": "",
+      "longdescription": "",
+      "sortdescription": "",
       "productlist": {
         "des1": "- Rich Flavor: Its unique blend of ingredients, including flour, ghee, sugar, and spices",
         "des2": "- Local Tradition: The candy has a long-standing tradition in Bangladesh",
@@ -361,11 +395,11 @@
         "des4": ""
       },
       "sliderimg":{
-        "img_1": "",
-        "img_2": "",
-        "img_3": ""
+        "img_1": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg",
+        "img_2": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg",
+        "img_3": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg"
       },
-      "img": "kumillahro"
+      "img": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg"
     }
  
     

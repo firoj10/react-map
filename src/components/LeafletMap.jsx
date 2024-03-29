@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, GeoJSON, LayersControl } from '
 import "leaflet/dist/leaflet.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './../../public/marker-icon-2x.png'
+
 
 // import { locations } from './../data/location/location.js'
 import "./map.css";
@@ -27,15 +27,7 @@ function LeafletMap() {
     fetchData();
   }, []);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const response = await fetch('./location.json');
-  //     const data = await response.json();
-  //     setlocations(data);
-  //   };
-
-  //   fetchData();
-  // }, []);
+ 
   useEffect(() => {
     fetch('./location.json')
       .then((res) => res.json())
@@ -115,7 +107,7 @@ function LeafletMap() {
                       <span className='table-title'>
                         {/* <a href={product.webLink}>Website</a> */}
                         {/* <NavLink to="/mapDetails" target="_blank" rel="noopener noreferrer">Website</NavLink> */}
-                        <Link target="_blank"  to={`/mapDetails/${location.id}`}>
+                        <Link target="_blank" to={`/mapDetails/${location.id}`}>
                           View Details
                         </Link>
 
@@ -193,7 +185,7 @@ function LeafletMap() {
                   <div className='text-center fw-bold'>
                     {/* <a href="">Visit Website</a> */}
                     {/* <Link to={`/mapDetails/${location.id}`}><button className=" p-3   bg-orange-900  text-white ">View Details</button></Link> */}
-                    <Link  to={`/mapDetails/${location.id}`}>
+                    <Link target="_blank"  to={`/mapDetails/${location.id}`}>
                     View Details
                     </Link>
                    
