@@ -1,10 +1,10 @@
 
-import { Link, NavLink, useLoaderData, useParams } from 'react-router-dom';
+import { Link, NavLink, useLoaderData,  } from 'react-router-dom';
 import Header from '../components/Header';
 import Content from '../components/content/Content';
 import Slider from '../components/slider/Slider';
 import img from './../../public/slider/s1.jpg'
-import { useEffect, useState } from 'react';
+
 import './MapDetails.css'
 
 function MapDetails() {
@@ -54,7 +54,7 @@ function MapDetails() {
             <img src={img} alt="" style={{ width: "100%", borderRadius: '10px' }} />
           </div>
           <div className="col-12 py-5">
-            <h3 >Content Section 2{data.name}</h3>
+            <h3>{data.name}</h3>
            
             <p>{data?.longdescription? data.longdescription: '' }</p>
           </div>
