@@ -10,6 +10,7 @@ import "./map.css";
 import MiniMapControl from './MiniMapControl';
 import { Link, } from 'react-router-dom';
 import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 
 function LeafletMap() {
   const { BaseLayer } = LayersControl;
@@ -198,6 +199,7 @@ function LeafletMap() {
         ))}
         <MiniMapControl position={[23.685, 90.3563]} zoom={4} />
       </MapContainer>
+      <Footer></Footer>
     </div>
 
   );

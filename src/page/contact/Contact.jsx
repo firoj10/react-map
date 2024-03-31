@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { useRef, } from 'react'
 import emailjs from '@emailjs/browser'
 import Swal from "sweetalert2";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 function Contact() {
 
@@ -34,7 +36,9 @@ function Contact() {
   };
 
   return (
-    <div className="container">
+  <div>
+    <Header></Header>
+      <div className="container">
       <Link to='/' className='btn btn-primary text-light my-5'>
         Back to Homepage
       </Link>
@@ -127,6 +131,8 @@ function Contact() {
 
 
     </div>
+    <Footer></Footer>
+  </div>
   );
 }
 

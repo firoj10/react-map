@@ -7,7 +7,7 @@ function Header() {
       <div className="card" style={{ backgroundColor: "#fff", border: 'none', borderRadius: '0px' }}>
         <div className="" style={{ alignItems: 'center' }}>
           <div className="" style={{ alignItems: 'center' }}>
-            <img src={logo} alt="" width={160} height={80} />
+            <img src={logo} className='logo' alt=""  />
           </div>
           {/* <div className="col-12 col-md-9 " style={{ alignItems: 'center', textAlign: 'right', color: 'blue' }}>
 

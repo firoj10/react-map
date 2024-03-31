@@ -1,13 +1,17 @@
 
 [
+  
+
+
+
   {
     "id":"1",
     "position": [23.8103, 90.4125],
     "name": "Jamdani Saree",
     "district": "Dhaka, Sonargaon (17 November 2016)",
     "material": "Jamdani is a hand loom woven fabric made of cotton, which was historically referred to as muslin",
-    "longdescription": "Whether figured or flowered, jamdani is a woven fabric in cotton. This is a supplementary weft technique of weaving, where the artistic motifs are produced by a non-structural weft, in addition to the standard weft that holds the warp threads together. The standard weft creates a fine, sheer fabric while the supplementary weft with thicker threads adds the intricate patterns to it. Each supplementary weft motif is added separately by hand by interlacing the weft threads into the warp with fine bamboo sticks using individual spools of thread. The result is a complex mix of different patterns that appear to float on a shimmering surface. The pattern is not sketched or outlined on the fabric, but is drawn on a graph paper and placed underneath the warp. Jamdani is a fine muslin cloth on which decorative motifs are woven on the loom, typically in grey and white. Often a mixture of cotton and gold thread was used.",
-    "sortdescription": "Jamdani  is a fine muslin textile (figured with different patterns) produced for centuries in South Rupshi of Narayanganj district in Bangladesh on the bank of Shitalakhwa river.The historic production of jamdani was patronized by imperial warrants of the Mughal emperors. Under British colonialism, the Bengali jamdani and muslin industries rapidly declined due to colonial import policies favoring industrially manufactured textiles. In more recent years, the production of jamdani has witnessed a revival in Bangladesh. Jamdani is typically woven using a mixture of cotton and gold thread",
+    "longdescription": "Jamdani (Bengali: জামদানি) is a fine muslin textile (figured with different patterns) produced for centuries in South Rupshi of Narayanganj district in Bangladesh on the bank of Shitalakhwa river.The historic production of jamdani was patronized by imperial warrants of the Mughal emperors. Under British colonialism, the Bengali jamdani and muslin industries rapidly declined due to colonial import policies favoring industrially manufactured textiles. In more recent years, the production of jamdani has witnessed a revival in Bangladesh. Jamdani is typically woven using a mixture of cotton and gold thread.In 2013, the traditional art of weaving jamdani was declared a UNESCO Intangible Cultural Heritage of Humanity.In 2016, Bangladesh received geographical indication (GI) status for Jamdani Sari.Etymology : Jamdani was originally known as Dhakai (Daccai) named after the city of Dhaka (Dacca), one of many ancient textile weaving centers in Bengal region. Under the Mughal Empire the Persian term Jamdani came to be in popular use, since it was the court language of the Mughals. Jamdanis are popularly known as Dhakai Jamdani or simply Dhakai. The earliest mention of jamdani and its development as an industry is found into Dhaka, Bangladesh.Origin : An early reference to Indian origins of muslin is found in the book of Periplus of the Erythraean Sea and in the accounts of Arab, Chinese and Italian travelers and traders.Jamdani is a hand loom woven fabric made of cotton, which was historically referred to as muslin. The Jamdani weaving tradition is of Bengali origin. It is one of the most time and labor-intensive forms of hand loom weaving, and is considered one of the finest varieties of muslin, and the most artistic textile of Bangladeshi weavers. Traditionally woven around Dhaka and created on the loom brocade, jamdani is rich in motifs. In the late 19th century, T. N. Mukharji referred to this fabric as jamdani muslin. Weave : Whether figured or flowered, jamdani is a woven fabric in cotton. This is a supplementary weft technique of weaving, where the artistic motifs are produced by a non-structural weft, in addition to the standard weft that holds the warp threads together. The standard weft creates a fine, sheer fabric while the supplementary weft with thicker threads adds the intricate patterns to it. Each supplementary weft motif is added separately by hand by interlacing the weft threads into the warp with fine bamboo sticks using individual spools of thread. The result is a complex mix of different patterns that appear to float on a shimmering surface. The pattern is not sketched or outlined on the fabric butis drawn on a graph paper and placed underneath the warp. Jamdani is a fine muslin cloth on which decorative motifs are woven on the loom, typically in grey and white. Often a mixture of cotton and gold thread was used",
+    "sortdescription": "Whilst the art of jamdani is on the decline due to current problems such as competition with cheaper and more lucrative clothing as well as lack of suitable remuneration for weavers. However, there have been a few encouraging signs in recent times.For instance, the Indian government awarded master weaver of Jamdani saris, Biren Kumar Basak from West Bengal with the Padma Shri award, which is the fourth highest civilian award in the country. Biren Kumar Basak also hailed the award and recognition of his work by Prime Minister Modi as a good sign for the future of the Jamdani community in Bengal.Exhibitions such as the Jamdani Festival of Wearable Art curated by Chandra Shekhar Shaha was held in July 2023 in Bangladesh in collaboration with the National Crafts Council of Bangladesh to illustrate sustainably produced and hand-woven jamdani saris. Moreover, brands such as TARINA by designer Tarina Sen are attempting to preserve the traditional crafts of jamdani by creating contemporary clothes. Labels such as TARINA are striving to help jamdani weavers in West Bengal and Odisha by reaching new markets, consisting of the younger generation, by creating attractive clothes that presents a harmony of modern and traditional designs.",
     "productlist": {
       "des1": "- handwoven by skilled artisans, typically using a traditional handloom",
       "des2": "- Fine Cotton or Silk Fabric",
@@ -16,11 +20,12 @@
       "des5": "- recognized as an intangible cultural heritage by UNESCO"
     },
     "sliderimg":{
-      "img_1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jamdani_Saree_Sale_Sonargaon.jpg/320px-Jamdani_Saree_Sale_Sonargaon.jpg",
-      "img_2": "https://i.ibb.co/SJ0yL1Z/1.jpg",
-      "img_3": "https://i.ibb.co/6Dk6Lw0/4.jpg"
+      
+      "img_1": "https://i.ibb.co/m6rg0yt/jamdani3.jpg",
+      "img_2": "https://i.ibb.co/dGHBZqb/jamdani4.jpg",
+      "img_3": "https://i.ibb.co/vHdb4Cs/jamdani2.jpg"
     },
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jamdani_Saree_Sale_Sonargaon.jpg/320px-Jamdani_Saree_Sale_Sonargaon.jpg"
+    "img": "https://i.ibb.co/RTqY7rK/jamdani1.jpg"
   },
 
 
@@ -31,19 +36,20 @@
     "name": "Muslin saree",
     "district": "Narayanganj (28,December 2020)",
     "material": "Crafted from premium cotton yarns",
- "longdescription": "Whether figured or flowered, jamdani is a woven fabric in cotton. This is a supplementary weft technique of weaving, where the artistic motifs are produced by a non-structural weft, in addition to the standard weft that holds the warp threads together. The standard weft creates a fine, sheer fabric while the supplementary weft with thicker threads adds the intricate patterns to it. Each supplementary weft motif is added separately by hand by interlacing the weft threads into the warp with fine bamboo sticks using individual spools of thread. The result is a complex mix of different patterns that appear to float on a shimmering surface. The pattern is not sketched or outlined on the fabric, but is drawn on a graph paper and placed underneath the warp. Jamdani is a fine muslin cloth on which decorative motifs are woven on the loom, typically in grey and white. Often a mixture of cotton and gold thread was used.",
-    "sortdescription": "Jamdani  is a fine muslin textile (figured with different patterns) produced for centuries in South Rupshi of Narayanganj district in Bangladesh on the bank of Shitalakhwa river.The historic production of jamdani was patronized by imperial warrants of the Mughal emperors. Under British colonialism, the Bengali jamdani and muslin industries rapidly declined due to colonial import policies favoring industrially manufactured textiles. In more recent years, the production of jamdani has witnessed a revival in Bangladesh. Jamdani is typically woven using a mixture of cotton and gold thread",
+ "longdescription": "The history of muslin sarees in Bangladesh is deeply intertwined with the region's rich cultural and economic heritage. Muslin, a finely woven cotton fabric, has been produced in the Bengal region for centuries, dating back to ancient times.Early History: Muslin production in Bengal can be traced back to at least the 4th century BCE. The region's fertile soil and abundant water supply provided ideal conditions for growing cotton, and skilled artisans developed techniques to produce incredibly fine and delicate muslin fabric.Golden Age: The muslin industry reached its zenith during the Mughal period in the Indian subcontinent, particularly between the 16th and 18th centuries. Muslin from Bengal was highly prized for its quality and was exported to various parts of the world, including Europe, the Middle East, and Southeast Asia. It was considered one of the finest fabrics in the world and was often referred to as woven air due to its sheer and lightweight texture.Decline: The muslin industry in Bengal faced a decline during the colonial period, particularly under British rule. Economic policies imposed by the colonial administration, including heavy taxation and the introduction of machine-made textiles from Britain, led to the decline of traditional handloom weaving industries, including muslin production.Revival Efforts: In recent years, there has been a resurgence of interest in reviving the traditional art of muslin weaving in Bangladesh. Various government and non-governmental initiatives have been launched to support artisans, preserve traditional techniques, and promote the cultural heritage of muslin sarees. Efforts have also been made to obtain Geographical Indication (GI) status for Bangladeshi muslin sarees, recognizing their unique origin and quality.",
+    "sortdescription": "Ancient Origins: Muslin weaving in the Bengal region dates back to ancient times, with evidence of its production found as early as the 4th century BCE. The quality and finesse of Bengali muslin were celebrated by travelers and merchants from distant lands.Mughal Era: The Mughal period (16th to 18th centuries) marked the golden age of muslin production in Bengal. Mughal emperors and nobility were known to be patrons of Bengali muslin, and it gained international acclaim for its exceptional quality. The delicate fabric was favored for its softness, breathability, and luxurious texture.Global Trade: Bengal's muslin sarees became highly sought after in global trade networks, reaching markets as far as Europe, the Middle East, and Southeast Asia. European merchants, including the British East India Company, recognized the profitability of Bengal's muslin trade and sought to monopolize it.Colonial Impact: The muslin industry faced challenges during the colonial period, particularly under British rule. British economic policies, such as heavy taxation and the promotion of British-made textiles, led to the decline of traditional handloom weaving industries in Bengal. Muslin production suffered as a result, and many skilled weavers were impoverished.Revival Efforts: In the post-independence era, efforts were made to revive the muslin industry in Bangladesh. Various government initiatives, NGOs, and international organizations have been involved in supporting artisans, preserving traditional techniques, and promoting the cultural significance of muslin sarees. These efforts aimed to revitalize the once-flourishing industry and provide economic opportunities for artisans",
     "productlist": {
       "des1": "- traditionally handwoven on looms by skilled artisans",
       "des2": "- Renowned for its lightweight feel and gentle touch",
       "des3": "- symbols of tradition, beauty"
     },
     "sliderimg":{
-      "img_1": "https://i.ibb.co/GvqDsHX/moslin.jpg",
-      "img_2": "https://i.ibb.co/GvqDsHX/moslin.jpg",
-      "img_3": "https://i.ibb.co/GvqDsHX/moslin.jpg"
+      "img_1": "https://i.ibb.co/jHPTZXz/moslinex2.jpg",
+      "img_2": "https://i.ibb.co/1ZpfzSZ/moslinex1.jpg",
+      "img_3": "https://i.ibb.co/74nq2M0/moslin33.webp"
     },
-    "img": "https://i.ibb.co/GvqDsHX/moslin.jpg"
+
+    "img": "https://i.ibb.co/jHPTZXz/moslinex2.jpg"
   },
   {
     "id": "3",
@@ -51,8 +57,8 @@
     "name": "Chandpur Ilish",
     "district": "Chandpur (17,August 2017)",
     "material": "",
-    "longdescription": "The fish is popular food amongst the people of South Asia and in the Middle East, but especially with Bengalis, Odias and Telugus of Coastal Andhra.[citation needed]Bengali fish curry is a popular dish made with mustard oil or seed. The Bengalis popularly call this dish Shorshe Ilish.[citation needed] It is very popular in Bengal (Bangladesh and India's West Bengal), as well as in Odisha, Tripura, Assam, Gujarat and Andhra Pradesh.[citation needed] It is also exported globally.[citation needed]In North America (where ilish is not always readily available) other shad fish are sometimes used as an ilish substitute, especially in Bengali cuisine. This typically occurs near the East coast of North America, where fresh shad fish having similar taste can be found.[citation needed]    In Bangladesh, fish are caught in the Meghna-Jamuna delta,[10] which flows into the Bay of Bengal and Meghna (lower Brahmaputra), and Jamuna rivers.",
-    "sortdescription": "The ilish (Tenualosa ilisha) , romanized: iliś), also known as the ilishi, hilsa, hilsa herring or hilsa shad, is a species of fish related to the herring, in the family Clupeidae. It is a very popular and sought-after food fish in the Indian subcontinent, and is the national fish of Bangladesh[3] and the state fish of West Bengal.[4]     The world famous hilsha fish comes from Padma River (the main distributary of the Ganges), Bangladesh. As of 2021, 86% of the world's total ilish supply originates in Bangladesh. The fish contributes about 12% of the total fish production and about 1.15% of GDP in Bangladesh. On 6 August 2017, Department of Patents, Designs and Trademarks under the Ministry of Industries of Bangladesh has declared the recognition of ilish as the product of Bangladesh. As of 2021, 86% of the world's total ilish supply originates in Bangladesh which applied for Geographical indication (GI) in 2004.[5] About 450,000 people are directly involved in the catching of the fish as a large part of their livelihood; around four to five million people are indirectly involved with the trade.",
+    "longdescription": "Abundance: Chandpur is located in the coastal region of Bangladesh, which is rich in rivers, estuaries, and water bodies. These waterways provide an ideal habitat for Ilish fish, making it abundant in the region.Quality: Chandpur Ilish is esteemed for its superior quality and taste. The fish harvested from the rivers around Chandpur are believed to be especially delicious due to factors such as the water quality and the fish's diet.Cultural Significance: Ilish fish holds significant cultural importance in Bangladesh, often considered the king of fish. It is a staple in Bengali cuisine and is especially cherished during the monsoon season when it is in abundance. Preparation: Chandpur Ilish is prepared in various ways, reflecting the diverse culinary traditions of Bangladesh. It can be cooked in curries, steamed, fried, or marinated in spices and grilled. One of the most popular preparations is Ilish Bhapa, where the fish is cooked in a spicy mustard sauce wrapped in banana leaves, imparting a unique aroma and flavor.Economic Impact: The fishing industry, particularly the Ilish fishery, plays a significant role in the economy of Chandpur and the surrounding regions. It provides livelihoods for thousands of fishermen, vendors, and others involved in the fish trade.Conservation Efforts: Due to its economic and cultural importance, there have been efforts to conserve and sustainably manage the Ilish fishery in Bangladesh. Measures such as seasonal fishing bans, habitat restoration, and awareness campaigns aim to ensure the long-term viability of the Ilish population. Overall, Chandpur Ilish represents not only a culinary delicacy but also a cultural heritage deeply rooted in the traditions and livelihoods of the people of Bangladesh, particularly those in the Chandpur region.",
+    "sortdescription": "Harvesting Season: Chandpur Ilish is primarily harvested during the monsoon season, which typically lasts from June to September in Bangladesh. During this time, the rivers and water bodies of Chandpur are filled with fresh water from heavy rainfall, creating favorable conditions for the migration and spawning of Ilish fish.Migration Patterns: Ilish fish are anadromous, meaning they migrate from the sea to freshwater rivers for spawning. The Meghna River, one of the major rivers in Bangladesh, serves as a significant migratory route for Ilish fish. Chandpur, situated along the banks of the Meghna River, witnesses a significant influx of Ilish during the spawning season.Traditional Fishing Methods: In Chandpur, traditional fishing methods are often employed to catch Ilish fish. These methods include using large nets, known as jal, and traditional fishing boats called noukas. Fishermen often rely on their experience and knowledge of the river's currents and behavior of the fish to maximize their catch.Culinary Delicacy: Chandpur Ilish is highly prized for its tender flesh and distinctive flavor. It is known for its oily texture and a unique taste that is often described as rich and buttery. The fish is versatile in cooking and can be prepared in various ways, including steaming, frying, grilling, and cooking in curries or stews.Cultural Significance: Ilish fish holds a special place in Bengali culture and traditions. It is often associated with festivals, celebrations, and special occasions. Bengali families gather to enjoy Ilish meals together, and it is considered a symbol of prosperity and good fortune Economic Impact: The Ilish fishery contributes significantly to the economy of Chandpur and surrounding areas. It provides employment opportunities for fishermen, fish vendors, processors, and exporters. The trade of Ilish generates substantial revenue both domestically and through exports to countries with large Bengali diaspora populations.",
     "productlist": {
       "des1": "- unique flavor profile and delicate texture",
       "des2": "- Ilish holds significant cultural importance",
@@ -60,14 +66,37 @@
       "des4": "- Ilish is prized for its taste and rich nutritional content"
     },
     "sliderimg":{
-      "img_1": "https://img.freepik.com/free-photo/ilish-fish-southeast-asia_1417-136.jpg",
-      "img_2": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BHilsa123.jpg/320px-BHilsa123.jpg",
-      "img_3": "https://i.ibb.co/FBvxpDD/food.jpg"
+      "img_1": "https://i.ibb.co/G3sPqfn/hilish2.jpg",
+      "img_2": "https://i.ibb.co/XXn1C7v/hilish1.jpg",
+      "img_3": "https://i.ibb.co/mBpqzyb/hilish3.jpg"
     },
-    "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87_%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6.jpg/170px-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87_%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6.jpg"
+    "img": "https://i.ibb.co/XXn1C7v/hilish1.jpg"
   },
+  
   {
     "id": "4",
+    "position": [24.5998, 88.2750],
+    "name": "Khirshapat Mango",
+    "district": "Chapainawabganj (27, January 2017)",
+    "material": "",
+ "longdescription": "Appearance: Khirshapat mangoes are generally medium to large in size and have an oval or oblong shape. They typically have a greenish-yellow skin with some reddish blush when ripe. The flesh of the mango is juicy and succulent, with a smooth texture.Taste and Aroma: One of the distinguishing features of Khirshapat mango is its exceptionally sweet and aromatic flavor. The flesh is tender and melts in the mouth, leaving a lingering taste of tropical sweetness. The aroma of Khirshapat mango is also highly fragrant, adding to its allure.Harvesting Season: The harvesting season for Khirshapat mangoes in Bangladesh usually begins in late spring and extends through the summer months, typically from May to August. The peak season for these mangoes is around June and July.Cultivation: Khirshapat mangoes are cultivated using both traditional and modern agricultural practices. They thrive in warm, tropical climates with well-drained soil and ample sunlight. Farmers often employ techniques such as pruning, fertilization, and pest control to ensure optimal growth and fruit production. Culinary Uses: Khirshapat mangoes are enjoyed in various ways in Bangladesh. They are often eaten fresh as a delicious and refreshing snack. Additionally, they are used in culinary preparations such as mango lassi (a yogurt-based drink), mango chutney, mango salads, desserts, and preserves. The sweet and tangy flavor of Khirshapat mango adds a delightful touch to both sweet and savory dishes.Economic Importance: Mango cultivation, including Khirshapat mangoes, is an important agricultural activity in Bangladesh. It provides livelihoods for many farmers and contributes significantly to the country's economy through domestic consumption and export. Export Potential: While Khirshapat mangoes are primarily consumed domestically, there is also potential for export to international markets. Bangladesh exports various mango varieties, including Khirshapat, to countries such as the United States, the United Kingdom, Canada, and the Middle East, where there is a demand for high-quality mangoes.",
+    "sortdescription": "Varietal Characteristics: Khirshapat mangoes are known for their smooth, fiberless flesh, which enhances their eating quality. Unlike some other mango varieties, Khirshapat mangoes have minimal fibers, making them particularly enjoyable to eat. The lack of fibers contributes to the creamy texture and succulence of the fruit.Growing Conditions: Khirshapat mangoes thrive in the tropical climate of Bangladesh, where they receive abundant sunshine and warmth. The regions where they are cultivated, such as Rajshahi, Chapainawabganj, and Dinajpur, provide ideal growing conditions for mango trees. Adequate irrigation and soil fertility are essential for the healthy growth and development of Khirshapat mangoes.Tree Characteristics: Mango trees bearing Khirshapat mangoes are typically vigorous and productive. They can reach significant heights and have dense foliage, providing shade and protection for the developing fruit. Proper pruning and maintenance practices are employed to ensure optimal fruit yield and quality.Ripening Process: Khirshapat mangoes are harvested when they reach maturity but are still firm. They continue to ripen after harvesting, developing their characteristic sweetness, aroma, and color over time. To ripen Khirshapat mangoes, they are often stored at room temperature and allowed to ripen naturally. Ripened mangoes can be identified by their softness, fruity aroma, and vibrant color.Cultural Significance: Mangoes, including Khirshapat mangoes, hold significant cultural importance in Bangladesh. They are celebrated during the annual Mango Festival, known as Aam Utsav, which showcases the diversity and richness of mango varieties cultivated in the country. Mangoes are also exchanged as gifts during special occasions and festivals, symbolizing prosperity, abundance, and goodwill.Nutritional Benefits: Khirshapat mangoes are not only delicious but also nutritious. They are rich in vitamins, minerals, and antioxidants, including vitamin C, vitamin A, and potassium. Mangoes are known to boost immunity, support digestion, and promote overall health and well-being when consumed as part of a balanced diet.",
+    "productlist": {
+      "des1": "- unique and delightful taste",
+      "des2": "- Khirsapati mangoes are valued for their nutritional benefit.",
+      "des3": "- only available for a limited time from April to June",
+      "des4": "-  Traditional Delicacy "
+    },
+    "sliderimg":{
+      "img_1": "https://i.ibb.co/NmXfPmz/khirsapat.jpg",
+      "img_2": " https://i.ibb.co/b11Ndpf/khirsapat1.jpg",
+      "img_3": " https://i.ibb.co/HNkm5s3/khirsapat2.jpg"
+    },
+    "img": "https://i.ibb.co/NmXfPmz/khirsapat.jpg"
+  },
+  
+  {
+    "id": "5",
     "position": [24.3745, 88.6042],
     "name": "Rajshahi Silk",
     "district": "Rajshahi 26, April 2021",
@@ -85,27 +114,6 @@
       "img_3": "https://i.ibb.co/3FP26qP/sotoronji.jpg"
     },
     "img": "https://i.ibb.co/3FP26qP/sotoronji.jpg"
-  },
-  {
-    "id": "5",
-    "position": [24.5998, 88.2750],
-    "name": "Khirshapat Mango",
-    "district": "Chapainawabganj (27, January 2017)",
-    "material": "",
- "longdescription": "Whether figured or flowered, jamdani is a woven fabric in cotton. This is a supplementary weft technique of weaving, where the artistic motifs are produced by a non-structural weft, in addition to the standard weft that holds the warp threads together. The standard weft creates a fine, sheer fabric while the supplementary weft with thicker threads adds the intricate patterns to it. Each supplementary weft motif is added separately by hand by interlacing the weft threads into the warp with fine bamboo sticks using individual spools of thread. The result is a complex mix of different patterns that appear to float on a shimmering surface. The pattern is not sketched or outlined on the fabric, but is drawn on a graph paper and placed underneath the warp. Jamdani is a fine muslin cloth on which decorative motifs are woven on the loom, typically in grey and white. Often a mixture of cotton and gold thread was used.",
-    "sortdescription": "Jamdani  is a fine muslin textile (figured with different patterns) produced for centuries in South Rupshi of Narayanganj district in Bangladesh on the bank of Shitalakhwa river.The historic production of jamdani was patronized by imperial warrants of the Mughal emperors. Under British colonialism, the Bengali jamdani and muslin industries rapidly declined due to colonial import policies favoring industrially manufactured textiles. In more recent years, the production of jamdani has witnessed a revival in Bangladesh. Jamdani is typically woven using a mixture of cotton and gold thread",
-    "productlist": {
-      "des1": "- unique and delightful taste",
-      "des2": "- Khirsapati mangoes are valued for their nutritional benefit.",
-      "des3": "- only available for a limited time from April to June",
-      "des4": "-  Traditional Delicacy "
-    },
-    "sliderimg":{
-      "img_1": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
-      "img_2": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
-      "img_3": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
-    },
-    "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
   },
   {
     "id": "6",
