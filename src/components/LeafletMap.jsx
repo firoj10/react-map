@@ -1,10 +1,18 @@
 import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON, LayersControl } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// import logo from './../../public/fab.png'
 
+import marker  from './../../public/marker-icon-2x.png'
+import { Icon } from 'leaflet'
+const myIcon = new Icon({
+ iconUrl: marker,
+ iconSize: [20,30]
+})
 // import { locations } from './../data/location/location.js'
 import "./map.css";
 import MiniMapControl from './MiniMapControl';
@@ -155,7 +163,8 @@ function LeafletMap() {
           )}
         </div>
         {locations?.map((location, index) => (
-          <Marker key={index} position={location.position}>
+          <Marker key={index} position={location.position} icon={myIcon}
+          >
             <Popup style={{ zIndex: '999' }}>
               <div className="row">
                 <div className="col-12">

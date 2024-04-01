@@ -1,9 +1,5 @@
 
 [
-  
-
-
-
   {
     "id":"1",
     "position": [23.8103, 90.4125],
@@ -27,9 +23,6 @@
     },
     "img": "https://i.ibb.co/RTqY7rK/jamdani1.jpg"
   },
-
-
- 
   {
     "id": "2",
     "position": [23.6156, 90.6848],
@@ -97,7 +90,7 @@
   
   {
     "id": "5",
-    "position": [24.3745, 88.6042],
+    "position": [24.3745, 88.7042],
     "name": "Rajshahi Silk",
     "district": "Rajshahi 26, April 2021",
     "material": "Rajshahi silk is primarily made from mulberry silk",
