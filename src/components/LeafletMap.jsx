@@ -116,7 +116,7 @@ function LeafletMap() {
                       <span className='table-title'>
                         {/* <a href={product.webLink}>Website</a> */}
                         {/* <NavLink to="/mapDetails" target="_blank" rel="noopener noreferrer">Website</NavLink> */}
-                        <Link target="_blank" to={`/mapDetails/${location.id}`}>
+                        <Link target="_blank" style={{fontWeight:'bold', color:"blue"}} to={`/mapDetails/${location.id}`}>
                           View Details
                         </Link>
 
@@ -195,7 +195,7 @@ function LeafletMap() {
                   <div className='text-center fw-bold'>
                     {/* <a href="">Visit Website</a> */}
                     {/* <Link to={`/mapDetails/${location.id}`}><button className=" p-3   bg-orange-900  text-white ">View Details</button></Link> */}
-                    <Link target="_blank"  to={`/mapDetails/${location.id}`}>
+                    <Link target="_blank"  style={{fontWeight:'bold', color:"blue"}}  to={`/mapDetails/${location.id}`}>
                     View Details
                     </Link>
                    

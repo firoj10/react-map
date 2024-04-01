@@ -3,7 +3,7 @@
     z-index: 1;
 }
 
-a {
+.footers a {
     text-decoration: none !important;
 color: black !important;
 }

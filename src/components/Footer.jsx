@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="shadow mx-auto py-5" >
       <div className='container'>
-      <div className="row justify-content-between text-center">
+      <div className="row footers justify-content-between text-center">
         <div className='col-12 col-md-3 col-lg-3 pt-4'>
           <div className='text-center'>
         
