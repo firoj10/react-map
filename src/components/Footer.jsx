@@ -24,7 +24,7 @@ const Footer = () => {
           <div style={{ cursor: 'pointer', padding: '0' }}>
          
             <div><a href=""> +8801798740592  </a></div>
-            <div><a href=""> bdbengaigi@gmail.com  </a></div>
+            <div><a href=""> support@bengalgi.com  </a></div>
           </div>
         </div>
         <div className='col-12 col-md-4  pt-4'>
