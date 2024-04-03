@@ -7,6 +7,7 @@ import ErrorPage from './page/ErrorPage.jsx';
 import MapDetails from './page/MapDetails.jsx';
 import LeafletMap from './components/LeafletMap.jsx';
 import Contact from './page/contact/Contact.jsx';
+import Home from './page/home/Home.jsx';
 
 
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
+        element: <Home />
+      },
+      {
+        path: 'lefletmap',
         element: <LeafletMap />
       },
       {
@@ -41,20 +46,11 @@ const router = createBrowserRouter([
             });
         }
       },
-      // {
-      //   path: 'mapDetails',
-      //   element: <MapDetails></MapDetails>
-      // },
       {
         path:'contact',
         element: <Contact></Contact>
       },
-      // {
-      //   path: "mapDetails/:id",
-      //   element: <MapDetails />,
-      //   loader: ({params}) => fetch(`location.json/${params.id}`)
-
-      // },
+     
    
   ]
   },

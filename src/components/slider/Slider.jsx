@@ -38,7 +38,6 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
         <SwiperSlide data-hash="slide1" className=''><img src={sliderimg.img_1? sliderimg.img_1 : ''}  alt="" /></SwiperSlide>
         <SwiperSlide data-hash="slide2" className=''><img src={sliderimg.img_2? sliderimg.img_2 :''}  alt="" /></SwiperSlide>
         <SwiperSlide data-hash="slide3" className=''><img src={sliderimg.img_3? sliderimg.img_3 :''}  alt="" /></SwiperSlide>
-        {/* <SwiperSlide data-hash="slide4" className=''><img src={s2}  alt="" /></SwiperSlide> */}
       
         
       </Swiper>
