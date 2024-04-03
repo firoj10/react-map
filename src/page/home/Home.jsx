@@ -61,7 +61,7 @@ function Home() {
                     <SwiperSlide data-hash="slide1" className=''><img src={img_1 ? img_1 : ''} alt="" /></SwiperSlide>
                     <SwiperSlide data-hash="slide3" className=''><img src={img_3 ? img_3 : ''} alt="" /></SwiperSlide>
                     <SwiperSlide data-hash="slide2" className=''><img src={img_4 ? img_4 : ''} alt="" /></SwiperSlide>
-                    {/* <SwiperSlide data-hash="slide3" className=''><img src={img_1 ? img_1 : ''} alt="" /></SwiperSlide> */}
+                  
 
 
                 </Swiper>
