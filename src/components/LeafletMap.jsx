@@ -5,15 +5,13 @@ import "leaflet/dist/leaflet.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import logo from './../../public/fab.png'
-
 import marker  from './../../public/marker-icon-2x.png'
 import { Icon } from 'leaflet'
 const myIcon = new Icon({
  iconUrl: marker,
  iconSize: [20,30]
 })
-// import { locations } from './../data/location/location.js'
+
 import "./map.css";
 import MiniMapControl from './MiniMapControl';
 import { Link, } from 'react-router-dom';
@@ -67,7 +65,6 @@ function LeafletMap() {
     } else {
       setLegendOpen(false);
     }
-
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -84,7 +81,6 @@ function LeafletMap() {
                 <button onClick={toggleLegend}>{legendOpen ? "Hide List" : "Show List"}</button>
               </div>
             )}
-
             {!isDesktop && (
               <div className='show-btn'>
                 <button onClick={() => setLegendOpen(!legendOpen)}>
@@ -127,9 +123,7 @@ function LeafletMap() {
               </tbody>
             </table>
           )}
-
         </div>
-
       </div>
       <div className="map"></div>
       <MapContainer center={[23.685, 90.3563]} zoom={7} style={{ height: '100vh', backgroundColor: 'lightblue' }}>
@@ -147,7 +141,6 @@ function LeafletMap() {
             <TileLayer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png" />
           </BaseLayer>
         </LayersControl>
-        {/* {geojsonData && <GeoJSON data={geojsonData} style={{ color: '#454b1b9e', }} />} */}
         <div>
           {geojsonData && (
             <GeoJSON
@@ -155,8 +148,8 @@ function LeafletMap() {
               style={() => ({
                 fillColor: "#dc354596",
                 fillOpacity: 2,
-                color: "#2c310a", // Border color
-                weight: 1, // Border width
+                color: "#2c310a", 
+                weight: 1,
                 zIndex: -1
               })}
             />

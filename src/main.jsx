@@ -8,6 +8,7 @@ import MapDetails from './page/MapDetails.jsx';
 import LeafletMap from './components/LeafletMap.jsx';
 import Contact from './page/contact/Contact.jsx';
 import Home from './page/home/Home.jsx';
+import Main from './page/main/Main.jsx';
 
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: 'lefletmap',
         element: <LeafletMap />
+      },
+      {
+        path: 'main',
+        element: <Main />
       },
       {
         path: "mapDetails/:id",
