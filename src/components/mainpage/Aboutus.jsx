@@ -7,15 +7,21 @@ function Aboutus() {
         <>
             <section className="py-5 py-md-5">
                 <div className='container'>
+                
+                <div className="row pb-0">
+                <div className="col-md-12">
                 <h1 className="text-center heading">About Us</h1>
+                
+                    </div>
+                </div>
 
                 </div>
                 <div className="container">
-                    <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-                        <div className="col-12 col-lg-6 col-xl-5">
+                    <div className="row gy-3 pt-2 gy-md-4 gy-lg-0 align-items-lg-center">
+                        <div className="col-12 col-lg-6 col-xl-6">
                             <img className="img-fluid rounded" loading="lazy" src={about} alt="About 1" />
                         </div>
-                        <div className="col-12 col-lg-6 col-xl-7">
+                        <div className="col-12 col-lg-6 col-xl-6">
                             <div className="row justify-content-xl-center">
                                 <div className="col-12 col-xl-11">
                                     <h2 className="mb-3">Who Are We?</h2>

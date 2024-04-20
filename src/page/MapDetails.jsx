@@ -14,39 +14,14 @@ function MapDetails() {
   const data = useLoaderData();
   console.log(data);
 
-  // Now you can use params.id to fetch data or perform other operations
-  // Make sure to handle loading, error, and data states
-
-  // useEffect(() => {
-  //   fetch(`location.json/${id}`)
-  //     .then(response => response.json())
-  //     .then(data => {
-  //       console.log(data);
-  //     })
-  //     .catch(error => {
-  //       // Handle errors
-  //     });
-  // }, [id]);
 
 
-  const initialData = [
-    { id: 1, Vendor: 'FreshFruit Suppliers', Capacity: '500 kg', Deliverytime: '2 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 2, Vendor: 'Tropical Harvests Ltd.', Capacity: '700 kg',Deliverytime: '3 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 3, Vendor: 'Mango Mania Farms', Capacity: '400 kg', Deliverytime: '1 day', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 4, Vendor: 'Golden Orchard', Capacity: '600 kg', Deliverytime: '2 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 5, Vendor: 'Sweet Harvest Farms', Capacity: '550 kg', Deliverytime: '2 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 6, Vendor: 'Green Haven Agro', Capacity: '450 kg', Deliverytime: '1 day', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 7, Vendor: "Nature's Bounty", Capacity: '800 kg', Deliverytime: '3 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 8, Vendor: 'Fruitful Harvest Co.', Capacity: '500 kg', Deliverytime: '2 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 9, Vendor: 'Sunrise Orchards', Capacity: '650 kg', Deliverytime: '3 days', Contact: '+8801XXXXXXXXX', disabled: false },
-    { id: 10, Vendor: 'Mango Delight Farms', Capacity: '700 kg', Deliverytime: '2 days', Contact: '+8801XXXXXXXXX', disabled: false }
-  ];
-
+ 
 
   return (
     <div>
       <Header></Header>
-      <div className=" py-2" style={{backgroundColor:'blue', color:'#fff'}}><h1 className="container mb-0">{data.name}</h1></div>
+      <div className=" py-4 text-center" style={{backgroundColor:'white', color:'Black'}}><h1 className="container mb-0">{data.name}</h1></div>
       <Slider key={data.id}  data={data }></Slider>
    
       {/* <Content></Content> */}
@@ -80,13 +55,13 @@ function MapDetails() {
     </tr>
   </thead>
   <tbody>
-    {initialData.map((row, index) => (
+    {data?.table?.map((row, index) => (
         <tr key={row.id} className={index > 2 ? 'blur' : ''}>
         <th scope="row">{row.id}</th>
-        <td>{row.Vendor}</td>
-        <td>{row.Capacity}</td>
-        <td>{row.Deliverytime}</td>
-        <td className='blur'>{row.Contact}</td>
+        <td>{row.vendorName}</td>
+        <td>{row.capacity}</td>
+        <td>{row.averageDeliveryTime}</td>
+        <td className='blur'>{row.contact}</td>
       </tr>
     ))}
   </tbody>

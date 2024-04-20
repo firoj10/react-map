@@ -3,10 +3,16 @@ function Service() {
     return (
         <>
      <div  className="container">
-    <div  className="row justify-content-md-center py-5 py-md-5 mt-5">
+    <div  className="row justify-content-md-center py-2 py-md-5 ">
       <div  className="col-12 col-md-10 col-lg-8 col-xl-7">
         
-        <h1 className=" text-center heading">We are giving you perfect solutions with our proficient services.</h1>
+        <div className="row pt-0">
+          <div className="col-md-12">
+            
+          <h1 className="text-center heading  ">We are giving you perfect solutions with our proficient services</h1>
+          
+          </div>
+        </div>
         <hr  className="w-50 mx-auto mb-2 mb-xl-9 border-dark-subtle"/>
       </div>
     </div>
@@ -25,12 +31,7 @@ function Service() {
             <p  className="mb-4 text-secondary">
 
 At the core of our cultural heritage, every GI product has its own narrative. Bengal GI is dedicated to broadcasting the stories of Bangladesh's GI products on a global scale. We employ strategic marketing and targeted exposure to present the nation's authentic offerings, thus enhancing visibility, amplifying your brand's distinctive heritage, and broadening market access.</p>
-            <a href="#!"  className="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  className="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+            
           </div>
         </div>
       </div>
@@ -44,12 +45,7 @@ At the core of our cultural heritage, every GI product has its own narrative. Be
             <p  className="mb-4 text-secondary">
 
 Expansion begins with knowledge. We provide SMEs with essential GI expertise, aligned with government policy, to bolster your ability to compete internationally. Our extensive training programs and resources equip you with the necessary skills to seize new opportunities and navigate a successful path in the global marketplace</p>
-            <a href="#!"  className="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  className="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+            
           </div>
         </div>
       </div>
@@ -64,12 +60,7 @@ Expansion begins with knowledge. We provide SMEs with essential GI expertise, al
             <p  className="mb-4 text-secondary">
 
 The authenticity of your GI product is a testament to its quality. Bengal GI's unique endorsement grants your offerings our seal of trust, in partnership with government agencies. Our rigorous monitoring and product training distinguish your goods, ensuring they meet the standards for global recognition</p>
-            <a href="#!"  className="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  className="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+           
           </div>
         </div>
       </div>
@@ -83,12 +74,7 @@ The authenticity of your GI product is a testament to its quality. Bengal GI's u
             <p  className="mb-4 text-secondary"> 
 
 Navigating the complexities of supply chain management and regulatory compliance requires exactitude. Bengal GI offers comprehensive support in compliance management and supply chain logistics, guaranteeing that Bangladesh's GI products not only meet, but surpass global market standards, thereby enhancing your business's standing and forging connections with prominent buyer</p>
-            <a href="#!"  className="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  className="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+           
           </div>
         </div>
       </div>
@@ -102,12 +88,7 @@ Navigating the complexities of supply chain management and regulatory compliance
             <p  className="mb-4 text-secondary"> 
 
 Partnerships are the bedrock of a robust ecosystem. Bengal GI is adept at cultivating partnerships that transform competition into collaboration. We create a supportive network that ignites innovation and stimulates growth. Partnering with Bengal GI means joining a community committed to mutual success</p>
-            <a href="#!"  className="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  className="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+           
           </div>
         </div>
       </div>
@@ -123,12 +104,7 @@ Partnerships are the bedrock of a robust ecosystem. Bengal GI is adept at cultiv
            
 
 The vitality of the GI ecosystem is bolstered by shared knowledge and collective advancement. We orchestrate platforms for dialogue and network-building, uniting industry leaders to propel the GI sector. Our initiatives offer partnerships with government bodies, private stakeholders, and the broader business community, enriching your network and expertise</p>
-            <a href="#!"  className="fw-bold text-decoration-none link-primary">
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  className="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-              </svg>
-            </a>
+           
           </div>
         </div>
       </div>

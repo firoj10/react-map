@@ -21,7 +21,87 @@
       "img_2": "https://i.ibb.co/dGHBZqb/jamdani4.jpg",
       "img_3": "https://i.ibb.co/vHdb4Cs/jamdani2.jpg"
     },
-    "img": "https://i.ibb.co/RTqY7rK/jamdani1.jpg"
+    "img": "https://i.ibb.co/RTqY7rK/jamdani1.jpg",
+    "table": [
+      {
+        "vendorName": "Alpha Textiles",
+        "capacity": "High",
+        "averageDeliveryTime": "2 days",
+        "contact": "alpha@example.com"
+      },
+      {
+        "vendorName": "Beta Garments",
+        "capacity": "Medium",
+        "averageDeliveryTime": "3 days",
+        "contact": "beta@example.com"
+      },
+      {
+        "vendorName": "Gamma Fabrics",
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "gamma@example.com"
+      },
+      {
+        "vendorName": "Delta Apparel",
+        "capacity": "High",
+        "averageDeliveryTime": "1 day",
+        "contact": "delta@example.com"
+      },
+      {
+        "vendorName": "Epsilon Fashion",
+        "capacity": "Medium",
+        "averageDeliveryTime": "2 days",
+        "contact": "epsilon@example.com"
+      },
+      {
+        "vendorName": "Zeta Clothing",
+        "capacity": "Low",
+        "averageDeliveryTime": "3 days",
+        "contact": "zeta@example.com"
+      },
+      {
+        "vendorName": "Eta Garments",
+        "capacity": "High",
+        "averageDeliveryTime": "2 days",
+        "contact": "eta@example.com"
+      },
+      {
+        "vendorName": "Theta Textiles",
+        "capacity": "Medium",
+        "averageDeliveryTime": "4 days",
+        "contact": "theta@example.com"
+      },
+      {
+        "vendorName": "Iota Fabrics",
+        "capacity": "Low",
+        "averageDeliveryTime": "1 day",
+        "contact": "iota@example.com"
+      },
+      {
+        "vendorName": "Kappa Apparel",
+        "capacity": "High",
+        "averageDeliveryTime": "3 days",
+        "contact": "kappa@example.com"
+      },
+      {
+        "vendorName": "Lambda Fashion",
+        "capacity": "Medium",
+        "averageDeliveryTime": "2 days",
+        "contact": "lambda@example.com"
+      },
+      {
+        "vendorName": "Mu Clothing",
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
+      },
+      {
+        "vendorName": "Jamdani Saree",
+        "capacity": "N/A",
+        "averageDeliveryTime": "N/A",
+        "contact": "N/A"
+      }
+    ]
   },
   {
     "id": "2",
@@ -42,7 +122,39 @@
       "img_3": "https://i.ibb.co/74nq2M0/moslin33.webp"
     },
 
-    "img": "https://i.ibb.co/jHPTZXz/moslinex2.jpg"
+    "img": "https://i.ibb.co/jHPTZXz/moslinex2.jpg",
+    "table": [
+      {
+        "vendorName": "Techtronics Inc.",
+        "productType": "Smartphones",
+        "averagePrice": "$300",
+        "contact": "info@techtronics.com"
+      },
+      {
+        "vendorName": "ElectroGadget Co.",
+        "productType": "Laptops",
+        "averagePrice": "$800",
+        "contact": "sales@electrogadget.com"
+      },
+      {
+        "vendorName": "PowerTech Solutions",
+        "productType": "Power Banks",
+        "averagePrice": "$30",
+        "contact": "support@powertech.com"
+      },
+      {
+        "vendorName": "Digital World Supplies",
+        "productType": "Tablets",
+        "averagePrice": "$400",
+        "contact": "sales@digitalworld.com"
+      },
+      {
+        "vendorName": "TechGear Innovations",
+        "productType": "Wearable Tech",
+        "averagePrice": "$150",
+        "contact": "info@techgear.com"
+      }
+    ]
   },
   {
     "id": "3",
@@ -63,7 +175,39 @@
       "img_2": "https://i.ibb.co/XXn1C7v/hilish1.jpg",
       "img_3": "https://i.ibb.co/mBpqzyb/hilish3.jpg"
     },
-    "img": "https://i.ibb.co/XXn1C7v/hilish1.jpg"
+    "img": "https://i.ibb.co/XXn1C7v/hilish1.jpg",
+    "table": [
+      {
+        "vendorName": "FashionHub Garments",
+        "specialization": "Casual Wear",
+        "productionCapacity": "High",
+        "contact": "info@fashionhub.com"
+      },
+      {
+        "vendorName": "Elegant Threads",
+        "specialization": "Formal Wear",
+        "productionCapacity": "Medium",
+        "contact": "sales@elegantthreads.com"
+      },
+      {
+        "vendorName": "SportyStitch Apparels",
+        "specialization": "Sportswear",
+        "productionCapacity": "Low",
+        "contact": "support@sportystitch.com"
+      },
+      {
+        "vendorName": "UrbanChic Clothing",
+        "specialization": "Streetwear",
+        "productionCapacity": "High",
+        "contact": "info@urbanchic.com"
+      },
+      {
+        "vendorName": "TrendyWears Ltd.",
+        "specialization": "Fashion Accessories",
+        "productionCapacity": "Medium",
+        "contact": "sales@trendywears.com"
+      }
+    ]
   },
   
   {
@@ -85,7 +229,39 @@
       "img_2": " https://i.ibb.co/b11Ndpf/khirsapat1.jpg",
       "img_3": " https://i.ibb.co/HNkm5s3/khirsapat2.jpg"
     },
-    "img": "https://i.ibb.co/NmXfPmz/khirsapat.jpg"
+    "img": "https://i.ibb.co/NmXfPmz/khirsapat.jpg",
+    "table": [
+      {
+        "vendorName": "FreshFoods Farms",
+        "productCategory": "Fruits",
+        "availability": "Year-round",
+        "contact": "info@freshfoods.com"
+      },
+      {
+        "vendorName": "OrganicHarvest Co.",
+        "productCategory": "Vegetables",
+        "availability": "Seasonal",
+        "contact": "sales@organicharvest.com"
+      },
+      {
+        "vendorName": "DairyDelights",
+        "productCategory": "Dairy Products",
+        "availability": "Daily",
+        "contact": "support@dairydelights.com"
+      },
+      {
+        "vendorName": "SeaBounty Seafoods",
+        "productCategory": "Seafood",
+        "availability": "Fresh",
+        "contact": "info@seabounty.com"
+      },
+      {
+        "vendorName": "GourmetTreats Ltd.",
+        "productCategory": "Specialty Foods",
+        "availability": "Limited",
+        "contact": "sales@gourmettreats.com"
+      }
+    ]
   },
   
   {
@@ -106,7 +282,39 @@
       "img_2": "https://i.ibb.co/3FP26qP/sotoronji.jpg",
       "img_3": "https://i.ibb.co/3FP26qP/sotoronji.jpg"
     },
-    "img": "https://i.ibb.co/3FP26qP/sotoronji.jpg"
+    "img": "https://i.ibb.co/3FP26qP/sotoronji.jpg",
+    "table": [
+      {
+        "vendorName": "ClassicCraft Furniture",
+        "furnitureType": "Wooden",
+        "materials": "Oak, Teak",
+        "contact": "info@classiccraft.com"
+      },
+      {
+        "vendorName": "ModernDesign Furnishings",
+        "furnitureType": "Contemporary",
+        "materials": "Steel, Glass",
+        "contact": "sales@moderndesign.com"
+      },
+      {
+        "vendorName": "EcoLiving Furnitures",
+        "furnitureType": "Eco-friendly",
+        "materials": "Bamboo, Recycled Wood",
+        "contact": "support@ecoliving.com"
+      },
+      {
+        "vendorName": "ComfortZone Interiors",
+        "furnitureType": "Comfort Furniture",
+        "materials": "Fabric, Memory Foam",
+        "contact": "info@comfortzone.com"
+      },
+      {
+        "vendorName": "VintageVibe Decor",
+        "furnitureType": "Antique",
+        "materials": "Mahogany, Brass",
+        "contact": "sales@vintagevibe.com"
+      }
+    ]
   },
   {
     "id": "6",
@@ -126,7 +334,39 @@
       "img_2": "https://i.ibb.co/N7v3vVt/ascinaam.jpg",
       "img_3": "https://i.ibb.co/N7v3vVt/ascinaam.jpg"
     },
-    "img": "https://i.ibb.co/N7v3vVt/ascinaam.jpg"
+    "img": "https://i.ibb.co/N7v3vVt/ascinaam.jpg",
+    "table": [
+      {
+        "vendorName": "PaperPalace",
+        "productType": "Notebooks",
+        "averagePrice": "$5",
+        "contact": "info@paperpalace.com"
+      },
+      {
+        "vendorName": "PenCrafters",
+        "productType": "Pens",
+        "averagePrice": "$2",
+        "contact": "sales@pencrafters.com"
+      },
+      {
+        "vendorName": "ArtisanStationery",
+        "productType": "Art Supplies",
+        "averagePrice": "$10",
+        "contact": "support@artisanstationery.com"
+      },
+      {
+        "vendorName": "StickyNotes Co.",
+        "productType": "Sticky Notes",
+        "averagePrice": "$3",
+        "contact": "info@stickynotes.com"
+      },
+      {
+        "vendorName": "BinderBuddy",
+        "productType": "Binders",
+        "averagePrice": "$8",
+        "contact": "sales@binderbuddy.com"
+      }
+    ]
   },
   {
     "id": "7",
@@ -147,7 +387,39 @@
       "img_2": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
       "img_3": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
     },
-    "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
+    "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+    "table": [
+      {
+        "vendorName": "AutoParts Direct",
+        "productType": "Spare Parts",
+        "averagePrice": "$50",
+        "contact": "info@autopartsdirect.com"
+      },
+      {
+        "vendorName": "WheelWorld Inc.",
+        "productType": "Tires",
+        "averagePrice": "$100",
+        "contact": "sales@wheelworld.com"
+      },
+      {
+        "vendorName": "MotorOil Solutions",
+        "productType": "Engine Oil",
+        "averagePrice": "$20",
+        "contact": "support@motoroil.com"
+      },
+      {
+        "vendorName": "CarCare Accessories",
+        "productType": "Car Accessories",
+        "averagePrice": "$30",
+        "contact": "info@carcare.com"
+      },
+      {
+        "vendorName": "Performance Parts Plus",
+        "productType": "Performance Upgrades",
+        "averagePrice": "$200",
+        "contact": "sales@performanceparts.com"
+      }
+    ]
   },
   {
     "id": "8",
@@ -168,7 +440,39 @@
       "img_2": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg",
       "img_3": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg"
     },
-    "img": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg"
+    "img": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg",
+    "table": [
+      {
+        "vendorName": "ApplianceZone",
+        "productType": "Kitchen Appliances",
+        "averagePrice": "$150",
+        "contact": "info@appliancezone.com"
+      },
+      {
+        "vendorName": "HomeTech Innovations",
+        "productType": "Smart Home Devices",
+        "averagePrice": "$200",
+        "contact": "sales@hometech.com"
+      },
+      {
+        "vendorName": "CoolClimate Appliances",
+        "productType": "Air Conditioners",
+        "averagePrice": "$500",
+        "contact": "support@coolclimate.com"
+      },
+      {
+        "vendorName": "LaundrySolutions",
+        "productType": "Washing Machines",
+        "averagePrice": "$400",
+        "contact": "info@laundrysolutions.com"
+      },
+      {
+        "vendorName": "ComfortHeat",
+        "productType": "Heating Systems",
+        "averagePrice": "$300",
+        "contact": "sales@comfortheat.com"
+      }
+    ]
   },
   {
     "id": "9",
@@ -188,7 +492,39 @@
       "img_2": "https://i.ibb.co/0hJv0nF/kumillahro.jpg",
       "img_3": "https://i.ibb.co/0hJv0nF/kumillahro.jpg"
     },
-    "img": "https://i.ibb.co/0hJv0nF/kumillahro.jpg"
+    "img": "https://i.ibb.co/0hJv0nF/kumillahro.jpg",
+    "table": [
+      {
+        "vendorName": "BuildMasters",
+        "productType": "Cement",
+        "averagePrice": "$10 per bag",
+        "contact": "info@buildmasters.com"
+      },
+      {
+        "vendorName": "LumberLand",
+        "productType": "Lumber",
+        "averagePrice": "$50 per board foot",
+        "contact": "sales@lumberland.com"
+      },
+      {
+        "vendorName": "SteelStructures Inc.",
+        "productType": "Steel Beams",
+        "averagePrice": "$100 per beam",
+        "contact": "support@steelstructures.com"
+      },
+      {
+        "vendorName": "BrickWorks",
+        "productType": "Bricks",
+        "averagePrice": "$0.50 per brick",
+        "contact": "info@brickworks.com"
+      },
+      {
+        "vendorName": "RoofingSupplies Plus",
+        "productType": "Roofing Materials",
+        "averagePrice": "$200 per bundle",
+        "contact": "sales@roofingsupplies.com"
+      }
+    ]
   },
   {
     "id": "10",
@@ -208,7 +544,39 @@
       "img_2": "https://i.ibb.co/DLchb1m/katarivog.jpg",
       "img_3": "https://i.ibb.co/DLchb1m/katarivog.jpg"
     },
-    "img": "https://i.ibb.co/DLchb1m/katarivog.jpg"
+    "img": "https://i.ibb.co/DLchb1m/katarivog.jpg",
+    "table": [
+      {
+        "vendorName": "MediCare Solutions",
+        "productType": "Medical Equipment",
+        "averagePrice": "$500",
+        "contact": "info@medicaresolutions.com"
+      },
+      {
+        "vendorName": "PharmaTech Pharmaceuticals",
+        "productType": "Medications",
+        "averagePrice": "$20 per prescription",
+        "contact": "sales@pharmatech.com"
+      },
+      {
+        "vendorName": "OrthoPro",
+        "productType": "Orthopedic Supplies",
+        "averagePrice": "$200",
+        "contact": "support@orthopro.com"
+      },
+      {
+        "vendorName": "DentalDynamics",
+        "productType": "Dental Products",
+        "averagePrice": "$50",
+        "contact": "info@dentaldynamics.com"
+      },
+      {
+        "vendorName": "VisionCare",
+        "productType": "Eyecare Products",
+        "averagePrice": "$30",
+        "contact": "sales@visioncare.com"
+      }
+    ]
   },
 
 
@@ -231,7 +599,38 @@
         "img_2": "https://i.ibb.co/L6f218Q/sadamati.jpg",
         "img_3": "https://i.ibb.co/L6f218Q/sadamati.jpg"
       },
-      "img": "https://i.ibb.co/L6f218Q/sadamati.jpg"
+      "img": "https://i.ibb.co/L6f218Q/sadamati.jpg",
+      "table": [
+        {
+          "vendorName": "AirWings Travel",
+          "serviceType": "Airline Tickets",
+          "averagePrice": "$500",
+          "contact": "info@airwings.com"
+        },
+        {
+          "vendorName": "LandHopper Tours",
+          "serviceType": "Tour Packages",
+          "averagePrice": "$1000",
+          "contact": "sales@landhopper.com"
+        },
+        {
+          "vendorName": "SeaVoyage Cruises",
+          "serviceType": "Cruise Packages",
+          "averagePrice": "$1500",
+          "contact": "support@seavoyage.com"
+        },
+        {
+          "vendorName": "RoadRunner Rentals",
+          "serviceType": "Car Rentals",
+          "averagePrice": "$50 per day",
+          "contact": "info@roadrunner.com"
+        },
+        {
+          "vendorName": "TravelEase Agents",
+          "serviceType": "Travel Planning",
+          "averagePrice": "$100",
+          "contact": "sales@travelease.com"
+        }]
     },
     {
       "id": "12",
@@ -252,7 +651,39 @@
         "img_2": "https://i.ibb.co/DLchb1m/katarivog.jpg",
         "img_3": "https://i.ibb.co/DLchb1m/katarivog.jpg"
       },
-      "img": "https://i.ibb.co/DLchb1m/katarivog.jpg"
+      "img": "https://i.ibb.co/DLchb1m/katarivog.jpg",
+      "table": [
+        {
+          "vendorName": "FreshFarms Produce",
+          "productType": "Fresh Fruits and Vegetables",
+          "averagePrice": "Varies by item",
+          "contact": "info@freshfarms.com"
+        },
+        {
+          "vendorName": "PrimeMeats Butchery",
+          "productType": "Quality Meats",
+          "averagePrice": "Varies by cut",
+          "contact": "sales@primemeats.com"
+        },
+        {
+          "vendorName": "DairyDelight Dairy",
+          "productType": "Dairy Products",
+          "averagePrice": "Varies by item",
+          "contact": "support@dairydelight.com"
+        },
+        {
+          "vendorName": "Baker'sBounty Bakery",
+          "productType": "Baked Goods",
+          "averagePrice": "Varies by item",
+          "contact": "info@bakersbounty.com"
+        },
+        {
+          "vendorName": "SeaHarvest Seafood",
+          "productType": "Fresh Seafood",
+          "averagePrice": "Varies by item",
+          "contact": "sales@seaharvest.com"
+        }
+      ]
     },
     {
       "id": "13",
@@ -273,7 +704,39 @@
         "img_2": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg",
         "img_3": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg"
       },
-      "img": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg"
+      "img": "https://i.ibb.co/LhJpk6d/bagdachingri.jpg",
+      "table": [
+        {
+          "vendorName": "FixItAll Handyman",
+          "serviceType": "General Home Repairs",
+          "averagePrice": "$50 per hour",
+          "contact": "info@fixitall.com"
+        },
+        {
+          "vendorName": "PlumbRight Plumbing",
+          "serviceType": "Plumbing Services",
+          "averagePrice": "$100 per hour",
+          "contact": "sales@plumbright.com"
+        },
+        {
+          "vendorName": "SparkTech Electrical",
+          "serviceType": "Electrical Services",
+          "averagePrice": "$80 per hour",
+          "contact": "support@sparktech.com"
+        },
+        {
+          "vendorName": "PaintPros Painting",
+          "serviceType": "Painting Services",
+          "averagePrice": "$200 per room",
+          "contact": "info@paintpros.com"
+        },
+        {
+          "vendorName": "GreenThumb Landscaping",
+          "serviceType": "Landscaping Services",
+          "averagePrice": "$300 per project",
+          "contact": "sales@greenthumb.com"
+        }
+      ]
     },
     {
       "id": "14",
@@ -295,7 +758,39 @@
         "img_2": "https://i.ibb.co/7WVvThQ/boguradoi.jpg",
         "img_3": "https://i.ibb.co/7WVvThQ/boguradoi.jpg"
       },
-      "img": "https://i.ibb.co/7WVvThQ/boguradoi.jpg"
+      "img": "https://i.ibb.co/7WVvThQ/boguradoi.jpg", "table": [
+        {
+          "vendorName": "SmartMinds Tutoring",
+          "serviceType": "Tutoring Services",
+          "averagePrice": "$30 per hour",
+          "contact": "info@smartminds.com"
+        },
+        {
+          "vendorName": "SkillBoost Academy",
+          "serviceType": "Skill Development",
+          "averagePrice": "$200 per course",
+          "contact": "sales@skillboost.com"
+        },
+        {
+          "vendorName": "BookWorm Books",
+          "serviceType": "Book Supplies",
+          "averagePrice": "$20 per book",
+          "contact": "support@bookworm.com"
+        },
+        {
+          "vendorName": "TechTutors Online",
+          "serviceType": "Online Courses",
+          "averagePrice": "$50 per course",
+          "contact": "info@techtutors.com"
+        },
+        {
+          "vendorName": "MusicMasters School",
+          "serviceType": "Music Lessons",
+          "averagePrice": "$40 per lesson",
+          "contact": "sales@musicmasters.com"
+        }
+      ]
+
     },
     {
       "id": "15",
@@ -316,7 +811,39 @@
         "img_2": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
         "img_3": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
       },
-      "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg"
+      "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
+      "table": [
+        {
+          "vendorName": "DreamDecor Events",
+          "serviceType": "Event Decorations",
+          "averagePrice": "$1000",
+          "contact": "info@dreamdecor.com"
+        },
+        {
+          "vendorName": "CateringExcellence",
+          "serviceType": "Catering Services",
+          "averagePrice": "$30 per person",
+          "contact": "sales@cateringexcellence.com"
+        },
+        {
+          "vendorName": "EntertainmentHub",
+          "serviceType": "Entertainment",
+          "averagePrice": "$500 per hour",
+          "contact": "support@entertainmenthub.com"
+        },
+        {
+          "vendorName": "SnapMoments Photography",
+          "serviceType": "Photography",
+          "averagePrice": "$1000 per event",
+          "contact": "info@snapmoments.com"
+        },
+        {
+          "vendorName": "MusicMasters DJ",
+          "serviceType": "DJ Services",
+          "averagePrice": "$500 per event",
+          "contact": "sales@musicmastersdj.com"
+        }
+      ]
     },
     {
       "id": "16",
@@ -337,7 +864,39 @@
         "img_2": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg",
         "img_3": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg"
       },
-      "img": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg"
+      "img": "https://i.ibb.co/fv6Bfpz/tulcimadan.jpg",
+      "table": [
+        {
+          "vendorName": "CodeCrafters Inc.",
+          "serviceType": "Web Development",
+          "averagePrice": "$5000",
+          "contact": "info@codecrafters.com"
+        },
+        {
+          "vendorName": "AppGenius Solutions",
+          "serviceType": "Mobile App Development",
+          "averagePrice": "$10000",
+          "contact": "sales@appgenius.com"
+        },
+        {
+          "vendorName": "TechSavvy Software",
+          "serviceType": "Custom Software Development",
+          "averagePrice": "$8000",
+          "contact": "support@techsavvy.com"
+        },
+        {
+          "vendorName": "DataDynamo Analytics",
+          "serviceType": "Data Analytics",
+          "averagePrice": "$6000",
+          "contact": "info@datadynamo.com"
+        },
+        {
+          "vendorName": "CyberSec Solutions",
+          "serviceType": "Cybersecurity Services",
+          "averagePrice": "$7000",
+          "contact": "sales@cybersec.com"
+        }
+      ]
     },
     {
       "id": "17",
@@ -358,7 +917,39 @@
         "img_2": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png",
         "img_3": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png"
       },
-      "img": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png"
+      "img": "https://i.ibb.co/wzPcxsL/natorkacha-gollah.png",
+      "table": [
+        {
+          "vendorName": "WealthWise Advisors",
+          "serviceType": "Financial Planning",
+          "averagePrice": "$2000",
+          "contact": "info@wealthwise.com"
+        },
+        {
+          "vendorName": "InvestPro Consultants",
+          "serviceType": "Investment Management",
+          "averagePrice": "1% of assets under management",
+          "contact": "sales@investpro.com"
+        },
+        {
+          "vendorName": "TaxMasters LLC",
+          "serviceType": "Tax Consultation",
+          "averagePrice": "$300 per session",
+          "contact": "support@taxmasters.com"
+        },
+        {
+          "vendorName": "LoanGenius Bank",
+          "serviceType": "Loan Services",
+          "averagePrice": "Interest rates vary",
+          "contact": "info@loangenius.com"
+        },
+        {
+          "vendorName": "InsureNet Insurance",
+          "serviceType": "Insurance Services",
+          "averagePrice": "Premiums vary",
+          "contact": "sales@insurenet.com"
+        }
+      ]
     },
     {
       "id": "18",
@@ -379,7 +970,39 @@
         "img_2": "https://i.ibb.co/0cfzGLV/goat.png",
         "img_3": "https://i.ibb.co/0cfzGLV/goat.png"
       },
-      "img":"https://i.ibb.co/0cfzGLV/goat.png"
+      "img":"https://i.ibb.co/0cfzGLV/goat.png",
+      "table": [
+        {
+          "vendorName": "FitFusion Gym",
+          "serviceType": "Gym Memberships",
+          "averagePrice": "$50 per month",
+          "contact": "info@fitfusion.com"
+        },
+        {
+          "vendorName": "YogaZen Studio",
+          "serviceType": "Yoga Classes",
+          "averagePrice": "$20 per session",
+          "contact": "sales@yogazen.com"
+        },
+        {
+          "vendorName": "CardioBlast Fitness",
+          "serviceType": "Cardio Workouts",
+          "averagePrice": "$30 per session",
+          "contact": "support@cardioblast.com"
+        },
+        {
+          "vendorName": "StrengthMasters",
+          "serviceType": "Strength Training",
+          "averagePrice": "$40 per session",
+          "contact": "info@strengthmasters.com"
+        },
+        {
+          "vendorName": "PilatesCore Center",
+          "serviceType": "Pilates Classes",
+          "averagePrice": "$25 per session",
+          "contact": "sales@pilatescore.com"
+        }
+      ]
     },
     {
       "id": "19",
@@ -400,7 +1023,39 @@
         "img_2": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg",
         "img_3": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg"
       },
-      "img": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg"
+      "img": "https://i.ibb.co/pPkwShz/tiler-khaja.jpg",
+      "table": [
+        {
+          "vendorName": "LawFirm Associates",
+          "serviceType": "Legal Consultation",
+          "averagePrice": "$200 per hour",
+          "contact": "info@lawfirm.com"
+        },
+        {
+          "vendorName": "DivorceRights Law",
+          "serviceType": "Divorce Law",
+          "averagePrice": "Varies by case",
+          "contact": "sales@divorcerights.com"
+        },
+        {
+          "vendorName": "EstateGuard Attorneys",
+          "serviceType": "Estate Planning",
+          "averagePrice": "$1000",
+          "contact": "support@estateguard.com"
+        },
+        {
+          "vendorName": "InjuryJustice Legal",
+          "serviceType": "Personal Injury Law",
+          "averagePrice": "Contingency fee basis",
+          "contact": "info@injuryjustice.com"
+        },
+        {
+          "vendorName": "BusinessLegal Partners",
+          "serviceType": "Business Law",
+          "averagePrice": "$300 per hour",
+          "contact": "sales@businesslegal.com"
+        }
+      ]
     }
  
     

@@ -1,127 +1,138 @@
-:root {
-  --surface-color: #fff;
-  --curve: 40;
+
+
+
+
+/* .row{
+  padding:50px 0;
+} */
+.seperator{
+  margin-bottom: 30px;
+  width:35px;
+  height:3px;
+  background:#777;
+  border:none;
 }
-
-* {
-  box-sizing: border-box;
+.seperator p{
+  font-size: 16px;
 }
-
-body {
-  font-family: 'Noto Sans JP', sans-serif;
-  background-color: #fef8f8;
+.title{
+  text-align: center;
+  
+  /* .row{
+    padding: 50px 0 0;
+  } */
+  
+  h1{
+    text-transform: uppercase;
+  }
+  
+  .seperator{
+    margin: 0 auto 10px;
+  }
 }
-
-
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
-  /* margin: 4rem 5vw; */
-  padding: 0;
-  list-style-type: none;
-}
-
-.card {
+.item {
   position: relative;
-  display: block;
-  height: 100%;  
-  border-radius: calc(var(--curve) * 1px);
-  overflow: hidden;
-  text-decoration: none;
+  margin-bottom: 30px;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  .item-in {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+    
+    &:hover:before {
+      width: 100%;
+    }
+   
+    &::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 0%;
+    background: #333333;
+    right: 0px;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+    }
+  }
 }
+.item{
+    
+  h4{
+      font-size: 18px;
+      margin-top: 25px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 16px;
+    }
+    a{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666666;
+      margin-top: 10px;
 
-.card__image {      
-  width: 100%;
-  height: auto;
+      i {
+        opacity: 0;
+        padding-left: 0px;
+        transition: 0.4s;
+        font-size: 24px;
+        display: inline-block;
+        top: 5px;
+        position: relative;
+       }
+      
+      &:hover {
+        text-decoration:none;
+        i {
+          padding-left: 10px;
+          opacity: 1;
+          font-weight: 300;
+          }
+        }
+      }
+    }
+.item .icon {
+  position:absolute;
+  top: 27px;
+  left: -16px;
+  cursor:pointer;
+    a{
+      font-family: 'Merriweather', serif;
+      font-size: 14px;
+      font-weight:400;
+      color: #999;
+      text-transform:none;
+    }
+    svg{
+      width:32px;
+      height:32px;
+      float:left;
+    }
+    .icon-topic{
+      opacity: 0;
+      padding-left: 0px;
+      transition: 0.4s;
+      display: inline-block;
+      top: 0px;
+      position: relative;
+    }
+    &:hover .icon-topic{
+      opacity: 1;
+      padding-left: 10px;
+    }
+  }
+@media only screen and (max-width : 768px) {
+  .item .icon{position: relative; top: 0; left:0;}
 }
-
-.card__overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;      
-  border-radius: calc(var(--curve) * 1px);    
-  background-color: var(--surface-color);      
-  transform: translateY(100%);
-  transition: .2s ease-in-out;
-}
-
-.card:hover .card__overlay {
-  transform: translateY(0);
-}
-
-.card__header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  padding: 2em;
-  border-radius: calc(var(--curve) * 1px) 0 0 0;    
-  background-color: var(--surface-color);
-  transform: translateY(-100%);
-  transition: .2s ease-in-out;
-}
-
-.card__arc {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  bottom: 100%;
-  right: 0;      
-  z-index: 1;
-}
-
-.card__arc path {
-  fill: var(--surface-color);
-  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
-}       
-
-.card:hover .card__header {
-  transform: translateY(0);
-}
-
-.card__thumb {
-  flex-shrink: 0;
-  width: 50px;
-  height: 50px;      
-  border-radius: 50%;      
-}
-
-.card__title {
-  font-size: 1em;
-  margin: 0 0 .3em;
-  color: black;
-}
-
-.card__tagline {
-  display: block;
-  margin: 1em 0;
-  font-family: "MockFlowFont";  
-  font-size: .8em; 
-  color: #3c393b;  
-}
-
-.card__status {
-  font-size: .8em;
-  color: #3c393b;
-}
-h1.heading {
-  color: #fff;
-  font-size: 1.15em;
-  font-weight: 900;
-  margin: 0 0 0.5em;
-  color: #505050;
-}
-.card__description {
-  padding: 0 2em 2em;
-  margin: 0;
-  color: black;
-  font-family: "MockFlowFont";   
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: scroll;
-}    

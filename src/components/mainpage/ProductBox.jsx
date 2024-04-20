@@ -10,13 +10,18 @@ function ProductBox() {
        <section className="wrapper">
                 <div className="container-fostrap">
                     <div className='container'>
-                        <img src={logo} className="fostrap-logo" />
-                        <h1 className="heading">
-                        ALL PRODUCTS
-                        </h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt omnis. Laudantium maiores voluptate reprehenderit iusto cum sunt aliquid voluptas.
-</p>
+                        {/* <img src={logo} className="fostrap-logo" /> */}
+                        
+                    <div className="row pb-0">
+                            <div className="col-md-12">
+                        
+                            <h1 className="text-center heading  ">ALL PRODUCTS</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt omnis. Laudantium maiores voluptate reprehenderit iusto cum sunt aliquid voluptas.
+                             </p>
+                            </div>
+                    </div>
+  
                     </div>
                     <div className="content">
                         <div className="container">
