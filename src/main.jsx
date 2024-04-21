@@ -9,6 +9,7 @@ import LeafletMap from './components/LeafletMap.jsx';
 import Contact from './page/contact/Contact.jsx';
 import Home from './page/home/Home.jsx';
 import Main from './page/main/Main.jsx';
+import BlogPage from './page/blog/BlogPage.jsx';
 
 
 
@@ -48,6 +49,27 @@ const router = createBrowserRouter([
                 throw new Error('Location not found');
               }
               return location;
+            });
+        }
+      },
+      {
+        path: "blogpage/:id",
+        element: <BlogPage />,
+        loader: async({ params }) => {
+          const id = params.id;
+          return fetch('/blog.json')
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(data => {
+              const blog = data.find(item => item.id === id);
+              if (!blog) {
+                throw new Error('Location not found');
+              }
+              return blog;
             });
         }
       },

@@ -126,7 +126,8 @@ function LeafletMap() {
         </div>
       </div>
       <div className="map"></div>
-      <MapContainer center={[23.685, 90.3563]} zoom={7} style={{ height: '100vh', backgroundColor: 'lightblue' }}>
+      <MapContainer center={[23.685, 90.3563]} zoom={7} style={{ height: '100vh', backgroundColor: 'lightblue' }} 
+ scrollWheelZoom={false}>
         <LayersControl position="topright">
           <BaseLayer  name="OpenStreetMap.Mapnik">
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

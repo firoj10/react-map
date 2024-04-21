@@ -1,4 +1,6 @@
 
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 import Aboutus from "../../components/mainpage/Aboutus";
 import Blog from "../../components/mainpage/Blog";
 import MapSection from "../../components/mainpage/MapSection";
@@ -9,13 +11,15 @@ import Slider from "../../components/mainpage/Slider";
 const Main = () => {
   return (
     <div className="shadow mx-auto py-5" >
-      
+      <Header></Header>
       <Slider></Slider>
       <Aboutus></Aboutus>
       <Service></Service>
-      <MapSection></MapSection>
+      
       <ProductBox></ProductBox>
       <Blog></Blog>
+      <MapSection></MapSection>
+      <Footer></Footer>
     </div>
   );
 }

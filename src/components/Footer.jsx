@@ -3,7 +3,7 @@ import logo from './../../public/logo11.png'
 import "./map.css";
 const Footer = () => {
   return (
-    <div className="shadow mx-auto py-5" >
+    <div className=" mx-auto py-5" >
       <div className='container'>
       <div className="row footers justify-content-between text-center">
         <div className='col-12 col-md-4  pt-4'>

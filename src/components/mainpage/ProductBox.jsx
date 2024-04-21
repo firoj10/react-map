@@ -1,180 +1,84 @@
-import logo from './../../../public/logo11.png'
-import img_2 from './../../../public/slider/gi-bg1.jpg'
-import img_4 from './../../../public/slider/gi-bg4.jpg'
-import img_3 from './../../../public/slider/gi-bg3.jpg'
-import "./ProductBox.css";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 function ProductBox() {
+    const [locations, setLocations] = useState(null);
+    const [showAll, setShowAll] = useState(false); // State to track if all products should be shown
+    const [visibleProducts, setVisibleProducts] = useState(8); // State to track number of visible products
+
+    useEffect(() => {
+        fetch('./location.json')
+            .then((res) => res.json())
+            .then((data) => {
+                setLocations(data);
+            });
+    }, []);
+
+    const handleViewAll = () => {
+        setShowAll(true); 
+    };
+
+    const handleShowLess = () => {
+        setShowAll(false); 
+    };
+
     return (
-        <>
-       <div>
-       <section className="wrapper">
+        <div>
+            <section className="wrapper pt-5 ">
                 <div className="container-fostrap">
-                    <div className='container'>
-                        {/* <img src={logo} className="fostrap-logo" /> */}
-                        
-                    <div className="row pb-0">
-                            <div className="col-md-12">
-                        
-                            <h1 className="text-center heading  ">ALL PRODUCTS</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, deserunt omnis. Laudantium maiores voluptate reprehenderit iusto cum sunt aliquid voluptas.
-                             </p>
+                    <div className='container'>   
+                        <div className="row pb-0">
+                            <div className="col-md-12">                        
+                                <h1 className="text-center heading">ALL PRODUCTS</h1>
+                                <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                             </div>
-                    </div>
-  
+                        </div>
                     </div>
                     <div className="content">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card ">
-                                        <a className="img-card" href="">
-                                            <img src={img_2} />
-                                        </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                        <a className="img-card" href="">
-                                        <img src={img_4} /> </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                        
-                                        <a className="img-card" href="">
-                                        <img src={img_2} /> </a>                                       
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                    <a className="img-card" href="">
-                                        <img src={img_4} /> </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                    <a className="img-card" href="">
-                                        <img src={img_3} /> </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                    <a className="img-card" href="">
-                                        <img src={img_4} /> </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                    <a className="img-card" href="">
-                                        <img src={img_2} /> </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4 col-lg-3 my-4">
-                                    <div className="card">
-                                    <a className="img-card" href="">
-                                        <img src={img_3} /> </a>
-                                        <div className="card-content">
-
-                                            <p className="">
-                                                Tutorial to make a carousel bootstrap by adding more wonderful effect fadein ...
-                                            </p>
-                                        </div>
-                                        <div className="card-read-more">
-                                            <a href="" className="btn btn-link btn-block">
-                                                Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
                                
+                               {locations && locations.slice(0, showAll ? locations.length : visibleProducts).map((location, index) => (
+                                    <div key={index}  className="col-12 col-md-4 col-lg-3 my-4">
+                                        <div  className="card p-2 border-0">
+                                            <a className="img-card" href="#">
+                                                <img className='img-fluid rounded' style={{height: '250px', width:'100%'}} src={location.img} alt={location.name} />
+                                            </a>
+                                            <div className="card-content text-center">
+                                                <h4 className='py-2'>{location.name}</h4>
+                                                <div>
+                                                    <i className='fa-fa-star'></i>
+                                                </div>
+                                                <div className="card-read-more">
+                                            <Link className=''   style={{fontWeight:'bold', color:"blue", textDecoration:'none' }}  to={`/mapDetails/${location.id}`}>View Details</Link>
+                                            </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                ))}
+                              
                             </div>
+                            {!showAll && locations && locations.length > visibleProducts && (
+                                <div className="text-center pb-5">
+                                    <button className="btn btn-primary" onClick={handleViewAll}>
+                                        View All  Products
+                                    </button>
+                                </div>
+                            )}
+                            {showAll && (
+                                <div className="text-center pb-5">
+                                    <button className="btn btn-primary" onClick={handleShowLess}>
+                                        Show Less
+                                    </button>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
             </section>
-       </div>
-
-        </>
+        </div>
     );
 }
+
 export default ProductBox;
-
-

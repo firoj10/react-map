@@ -3,28 +3,21 @@ import { Link, NavLink, useLoaderData,  } from 'react-router-dom';
 import Header from '../components/Header';
 import Content from '../components/content/Content';
 import Slider from '../components/slider/Slider';
-// import img from './../../public/slider/s1.jpg'
+
 
 import './MapDetails.css'
 import Footer from '../components/Footer';
 
 function MapDetails() {
-  // const [locatio, setlocatio] = useState(null);
+ 
 
   const data = useLoaderData();
-  console.log(data);
-
-
-
- 
 
   return (
     <div>
       <Header></Header>
       <div className=" py-4 text-center" style={{backgroundColor:'white', color:'Black'}}><h1 className="container mb-0">{data.name}</h1></div>
       <Slider key={data.id}  data={data }></Slider>
-   
-      {/* <Content></Content> */}
       <div className='container pt-4'>
       <h3>{data.name}</h3>
       <p className=''>{data?.longdescription? data.longdescription: '' }</p>
@@ -57,7 +50,8 @@ function MapDetails() {
   <tbody>
     {data?.table?.map((row, index) => (
         <tr key={row.id} className={index > 2 ? 'blur' : ''}>
-        <th scope="row">{row.id}</th>
+        {/* <th scope="row">{row.id}</th> */}
+        <td>{index+1}</td>
         <td>{row.vendorName}</td>
         <td>{row.capacity}</td>
         <td>{row.averageDeliveryTime}</td>

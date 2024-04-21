@@ -97,7 +97,7 @@
       },
       {
         "vendorName": "Jamdani Saree",
-        "capacity": "N/A",
+        "capacity": "Low",
         "averageDeliveryTime": "N/A",
         "contact": "N/A"
       }
@@ -124,35 +124,36 @@
 
     "img": "https://i.ibb.co/jHPTZXz/moslinex2.jpg",
     "table": [
+    
       {
         "vendorName": "Techtronics Inc.",
-        "productType": "Smartphones",
-        "averagePrice": "$300",
-        "contact": "info@techtronics.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "ElectroGadget Co.",
-        "productType": "Laptops",
-        "averagePrice": "$800",
-        "contact": "sales@electrogadget.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "PowerTech Solutions",
-        "productType": "Power Banks",
-        "averagePrice": "$30",
-        "contact": "support@powertech.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "Digital World Supplies",
-        "productType": "Tablets",
-        "averagePrice": "$400",
-        "contact": "sales@digitalworld.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "TechGear Innovations",
-        "productType": "Wearable Tech",
-        "averagePrice": "$150",
-        "contact": "info@techgear.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       }
     ]
   },
@@ -179,33 +180,33 @@
     "table": [
       {
         "vendorName": "FashionHub Garments",
-        "specialization": "Casual Wear",
-        "productionCapacity": "High",
-        "contact": "info@fashionhub.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "Elegant Threads",
-        "specialization": "Formal Wear",
-        "productionCapacity": "Medium",
-        "contact": "sales@elegantthreads.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "SportyStitch Apparels",
-        "specialization": "Sportswear",
-        "productionCapacity": "Low",
-        "contact": "support@sportystitch.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "UrbanChic Clothing",
-        "specialization": "Streetwear",
-        "productionCapacity": "High",
-        "contact": "info@urbanchic.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "TrendyWears Ltd.",
-        "specialization": "Fashion Accessories",
-        "productionCapacity": "Medium",
-        "contact": "sales@trendywears.com"
+        "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       }
     ]
   },
@@ -233,33 +234,33 @@
     "table": [
       {
         "vendorName": "FreshFoods Farms",
-        "productCategory": "Fruits",
-        "availability": "Year-round",
-        "contact": "info@freshfoods.com"
+          "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "OrganicHarvest Co.",
-        "productCategory": "Vegetables",
-        "availability": "Seasonal",
-        "contact": "sales@organicharvest.com"
+       "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "DairyDelights",
-        "productCategory": "Dairy Products",
-        "availability": "Daily",
-        "contact": "support@dairydelights.com"
+           "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "SeaBounty Seafoods",
-        "productCategory": "Seafood",
-        "availability": "Fresh",
-        "contact": "info@seabounty.com"
+           "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "GourmetTreats Ltd.",
-        "productCategory": "Specialty Foods",
-        "availability": "Limited",
-        "contact": "sales@gourmettreats.com"
+           "capacity": "Low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       }
     ]
   },
@@ -284,35 +285,36 @@
     },
     "img": "https://i.ibb.co/3FP26qP/sotoronji.jpg",
     "table": [
+     
       {
         "vendorName": "ClassicCraft Furniture",
-        "furnitureType": "Wooden",
-        "materials": "Oak, Teak",
-        "contact": "info@classiccraft.com"
+        "capacity": "low",
+      "averageDeliveryTime": "5 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "ModernDesign Furnishings",
-        "furnitureType": "Contemporary",
-        "materials": "Steel, Glass",
-        "contact": "sales@moderndesign.com"
+      "capacity": "low",
+      "averageDeliveryTime": "5 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "EcoLiving Furnitures",
-        "furnitureType": "Eco-friendly",
-        "materials": "Bamboo, Recycled Wood",
-        "contact": "support@ecoliving.com"
+       "capacity": "low",
+      "averageDeliveryTime": "5 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "ComfortZone Interiors",
-        "furnitureType": "Comfort Furniture",
-        "materials": "Fabric, Memory Foam",
-        "contact": "info@comfortzone.com"
+       "capacity": "low",
+      "averageDeliveryTime": "5 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "VintageVibe Decor",
-        "furnitureType": "Antique",
-        "materials": "Mahogany, Brass",
-        "contact": "sales@vintagevibe.com"
+        "capacity": "low",
+      "averageDeliveryTime": "5 days",
+      "contact": "mu@example.com"
       }
     ]
   },
@@ -336,35 +338,36 @@
     },
     "img": "https://i.ibb.co/N7v3vVt/ascinaam.jpg",
     "table": [
+     
       {
         "vendorName": "PaperPalace",
-        "productType": "Notebooks",
-        "averagePrice": "$5",
-        "contact": "info@paperpalace.com"
+        "capacity": "low",
+      "averageDeliveryTime": "4 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "PenCrafters",
-        "productType": "Pens",
-        "averagePrice": "$2",
-        "contact": "sales@pencrafters.com"
+        "capacity": "low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "ArtisanStationery",
-        "productType": "Art Supplies",
-        "averagePrice": "$10",
-        "contact": "support@artisanstationery.com"
+        "capacity": "low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "StickyNotes Co.",
-        "productType": "Sticky Notes",
-        "averagePrice": "$3",
-        "contact": "info@stickynotes.com"
+        "capacity": "low",
+        "averageDeliveryTime": "4 days",
+        "contact": "mu@example.com"
       },
       {
         "vendorName": "BinderBuddy",
-        "productType": "Binders",
-        "averagePrice": "$8",
-        "contact": "sales@binderbuddy.com"
+        "capacity": "low",
+      "averageDeliveryTime": "4 days",
+      "contact": "mu@example.com"
       }
     ]
   },
@@ -389,35 +392,36 @@
     },
     "img": "https://i.ibb.co/w6f8N1r/fojliam.jpg",
     "table": [
+  
       {
         "vendorName": "AutoParts Direct",
-        "productType": "Spare Parts",
-        "averagePrice": "$50",
-        "contact": "info@autopartsdirect.com"
+        "capacity": "low",
+      "averageDeliveryTime": "2 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "WheelWorld Inc.",
-        "productType": "Tires",
-        "averagePrice": "$100",
-        "contact": "sales@wheelworld.com"
+        "capacity": "low",
+      "averageDeliveryTime": "2 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "MotorOil Solutions",
-        "productType": "Engine Oil",
-        "averagePrice": "$20",
-        "contact": "support@motoroil.com"
+       "capacity": "low",
+      "averageDeliveryTime": "2 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "CarCare Accessories",
-        "productType": "Car Accessories",
-        "averagePrice": "$30",
-        "contact": "info@carcare.com"
+        "capacity": "low",
+      "averageDeliveryTime": "2 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "Performance Parts Plus",
-        "productType": "Performance Upgrades",
-        "averagePrice": "$200",
-        "contact": "sales@performanceparts.com"
+         "capacity": "low",
+      "averageDeliveryTime": "2 days",
+      "contact": "mu@example.com"
       }
     ]
   },
@@ -442,35 +446,36 @@
     },
     "img": "https://i.ibb.co/q0gKyTP/siletsitolpati.jpg",
     "table": [
+   
       {
         "vendorName": "ApplianceZone",
-        "productType": "Kitchen Appliances",
-        "averagePrice": "$150",
-        "contact": "info@appliancezone.com"
+          "capacity": "low",
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "HomeTech Innovations",
-        "productType": "Smart Home Devices",
-        "averagePrice": "$200",
-        "contact": "sales@hometech.com"
+         "capacity": "low",
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "CoolClimate Appliances",
-        "productType": "Air Conditioners",
-        "averagePrice": "$500",
-        "contact": "support@coolclimate.com"
+          "capacity": "low",
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "LaundrySolutions",
-        "productType": "Washing Machines",
-        "averagePrice": "$400",
-        "contact": "info@laundrysolutions.com"
+         "capacity": "low",
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com"
       },
       {
         "vendorName": "ComfortHeat",
-        "productType": "Heating Systems",
-        "averagePrice": "$300",
-        "contact": "sales@comfortheat.com"
+         "capacity": "low",
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com"
       }
     ]
   },
@@ -494,35 +499,37 @@
     },
     "img": "https://i.ibb.co/0hJv0nF/kumillahro.jpg",
     "table": [
+     
+      
       {
         "vendorName": "BuildMasters",
-        "productType": "Cement",
-        "averagePrice": "$10 per bag",
-        "contact": "info@buildmasters.com"
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com",
+      "capacity": "low"
       },
       {
         "vendorName": "LumberLand",
-        "productType": "Lumber",
-        "averagePrice": "$50 per board foot",
-        "contact": "sales@lumberland.com"
+       "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com",
+      "capacity": "low"
       },
       {
         "vendorName": "SteelStructures Inc.",
-        "productType": "Steel Beams",
-        "averagePrice": "$100 per beam",
-        "contact": "support@steelstructures.com"
+       "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com",
+      "capacity": "low"
       },
       {
         "vendorName": "BrickWorks",
-        "productType": "Bricks",
-        "averagePrice": "$0.50 per brick",
-        "contact": "info@brickworks.com"
+    "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com",
+      "capacity": "low"
       },
       {
         "vendorName": "RoofingSupplies Plus",
-        "productType": "Roofing Materials",
-        "averagePrice": "$200 per bundle",
-        "contact": "sales@roofingsupplies.com"
+      "averageDeliveryTime": "1 days",
+      "contact": "mu@example.com",
+      "capacity": "low"
       }
     ]
   },
@@ -548,33 +555,33 @@
     "table": [
       {
         "vendorName": "MediCare Solutions",
-        "productType": "Medical Equipment",
-        "averagePrice": "$500",
-        "contact": "info@medicaresolutions.com"
+         "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
       },
       {
         "vendorName": "PharmaTech Pharmaceuticals",
-        "productType": "Medications",
-        "averagePrice": "$20 per prescription",
-        "contact": "sales@pharmatech.com"
+         "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
       },
       {
         "vendorName": "OrthoPro",
-        "productType": "Orthopedic Supplies",
-        "averagePrice": "$200",
-        "contact": "support@orthopro.com"
+         "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
       },
       {
         "vendorName": "DentalDynamics",
-        "productType": "Dental Products",
-        "averagePrice": "$50",
-        "contact": "info@dentaldynamics.com"
+       "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
       },
       {
         "vendorName": "VisionCare",
-        "productType": "Eyecare Products",
-        "averagePrice": "$30",
-        "contact": "sales@visioncare.com"
+        "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
       }
     ]
   },
@@ -603,33 +610,33 @@
       "table": [
         {
           "vendorName": "AirWings Travel",
-          "serviceType": "Airline Tickets",
-          "averagePrice": "$500",
-          "contact": "info@airwings.com"
+         "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "LandHopper Tours",
-          "serviceType": "Tour Packages",
-          "averagePrice": "$1000",
-          "contact": "sales@landhopper.com"
+         "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "SeaVoyage Cruises",
-          "serviceType": "Cruise Packages",
-          "averagePrice": "$1500",
-          "contact": "support@seavoyage.com"
+           "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "RoadRunner Rentals",
-          "serviceType": "Car Rentals",
-          "averagePrice": "$50 per day",
-          "contact": "info@roadrunner.com"
+         "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "TravelEase Agents",
-          "serviceType": "Travel Planning",
-          "averagePrice": "$100",
-          "contact": "sales@travelease.com"
+           "averageDeliveryTime": "1 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }]
     },
     {
@@ -655,33 +662,33 @@
       "table": [
         {
           "vendorName": "FreshFarms Produce",
-          "productType": "Fresh Fruits and Vegetables",
-          "averagePrice": "Varies by item",
-          "contact": "info@freshfarms.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "PrimeMeats Butchery",
-          "productType": "Quality Meats",
-          "averagePrice": "Varies by cut",
-          "contact": "sales@primemeats.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "DairyDelight Dairy",
-          "productType": "Dairy Products",
-          "averagePrice": "Varies by item",
-          "contact": "support@dairydelight.com"
+       "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "Baker'sBounty Bakery",
-          "productType": "Baked Goods",
-          "averagePrice": "Varies by item",
-          "contact": "info@bakersbounty.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "SeaHarvest Seafood",
-          "productType": "Fresh Seafood",
-          "averagePrice": "Varies by item",
-          "contact": "sales@seaharvest.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     },
@@ -708,33 +715,33 @@
       "table": [
         {
           "vendorName": "FixItAll Handyman",
-          "serviceType": "General Home Repairs",
-          "averagePrice": "$50 per hour",
-          "contact": "info@fixitall.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "PlumbRight Plumbing",
-          "serviceType": "Plumbing Services",
-          "averagePrice": "$100 per hour",
-          "contact": "sales@plumbright.com"
+         "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "SparkTech Electrical",
-          "serviceType": "Electrical Services",
-          "averagePrice": "$80 per hour",
-          "contact": "support@sparktech.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "PaintPros Painting",
-          "serviceType": "Painting Services",
-          "averagePrice": "$200 per room",
-          "contact": "info@paintpros.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "GreenThumb Landscaping",
-          "serviceType": "Landscaping Services",
-          "averagePrice": "$300 per project",
-          "contact": "sales@greenthumb.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     },
@@ -761,33 +768,33 @@
       "img": "https://i.ibb.co/7WVvThQ/boguradoi.jpg", "table": [
         {
           "vendorName": "SmartMinds Tutoring",
-          "serviceType": "Tutoring Services",
-          "averagePrice": "$30 per hour",
-          "contact": "info@smartminds.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "SkillBoost Academy",
-          "serviceType": "Skill Development",
-          "averagePrice": "$200 per course",
-          "contact": "sales@skillboost.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "BookWorm Books",
-          "serviceType": "Book Supplies",
-          "averagePrice": "$20 per book",
-          "contact": "support@bookworm.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "TechTutors Online",
-          "serviceType": "Online Courses",
-          "averagePrice": "$50 per course",
-          "contact": "info@techtutors.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "MusicMasters School",
-          "serviceType": "Music Lessons",
-          "averagePrice": "$40 per lesson",
-          "contact": "sales@musicmasters.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
 
@@ -815,33 +822,33 @@
       "table": [
         {
           "vendorName": "DreamDecor Events",
-          "serviceType": "Event Decorations",
-          "averagePrice": "$1000",
-          "contact": "info@dreamdecor.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "CateringExcellence",
-          "serviceType": "Catering Services",
-          "averagePrice": "$30 per person",
-          "contact": "sales@cateringexcellence.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "EntertainmentHub",
-          "serviceType": "Entertainment",
-          "averagePrice": "$500 per hour",
-          "contact": "support@entertainmenthub.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "SnapMoments Photography",
-          "serviceType": "Photography",
-          "averagePrice": "$1000 per event",
-          "contact": "info@snapmoments.com"
+    "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "MusicMasters DJ",
-          "serviceType": "DJ Services",
-          "averagePrice": "$500 per event",
-          "contact": "sales@musicmastersdj.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     },
@@ -868,33 +875,33 @@
       "table": [
         {
           "vendorName": "CodeCrafters Inc.",
-          "serviceType": "Web Development",
-          "averagePrice": "$5000",
-          "contact": "info@codecrafters.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "AppGenius Solutions",
-          "serviceType": "Mobile App Development",
-          "averagePrice": "$10000",
-          "contact": "sales@appgenius.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "TechSavvy Software",
-          "serviceType": "Custom Software Development",
-          "averagePrice": "$8000",
-          "contact": "support@techsavvy.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "DataDynamo Analytics",
-          "serviceType": "Data Analytics",
-          "averagePrice": "$6000",
-          "contact": "info@datadynamo.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "CyberSec Solutions",
-          "serviceType": "Cybersecurity Services",
-          "averagePrice": "$7000",
-          "contact": "sales@cybersec.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     },
@@ -921,33 +928,33 @@
       "table": [
         {
           "vendorName": "WealthWise Advisors",
-          "serviceType": "Financial Planning",
-          "averagePrice": "$2000",
-          "contact": "info@wealthwise.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "InvestPro Consultants",
-          "serviceType": "Investment Management",
-          "averagePrice": "1% of assets under management",
-          "contact": "sales@investpro.com"
+             "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "TaxMasters LLC",
-          "serviceType": "Tax Consultation",
-          "averagePrice": "$300 per session",
-          "contact": "support@taxmasters.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "LoanGenius Bank",
-          "serviceType": "Loan Services",
-          "averagePrice": "Interest rates vary",
-          "contact": "info@loangenius.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "InsureNet Insurance",
-          "serviceType": "Insurance Services",
-          "averagePrice": "Premiums vary",
-          "contact": "sales@insurenet.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     },
@@ -974,33 +981,33 @@
       "table": [
         {
           "vendorName": "FitFusion Gym",
-          "serviceType": "Gym Memberships",
-          "averagePrice": "$50 per month",
-          "contact": "info@fitfusion.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "YogaZen Studio",
-          "serviceType": "Yoga Classes",
-          "averagePrice": "$20 per session",
-          "contact": "sales@yogazen.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "CardioBlast Fitness",
-          "serviceType": "Cardio Workouts",
-          "averagePrice": "$30 per session",
-          "contact": "support@cardioblast.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "StrengthMasters",
-          "serviceType": "Strength Training",
-          "averagePrice": "$40 per session",
-          "contact": "info@strengthmasters.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "PilatesCore Center",
-          "serviceType": "Pilates Classes",
-          "averagePrice": "$25 per session",
-          "contact": "sales@pilatescore.com"
+           "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     },
@@ -1027,33 +1034,33 @@
       "table": [
         {
           "vendorName": "LawFirm Associates",
-          "serviceType": "Legal Consultation",
-          "averagePrice": "$200 per hour",
-          "contact": "info@lawfirm.com"
+             "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "DivorceRights Law",
-          "serviceType": "Divorce Law",
-          "averagePrice": "Varies by case",
-          "contact": "sales@divorcerights.com"
+         "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "EstateGuard Attorneys",
-          "serviceType": "Estate Planning",
-          "averagePrice": "$1000",
-          "contact": "support@estateguard.com"
+          "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "InjuryJustice Legal",
-          "serviceType": "Personal Injury Law",
-          "averagePrice": "Contingency fee basis",
-          "contact": "info@injuryjustice.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         },
         {
           "vendorName": "BusinessLegal Partners",
-          "serviceType": "Business Law",
-          "averagePrice": "$300 per hour",
-          "contact": "sales@businesslegal.com"
+            "averageDeliveryTime": "3 days",
+        "contact": "mu@example.com",
+        "capacity": "low"
         }
       ]
     }
