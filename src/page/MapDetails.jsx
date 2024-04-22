@@ -30,7 +30,7 @@ function MapDetails() {
           </div>
           <div className="col-12 py-5">
            
-           <h3>Description Title</h3>
+           <h3>Description</h3>
             <p>{data.sortdescription? data.sortdescription : '' }</p>
           </div>
         </div>

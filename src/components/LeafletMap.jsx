@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, GeoJSON, LayersControl } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON, LayersControl, ZoomControl } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -126,8 +126,8 @@ function LeafletMap() {
         </div>
       </div>
       <div className="map"></div>
-      <MapContainer center={[23.685, 90.3563]} zoom={7} style={{ height: '100vh', backgroundColor: 'lightblue' }} 
- scrollWheelZoom={false}>
+      <MapContainer center={[23.685, 90.3563]}  style={{ height: '100vh', backgroundColor: 'lightblue' }} 
+ zoom={7} scrollWheelZoom={false}>
         <LayersControl position="topright">
           <BaseLayer  name="OpenStreetMap.Mapnik">
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -162,7 +162,7 @@ function LeafletMap() {
             <Popup style={{ zIndex: '999' }}>
               <div className="row">
                 <div className="col-12">
-                  <p><img className='rounded' alt={location.name} src={location.img} decoding="async" width="100%" height="130" /></p>
+                  <p><img className='rounded' alt={location.name} src={location.img} decoding="async" width="100%" height="100%" /></p>
                 </div>
                
               </div>
@@ -201,6 +201,7 @@ function LeafletMap() {
           </Marker>
         ))}
         <MiniMapControl position={[23.685, 90.3563]} zoom={4} />
+        <ZoomControl position="topright" />
       </MapContainer>
       <Footer></Footer>
     </div>
