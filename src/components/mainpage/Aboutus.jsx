@@ -25,8 +25,7 @@ function Aboutus() {
                             <div className="row justify-content-xl-center">
                                 <div className="col-12 col-xl-11">
                                     <h2 className="mb-3">Who Are We?</h2>
-                                    {/* <p className="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p> */}
-                                    <p className="mb-5">Bengal GI is dedicated to showcasing the distinctiveness of Bangladesh's geographical indication products. By partnering with local SMEs, we provide a platform that amplifies market access and honors the craftsmanship unique to each region. Our commitment to regulatory compliance and consumer trust is matched by our efforts in fostering a vibrant ecosystem through knowledge-sharing and buyer-seller connections. Join us in celebrating and elevating Bangladesh's rich heritage to the world stage.</p>
+                                    <p className="mb-5">Bengal GI is dedicated to showcasing the distinctiveness of Bangladesh geographical indication products. By partnering with local SMEs, we provide a platform that amplifies market access and honors the craftsmanship unique to each region. Our commitment to regulatory compliance and consumer trust is matched by our efforts in fostering a vibrant ecosystem through knowledge-sharing and buyer-seller connections. Join us in celebrating and elevating Bangladesh's rich heritage to the world stage.</p>
                                     <div className="row gy-4 gy-md-0 gx-xxl-5X">
                                         <div className="col-12 col-md-6">
                                             <div className="d-flex">

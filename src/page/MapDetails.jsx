@@ -1,7 +1,7 @@
 
-import { Link, NavLink, useLoaderData, } from 'react-router-dom';
+import {  NavLink, useLoaderData, } from 'react-router-dom';
 import Header from '../components/Header';
-import Content from '../components/content/Content';
+
 import Slider from '../components/slider/Slider';
 
 

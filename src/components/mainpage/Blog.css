@@ -1,10 +1,4 @@
 
-
-
-
-/* .row{
-  padding:50px 0;
-} */
 .seperator{
   margin-bottom: 30px;
   width:35px;
@@ -17,10 +11,7 @@
 }
 .title{
   text-align: center;
-  
-  /* .row{
-    padding: 50px 0 0;
-  } */
+
   
   h1{
     text-transform: uppercase;

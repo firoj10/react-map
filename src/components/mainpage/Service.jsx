@@ -1,6 +1,6 @@
-import { PiArrowsOutLineHorizontal, PiRobotBold } from "react-icons/pi";
+
 import "./Service.css";
-import { FaBeer } from "react-icons/fa";
+
 import { MdCardTravel, MdExplore, MdFilterVintage, MdWidgets } from "react-icons/md";
 import { BiSync, BiTrendingUp } from "react-icons/bi";
 function Service() {
@@ -27,7 +27,7 @@ function Service() {
       <div  className="col-12 col-md-6 col-lg-4 ">
         <div  className="card border-0     ">
           <div  className="card-body text-center m-4  ">
-           <p style={{fontSize:'40px', color:'blue'}}><MdWidgets /></p>
+           <p className="text-primary" style={{fontSize:'40px',}}><MdWidgets /></p>
             <h4  className="mb-4">Promoting Authentic GI Products</h4>
             <p style={{ textAlign: "justify"}}  className="mb-4 text-secondary">
 
@@ -39,7 +39,7 @@ At the core of our cultural heritage, every GI product has its own narrative. Be
       <div  className="col-12 col-md-6 col-lg-4 ">
         <div  className="card border-0     ">
           <div  className="card-body text-center m-4  ">
-          <p style={{fontSize:'40px', color:'blue'}}><BiTrendingUp/></p>
+          <p className="text-primary" style={{fontSize:'40px', }}><BiTrendingUp/></p>
           
             <h4  className="mb-4">Empowering SMEs with GI Expertise for Market Access</h4>
             <p style={{ textAlign: "justify"}}  className="mb-4 text-secondary">
@@ -52,11 +52,11 @@ Expansion begins with knowledge. We provide SMEs with essential GI expertise, al
       <div  className="col-12 col-md-6 col-lg-4 ">
         <div  className="card border-0     ">
           <div  className="card-body text-center m-4  ">
-          <p style={{fontSize:'40px', color:'blue'}}><BiSync/></p>
+          <p className="text-primary" style={{fontSize:'40px', }}><BiSync/></p>
             <h4  className="mb-4">Exclusive GI Authenticity Endorsement</h4>
             <p style={{ textAlign: "justify"}} className="mb-4 text-secondary">
 
-The authenticity of your GI product is a testament to its quality. Bengal GI's unique endorsement grants your offerings our seal of trust, in partnership with government agencies. Our rigorous monitoring and product training distinguish your goods, ensuring they meet the standards for global recognition</p>
+The authenticity of your GI product is a testament to its quality. Bengal GIs unique endorsement grants your offerings our seal of trust, in partnership with government agencies. Our rigorous monitoring and product training distinguish your goods, ensuring they meet the standards for global recognition</p>
            
           </div>
         </div>
@@ -64,9 +64,9 @@ The authenticity of your GI product is a testament to its quality. Bengal GI's u
       <div  className="col-12 col-md-6 col-lg-4 ">
         <div  className="card border-0     ">
           <div  className="card-body text-center m-4  ">
-          <p style={{fontSize:'40px', color:'blue'}}><MdFilterVintage/></p>
+          <p className="text-primary" style={{fontSize:'40px', }}><MdFilterVintage/></p>
             <h4  className="mb-4">Compliance and Supply Chain Assistance</h4>
-            <p style={{ textAlign: "justify"}} className="mb-4 text-secondary"> 
+            <p  style={{ textAlign: "justify"}} className="mb-4 text-secondary"> 
 
 Navigating the complexities of supply chain management and regulatory compliance requires exactitude. Bengal GI offers comprehensive support in compliance management and supply chain logistics, guaranteeing that Bangladesh's GI products not only meet, but surpass global market standards, thereby enhancing your business's standing and forging connections with prominent buyer</p>
            
@@ -76,7 +76,7 @@ Navigating the complexities of supply chain management and regulatory compliance
       <div  className="col-12 col-md-6 col-lg-4 ">
         <div  className="card border-0     ">
           <div  className="card-body text-center m-4  ">
-          <p style={{fontSize:'40px', color:'blue'}}><MdExplore/></p>
+          <p className="text-primary" style={{fontSize:'40px', }}><MdExplore/></p>
             <h4  className="mb-4">Ecosystem Enhancement through Partnership</h4>
             <p style={{ textAlign: "justify"}} className="mb-4 text-secondary"> 
 
@@ -88,7 +88,7 @@ Partnerships are the bedrock of a robust ecosystem. Bengal GI is adept at cultiv
       <div  className="col-12 col-md-6 col-lg-4 ">
         <div  className="card border-0     ">
           <div  className="card-body text-center m-4  ">
-          <p style={{fontSize:'40px', color:'blue'}}><MdCardTravel/></p>
+          <p className="text-primary" style={{fontSize:'40px', }}><MdCardTravel/></p>
             <h4  className="mb-4">Fostering Connections and Sharing Expertise</h4>
             <p style={{ textAlign: "justify"}} className="mb-4 text-secondary"> 
 

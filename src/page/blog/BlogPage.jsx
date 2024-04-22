@@ -15,8 +15,8 @@ function BlogPage() {
       <h3 className="text-center py-4"> {data.title}</h3>
       <img src={data.image} alt="" className='details-img' style={{  borderRadius: '10px' }} />
       <div className="py-4">
-      <h3>{data.title}</h3>
-      <p className='pt-2'>{data?.content? data.content: '' }</p>
+      <h3>{data?.content? data.content: '' }</h3>
+      
       <p className='pt-2'>{data?.sortContent? data.sortContent: '' }</p>
       </div>
       </div>
