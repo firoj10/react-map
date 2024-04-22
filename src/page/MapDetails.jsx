@@ -7,16 +7,25 @@ import Slider from '../components/slider/Slider';
 
 import './MapDetails.css'
 import Footer from '../components/Footer';
+import { useEffect } from 'react';
 
 function MapDetails() {
 
 
   const data = useLoaderData();
 
+
+
+  // When the component mounts, or the page changes, scroll to the top to focus on the empty div
+  useEffect(() => {
+        
+    window.scrollTo(0, 0);
+}, []); 
+
   return (
-    <div>
+    <div tabIndex="-1" autoFocus>
       <Header></Header>
-      <div className=" py-4 text-center" style={{ backgroundColor: 'white', color: 'Black' }}><h1 className="container mb-0">{data.name}</h1></div>
+      <div  tabIndex="-1" autoFocus  className=" py-4 text-center" style={{ backgroundColor: 'white', color: 'Black' }}><h1 className="container mb-0">{data.name}</h1></div>
       <Slider key={data.id} data={data}></Slider>
       <div className='container pt-4'>
         <h3>{data.name}</h3>
@@ -30,7 +39,6 @@ function MapDetails() {
           </div>
           <div className="col-12 col-md-12 col-lg-6 py-4 ">
 
-            <h3>Description</h3>
             <p>{data.sortdescription ? data.longdescription : ''}</p>
           </div>
           <div className="col-12 col-md-12 col-lg-6 py-4">

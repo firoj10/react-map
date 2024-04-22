@@ -5,3 +5,12 @@ h1.heading {
     margin: 0 0 0.5em;
     color: #505050;
   }
+  @media only screen and (max-width: 600px) {
+    h1.heading {
+      color: #fff;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 0.5em;
+      color: #505050;
+    }
+  }

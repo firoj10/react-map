@@ -65,8 +65,14 @@ function LeafletMap() {
     };
   }, [isDesktop]);
 
+
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []); 
+
   return (
-    <div className="map-containeree">
+    <div tabIndex="-1" autoFocus className="map-containeree">
      <Header></Header>
       <div className={`map_legend_infosee ${legendOpen ? 'open' : 'closed'}`}>
         <div id="map_data_infos" style={{ maxHeight: '310px', overflow: 'auto' }}>
@@ -121,7 +127,7 @@ function LeafletMap() {
       </div>
       <div className="map"></div>
       <MapContainer center={[23.685, 90.3563]}  style={{ height: '100vh', backgroundColor: 'lightblue' }} 
- zoom={7} scrollWheelZoom={false}>
+ zoom={7}   >
         <LayersControl position="topright">
           <BaseLayer  name="OpenStreetMap.Mapnik">
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -195,7 +201,7 @@ function LeafletMap() {
           </Marker>
         ))}
         <MiniMapControl position={[23.685, 90.3563]} zoom={4} />
-        <ZoomControl position="topright" />
+      
       </MapContainer>
       <Footer></Footer>
     </div>

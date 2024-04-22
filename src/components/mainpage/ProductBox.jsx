@@ -22,9 +22,10 @@ function ProductBox() {
         setShowAll(false); 
     };
 
+
     return (
         <div>
-            <section className="wrapper pt-5 ">
+            <section  className="wrapper pt-5 ">
                 <div className="container-fostrap">
                     <div className='container'>   
                         <div className="row pb-0">

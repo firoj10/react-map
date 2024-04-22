@@ -4,12 +4,12 @@ import "./MapSection.css";
 function MapSection() {
     return (
         <>
-         <div className='container '>
+         <div className='container pt-4'>
            
             <div className="row">
                 <div className="col-md-12">
               
-                <h1 className="text-center heading  ">Explore Bangladesh Geographic Treasures: Interactive Map of GI Products</h1>
+                <h1 className="text-center heading  ">Explore Bangladesh's Geographic Treasures: Interactive Map of GI Products</h1>
                 
                     </div>
                 </div>
@@ -19,14 +19,14 @@ function MapSection() {
                  <div className="position-absolute top-0 start-0 w-100 h-100" style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}></div>
                     <img className="img-fluid rounded" loading="lazy" src={about} alt="About 1" />
                     <div className='position-absolute top-50 start-50 translate-middle' style={{textAlign:"center"}}>
-                    <NavLink to="/lefletmap"  >
-                        <button type="button" className="btn btn-primary btn-lg mr-2">View On Map</button>
+                    <NavLink  target="" rel="noopener noreferrer" to="/lefletmap"  >
+                        <button type="button" className="btn btn-primary btn-lg">View On Map</button>
                     </NavLink>
                   
                     </div>
                 </div>
-                </div>
-       
+            </div>
+            
         </div> 
         </>
     );

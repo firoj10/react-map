@@ -9,10 +9,10 @@ function Aboutus() {
                 <div className='container'>
                 
                 <div className="row pb-0">
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                 <h1 className="text-center heading">About Us</h1>
                 
-                    </div>
+                    </div> */}
                 </div>
 
                 </div>

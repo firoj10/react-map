@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
-import { useRef, } from 'react'
+import { useEffect, useRef, } from 'react'
 import emailjs from '@emailjs/browser'
 import Swal from "sweetalert2";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 function Contact() {
+  useEffect(() => {
+    // When the component mounts, or the page changes, scroll to the top to focus on the empty div
+    window.scrollTo(0, 0);
+}, []); 
+
 
   const form = useRef();
 
@@ -38,7 +43,7 @@ function Contact() {
   return (
   <div>
     <Header></Header>
-      <div className="container">
+      <div tabIndex="-1" autoFocus className="container">
       <Link to='/' className='btn btn-primary text-light my-5'>
         Back to Homepage
       </Link>
