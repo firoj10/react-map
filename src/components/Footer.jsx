@@ -23,7 +23,7 @@ const Footer = () => {
           </p>
           <div style={{ cursor: 'pointer', padding: '0' }}>
          
-            <div><a href=""> +8801798740592  </a></div>
+            <div><a href="">+8801521464646</a></div>
             <div><a href=""> support@bengalgi.com  </a></div>
           </div>
         </div>

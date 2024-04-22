@@ -36,7 +36,7 @@ function Aboutus() {
                                                     </svg>
                                                 </div>
                                                 <div>
-                                                    <h2 className="h4 mb-3">Versatile Brand</h2>
+                                                    <h2 className="h4 mb-3">Geo graphical indication</h2>
                                                     <p className="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
                                                 </div>
                                             </div>
@@ -49,7 +49,7 @@ function Aboutus() {
                                                     </svg>
                                                 </div>
                                                 <div>
-                                                    <h2 className="h4 mb-3">Digital Agency</h2>
+                                                    <h2 className="h4 mb-3">Connecting SME </h2>
                                                     <p className="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
                                                 </div>
                                             </div>

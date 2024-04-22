@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON, LayersControl, ZoomControl } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import marker  from './../../public/marker-icon-2x.png'
 import { Icon } from 'leaflet'
 const myIcon = new Icon({
@@ -34,7 +32,6 @@ function LeafletMap() {
     fetchData();
   }, []);
 
- 
   useEffect(() => {
     fetch('./location.json')
       .then((res) => res.json())
@@ -42,8 +39,6 @@ function LeafletMap() {
         setlocations(data);
       });
   }, []);
-
-
 
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
   const [legendOpen, setLegendOpen] = useState(false);
@@ -110,8 +105,7 @@ function LeafletMap() {
                     </td>
                     <td style={{ paddingRight: '8px', textAlign: 'right' }}>
                       <span className='table-title'>
-                        {/* <a href={product.webLink}>Website</a> */}
-                        {/* <NavLink to="/mapDetails" target="_blank" rel="noopener noreferrer">Website</NavLink> */}
+                      
                         <Link  style={{fontWeight:'bold', color:"blue"}} to={`/mapDetails/${location.id}`}>
                           View Details
                         </Link>

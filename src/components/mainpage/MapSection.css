@@ -1,0 +1,9 @@
+.map-image{
+    position: relative;
+  
+}
+.map-btn{
+position: absolute;
+top: 50%;
+left: 50%;
+}

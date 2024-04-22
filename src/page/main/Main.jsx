@@ -10,7 +10,7 @@ import Slider from "../../components/mainpage/Slider";
 
 const Main = () => {
   return (
-    <div className="shadow mx-auto py-5" >
+    <div className="shadow mx-auto " >
       <Header></Header>
       <Slider></Slider>
       <Aboutus></Aboutus>

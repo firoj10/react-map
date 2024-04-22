@@ -1,11 +1,12 @@
 
 [
   {
+
     "id":"1",
     "position": [23.8103, 90.4125],
     "name": "Jamdani Saree",
     "district": "Dhaka, Sonargaon (17 November 2016)",
-    "material": "Jamdani is a hand loom woven fabric made of cotton, which was historically referred to as muslin",
+    "material": "Experience timeless elegance, intricate craftsmanship, and cherished cultural heritage with Bangladesh's Jamdani Sharee. Renowned worldwide for unparalleled beauty, it symbolizes tradition, artistry, and heritage. Originating from Bengal, the weaving technique dates back thousands of years, deeply embedded in Bangladesh's cultural tapestry. Each Sharee is a masterpiece, meticulously handcrafted by skilled artisans. Intricate patterns and motifs tell stories of ancient traditions, myths, and legends. From delicate florals to geometric designs, each Sharee reflects creativity and cultural diversity. Wearing a Jamdani Sharee celebrates rich heritage and supports local craftsmanship, preserving tradition for generations. It's a timeless symbol of elegance and sophistication",
     "longdescription": "Step into the world of timeless elegance and intricate craftsmanship with Bangladesh's cherished cultural heritage, the Jamdani Sharee. Renowned worldwide for its unparalleled beauty and exquisite craftsmanship, the Jamdani Sharee is more than just a garment; it is a symbol of tradition, artistry, and heritage.Originating from the historic region of Bengal, the Jamdani weaving technique dates back over thousands of years, with its roots embedded deep in the rich cultural tapestry of Bangladesh. Each Jamdani Sharee is a masterpiece of skill and dedication, meticulously handcrafted by skilled artisans who have inherited this ancient art form from their forefathers.",
     "sortdescription": "The art of Jamdani weaving is a labor-intensive process that involves skilled artisans weaving intricate motifs and patterns entirely by hand. Traditionally, these motifs draw inspiration from nature, including flowers, leaves, and vines, reflecting the harmony between craftsmanship and the environment.What sets Jamdani Sharees apart is the sheer delicacy and finesse of the weaving process. Using a supplementary weft technique, artisans intricately weave patterns into the fabric, creating a beautiful interplay of motifs that seem to float on the surface, giving the Sharee its distinctive texture and appearance.[Preservation of Tradition]Despite modern advancements, the tradition of Jamdani weaving remains deeply ingrained in the cultural identity of Bangladesh. It serves not only as a symbol of national pride but also as a source of livelihood for countless artisans and weavers across the country.By preserving and promoting the art of Jamdani weaving, Bangladesh honors its rich cultural heritage while providing sustainable employment opportunities for artisans in rural communities. Each Jamdani Sharee carries within it centuries of tradition, skill, and craftsmanship, making it a cherished heirloom passed down through generations.[Call to Action] Experience the Timeless Elegance of Jamdani ShareesIndulge in the luxury of Bangladesh's Jamdani Sharees and adorn yourself with a piece of living history. Explore our exquisite collection of Jamdani Sharees, each one a testament to the enduring beauty of Bangladesh's cultural heritage.",
     "productlist": {
@@ -17,90 +18,55 @@
     },
     "sliderimg":{
       
-      "img_1": "https://i.ibb.co/m6rg0yt/jamdani3.jpg",
-      "img_2": "https://i.ibb.co/dGHBZqb/jamdani4.jpg",
-      "img_3": "https://i.ibb.co/vHdb4Cs/jamdani2.jpg"
+      "img_1": "https://i.ibb.co/VVxqbY4/jamdani3.png",
+      "img_2": "https://i.ibb.co/dL5Zj7m/jamdani4.png",
+      "img_3": "https://i.ibb.co/rHwPRPq/jamdani6.png"
     },
-    "img": "https://i.ibb.co/RTqY7rK/jamdani1.jpg",
+    "img": "https://i.ibb.co/PwRT7D6/jamdani5.png",
     "table": [
       {
-        "vendorName": "Alpha Textiles",
-        "capacity": "High",
-        "averageDeliveryTime": "2 days",
-        "contact": "alpha@example.com"
+        "vendorName": "Tamim Jandani Shop",
+        "proprietor": "Md. Novel",
+        "averageDeliveryTime": "2 to 5 weeks",
+        "contact": "176*****8",
+        "location":"Rupgonj, Narayangonj"
       },
       {
-        "vendorName": "Beta Garments",
-        "capacity": "Medium",
-        "averageDeliveryTime": "3 days",
-        "contact": "beta@example.com"
+        "vendorName": "Girls Gallery Jamdani Shop",
+        "proprietor": "Khadiza Aktar",
+        "averageDeliveryTime": "2 to 5 weeks",
+        "contact": "170*****0",
+        "location":"Rupgonj, Narayangonj"
       },
       {
-        "vendorName": "Gamma Fabrics",
-        "capacity": "Low",
-        "averageDeliveryTime": "4 days",
-        "contact": "gamma@example.com"
+        "vendorName": "Sumaiya Jamdani House",
+        "proprietor": "Md. Shojib",
+        "averageDeliveryTime": "2 to 5 weeks",
+        "contact": "198*****2",
+        "location":"Rupgonj, Narayangonj"
       },
       {
-        "vendorName": "Delta Apparel",
-        "capacity": "High",
-        "averageDeliveryTime": "1 day",
-        "contact": "delta@example.com"
+        "vendorName": "Safwan Jamdani",
+        "proprietor": "Md. Shahin",
+        "averageDeliveryTime": "2 to 5 weeks",
+        "contact": "161******4",
+        "location":"Rupgonj, Narayangonj"
       },
       {
-        "vendorName": "Epsilon Fashion",
-        "capacity": "Medium",
-        "averageDeliveryTime": "2 days",
-        "contact": "epsilon@example.com"
+        "vendorName": "Sobuj Jamdani weaving Factory",
+        "proprietor": "Md. Shamim",
+        "averageDeliveryTime": "2 to 5 weeks",
+        "contact": "181******6",
+        "location":"Rupgonj, Narayangonj"
       },
       {
-        "vendorName": "Zeta Clothing",
-        "capacity": "Low",
-        "averageDeliveryTime": "3 days",
-        "contact": "zeta@example.com"
-      },
-      {
-        "vendorName": "Eta Garments",
-        "capacity": "High",
-        "averageDeliveryTime": "2 days",
-        "contact": "eta@example.com"
-      },
-      {
-        "vendorName": "Theta Textiles",
-        "capacity": "Medium",
-        "averageDeliveryTime": "4 days",
-        "contact": "theta@example.com"
-      },
-      {
-        "vendorName": "Iota Fabrics",
-        "capacity": "Low",
-        "averageDeliveryTime": "1 day",
-        "contact": "iota@example.com"
-      },
-      {
-        "vendorName": "Kappa Apparel",
-        "capacity": "High",
-        "averageDeliveryTime": "3 days",
-        "contact": "kappa@example.com"
-      },
-      {
-        "vendorName": "Lambda Fashion",
-        "capacity": "Medium",
-        "averageDeliveryTime": "2 days",
-        "contact": "lambda@example.com"
-      },
-      {
-        "vendorName": "Mu Clothing",
-        "capacity": "Low",
-        "averageDeliveryTime": "4 days",
-        "contact": "mu@example.com"
-      },
-      {
-        "vendorName": "Jamdani Saree",
-        "capacity": "Low",
-        "averageDeliveryTime": "N/A",
-        "contact": "N/A"
+        "vendorName": "Sabiha jamdani House",
+        "proprietor": "Md. Rubel mia",
+        "averageDeliveryTime": "2 to 5 weeks",
+        "contact": "168******7",
+        "location":"Rupgonj, Narayangonj"
       }
+      
     ]
   },
   {
@@ -127,31 +93,31 @@
     
       {
         "vendorName": "Techtronics Inc.",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "ElectroGadget Co.",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "PowerTech Solutions",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "Digital World Supplies",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "TechGear Innovations",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       }
@@ -180,31 +146,31 @@
     "table": [
       {
         "vendorName": "FashionHub Garments",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "Elegant Threads",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "SportyStitch Apparels",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "UrbanChic Clothing",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "TrendyWears Ltd.",
-        "capacity": "Low",
+        "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       }
@@ -234,31 +200,31 @@
     "table": [
       {
         "vendorName": "FreshFoods Farms",
-          "capacity": "Low",
+          "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "OrganicHarvest Co.",
-       "capacity": "Low",
+       "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "DairyDelights",
-           "capacity": "Low",
+           "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "SeaBounty Seafoods",
-           "capacity": "Low",
+           "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "GourmetTreats Ltd.",
-           "capacity": "Low",
+           "proprietor": "Low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       }
@@ -288,31 +254,31 @@
      
       {
         "vendorName": "ClassicCraft Furniture",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "5 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "ModernDesign Furnishings",
-      "capacity": "low",
+      "proprietor": "low",
       "averageDeliveryTime": "5 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "EcoLiving Furnitures",
-       "capacity": "low",
+       "proprietor": "low",
       "averageDeliveryTime": "5 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "ComfortZone Interiors",
-       "capacity": "low",
+       "proprietor": "low",
       "averageDeliveryTime": "5 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "VintageVibe Decor",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "5 days",
       "contact": "mu@example.com"
       }
@@ -341,31 +307,31 @@
      
       {
         "vendorName": "PaperPalace",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "4 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "PenCrafters",
-        "capacity": "low",
+        "proprietor": "low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "ArtisanStationery",
-        "capacity": "low",
+        "proprietor": "low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "StickyNotes Co.",
-        "capacity": "low",
+        "proprietor": "low",
         "averageDeliveryTime": "4 days",
         "contact": "mu@example.com"
       },
       {
         "vendorName": "BinderBuddy",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "4 days",
       "contact": "mu@example.com"
       }
@@ -395,31 +361,31 @@
   
       {
         "vendorName": "AutoParts Direct",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "2 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "WheelWorld Inc.",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "2 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "MotorOil Solutions",
-       "capacity": "low",
+       "proprietor": "low",
       "averageDeliveryTime": "2 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "CarCare Accessories",
-        "capacity": "low",
+        "proprietor": "low",
       "averageDeliveryTime": "2 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "Performance Parts Plus",
-         "capacity": "low",
+         "proprietor": "low",
       "averageDeliveryTime": "2 days",
       "contact": "mu@example.com"
       }
@@ -449,31 +415,31 @@
    
       {
         "vendorName": "ApplianceZone",
-          "capacity": "low",
+          "proprietor": "low",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "HomeTech Innovations",
-         "capacity": "low",
+         "proprietor": "low",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "CoolClimate Appliances",
-          "capacity": "low",
+          "proprietor": "low",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "LaundrySolutions",
-         "capacity": "low",
+         "proprietor": "low",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com"
       },
       {
         "vendorName": "ComfortHeat",
-         "capacity": "low",
+         "proprietor": "low",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com"
       }
@@ -505,31 +471,31 @@
         "vendorName": "BuildMasters",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com",
-      "capacity": "low"
+      "proprietor": "low"
       },
       {
         "vendorName": "LumberLand",
        "averageDeliveryTime": "1 days",
       "contact": "mu@example.com",
-      "capacity": "low"
+      "proprietor": "low"
       },
       {
         "vendorName": "SteelStructures Inc.",
        "averageDeliveryTime": "1 days",
       "contact": "mu@example.com",
-      "capacity": "low"
+      "proprietor": "low"
       },
       {
         "vendorName": "BrickWorks",
     "averageDeliveryTime": "1 days",
       "contact": "mu@example.com",
-      "capacity": "low"
+      "proprietor": "low"
       },
       {
         "vendorName": "RoofingSupplies Plus",
       "averageDeliveryTime": "1 days",
       "contact": "mu@example.com",
-      "capacity": "low"
+      "proprietor": "low"
       }
     ]
   },
@@ -557,31 +523,31 @@
         "vendorName": "MediCare Solutions",
          "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
       },
       {
         "vendorName": "PharmaTech Pharmaceuticals",
          "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
       },
       {
         "vendorName": "OrthoPro",
          "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
       },
       {
         "vendorName": "DentalDynamics",
        "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
       },
       {
         "vendorName": "VisionCare",
         "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
       }
     ]
   },
@@ -612,31 +578,31 @@
           "vendorName": "AirWings Travel",
          "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "LandHopper Tours",
          "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "SeaVoyage Cruises",
            "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "RoadRunner Rentals",
          "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "TravelEase Agents",
            "averageDeliveryTime": "1 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }]
     },
     {
@@ -664,31 +630,31 @@
           "vendorName": "FreshFarms Produce",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "PrimeMeats Butchery",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "DairyDelight Dairy",
        "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "Baker'sBounty Bakery",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "SeaHarvest Seafood",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     },
@@ -717,31 +683,31 @@
           "vendorName": "FixItAll Handyman",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "PlumbRight Plumbing",
          "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "SparkTech Electrical",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "PaintPros Painting",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "GreenThumb Landscaping",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     },
@@ -770,31 +736,31 @@
           "vendorName": "SmartMinds Tutoring",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "SkillBoost Academy",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "BookWorm Books",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "TechTutors Online",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "MusicMasters School",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
 
@@ -824,31 +790,31 @@
           "vendorName": "DreamDecor Events",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "CateringExcellence",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "EntertainmentHub",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "SnapMoments Photography",
     "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "MusicMasters DJ",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     },
@@ -877,31 +843,31 @@
           "vendorName": "CodeCrafters Inc.",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "AppGenius Solutions",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "TechSavvy Software",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "DataDynamo Analytics",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "CyberSec Solutions",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     },
@@ -930,31 +896,31 @@
           "vendorName": "WealthWise Advisors",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "InvestPro Consultants",
              "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "TaxMasters LLC",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "LoanGenius Bank",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "InsureNet Insurance",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     },
@@ -983,31 +949,31 @@
           "vendorName": "FitFusion Gym",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "YogaZen Studio",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "CardioBlast Fitness",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "StrengthMasters",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "PilatesCore Center",
            "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     },
@@ -1036,31 +1002,31 @@
           "vendorName": "LawFirm Associates",
              "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "DivorceRights Law",
          "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "EstateGuard Attorneys",
           "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "InjuryJustice Legal",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         },
         {
           "vendorName": "BusinessLegal Partners",
             "averageDeliveryTime": "3 days",
         "contact": "mu@example.com",
-        "capacity": "low"
+        "proprietor": "low"
         }
       ]
     }

@@ -30,7 +30,7 @@ function ProductBox() {
                         <div className="row pb-0">
                             <div className="col-md-12">                        
                                 <h1 className="text-center heading">ALL PRODUCTS</h1>
-                                <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                                <p className='text-center'>Discover Bangladesh's Finest: Shop Authentic GI Products Online</p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ function ProductBox() {
                                                     <i className='fa-fa-star'></i>
                                                 </div>
                                                 <div className="card-read-more">
-                                            <Link className=''   style={{fontWeight:'bold', color:"blue", textDecoration:'none' }}  to={`/mapDetails/${location.id}`}>View Details</Link>
+                                            <Link className=''   style={{fontWeight:'bold', color:" black",  }}  to={`/mapDetails/${location.id}`}>View Details</Link>
                                             </div>
                                             </div>
                                             
@@ -60,7 +60,7 @@ function ProductBox() {
                               
                             </div>
                             {!showAll && locations && locations.length > visibleProducts && (
-                                <div className="text-center pb-5">
+                                <div className="text-center pb-5 fw-bold">
                                     <button className="btn btn-primary" onClick={handleViewAll}>
                                         View All  Products
                                     </button>
