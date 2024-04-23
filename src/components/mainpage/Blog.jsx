@@ -4,10 +4,9 @@ import "./Blog.css";
 import { Link } from "react-router-dom";
 
 function Blog() {
-
   const [blogs, setblogs] = useState(null);
 
-
+//focus page useeffect
   useEffect(() => {
     fetch('./blog.json')
       .then((res) => res.json())

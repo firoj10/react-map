@@ -16,7 +16,6 @@ function MapDetails() {
 
 
 
-  // When the component mounts, or the page changes, scroll to the top to focus on the empty div
   useEffect(() => {
         
     window.scrollTo(0, 0);
