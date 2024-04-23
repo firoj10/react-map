@@ -15,7 +15,6 @@ const Main = () => {
       <Slider></Slider>
       <Aboutus></Aboutus>
       <Service></Service>
-      
       <ProductBox></ProductBox>
       <Blog></Blog>
       <MapSection></MapSection>
