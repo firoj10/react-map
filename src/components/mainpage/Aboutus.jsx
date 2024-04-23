@@ -35,8 +35,8 @@ function Aboutus() {
                                                     </svg>
                                                 </div>
                                                 <div>
-                                                    <h2 className="h4 mb-3">Geo graphical indication</h2>
-                                                    <p className="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                                                    <h2 className="h4 mb-3">Bengal GI promotion</h2>
+                                                    <p className="text-secondary mb-0">Crafting Excellence, Celebrating Heritage: Your Gateway to Authentic Bangladeshi Treasures</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -49,7 +49,7 @@ function Aboutus() {
                                                 </div>
                                                 <div>
                                                     <h2 className="h4 mb-3">Connecting SME </h2>
-                                                    <p className="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                                                    <p className="text-secondary mb-0">Elevating SMEs, Empowering Futures: Bridging Bangladeshi Brands to Global Opportunities</p>
                                                 </div>
                                             </div>
                                         </div>
