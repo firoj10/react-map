@@ -30,10 +30,10 @@ function Blog() {
             {blogs && blogs.slice(0, 4).map((item, index) => (
               <div key={index} className="col-md-6 item px-4">
                 <div>
-                  <img className="rounded" src={item.image} style={{ width: '100%', height: '250px' }} alt="" />
+                  <img className="rounded blog-img" src={item.image}  alt="" />
                 </div>
                 <div className="">
-                  <h4>{item.title}</h4>
+                  <h5 className="py-2">{item.title}</h5>
                   <div className="seperator"></div>
                   <p style={{ textAlign: "justify" }}>{item.content}</p>
 

@@ -7,3 +7,13 @@ position: absolute;
 top: 50%;
 left: 50%;
 }
+.view-map{
+padding: 10px  10px 10px 10px;
+font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+    .view-map{
+        padding: 10px  10px 10px 10px;
+        font-size: 15px;
+        }
+  }

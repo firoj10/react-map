@@ -43,7 +43,7 @@ function ProductBox() {
                                     <div key={index}  className="col-12 col-md-4 col-lg-3 my-4">
                                         <div  className="card p-2 border-0">
                                             <a className="img-card" href="#">
-                                                <img className='img-fluid rounded' style={{height: '250px', width:'100%'}} src={location.img} alt={location.name} />
+                                            <Link to={`/mapDetails/${location.id}`}> <img className='img-fluid rounded' style={{height: '250px', width:'100%'}} src={location.img} alt={location.name} /></Link>
                                             </a>
                                             <div className="card-content text-center">
                                                 <h4 className='py-2'>{location.name}</h4>
@@ -51,7 +51,7 @@ function ProductBox() {
                                                     <i className='fa-fa-star'></i>
                                                 </div>
                                                 <div className="card-read-more">
-                                            <Link className=''   style={{fontWeight:'bold', color:" black",  }}  to={`/mapDetails/${location.id}`}>View Details</Link>
+                                            <Link className='' style={{fontWeight:'bold', color:" black",  }}  to={`/mapDetails/${location.id}`}>View Details</Link>
                                             </div>
                                             </div>
                                             

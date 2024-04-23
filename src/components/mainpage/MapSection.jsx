@@ -20,7 +20,7 @@ function MapSection() {
                     <img className="img-fluid rounded" loading="lazy" src={about} alt="About 1" />
                     <div className='position-absolute top-50 start-50 translate-middle' style={{textAlign:"center"}}>
                     <NavLink  target="" rel="noopener noreferrer" to="/lefletmap"  >
-                        <button type="button" className="btn btn-primary btn-lg">View On Map</button>
+                        <button type="button" className="btn btn-primary view-map">View On Map</button>
                     </NavLink>
                   
                     </div>

@@ -3,13 +3,14 @@
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }
-.details-img{
+.details-imgs{
   width: 100%;
-  height: 700px;
+  height: 400px;
 }
+
 @media screen and (max-width: 600px) { 
-  .details-img{
+  .details-imgs{
     width: 100%;
-    height: 100%;
+    height: 250px;
   }
 }

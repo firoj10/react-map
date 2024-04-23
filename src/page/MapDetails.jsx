@@ -1,5 +1,5 @@
 
-import {  NavLink, useLoaderData, } from 'react-router-dom';
+import { NavLink, useLoaderData, } from 'react-router-dom';
 import Header from '../components/Header';
 
 import Slider from '../components/slider/Slider';
@@ -17,14 +17,14 @@ function MapDetails() {
 
 
   useEffect(() => {
-        
+
     window.scrollTo(0, 0);
-}, []); 
+  }, []);
 
   return (
     <div tabIndex="-1" autoFocus>
       <Header></Header>
-      <div  tabIndex="-1" autoFocus  className=" py-4 text-center" style={{ backgroundColor: 'white', color: 'Black' }}><h1 className="container mb-0">{data.name}</h1></div>
+      <div tabIndex="-1" autoFocus className=" py-4 text-center" style={{ backgroundColor: 'white', color: 'Black' }}><h1 className="container mb-0">{data.name}</h1></div>
       <Slider key={data.id} data={data}></Slider>
       <div className='container pt-4'>
         <h3>{data.name}</h3>
@@ -32,27 +32,27 @@ function MapDetails() {
       </div>
 
       <div className="container">
-        <div className="row py-5 ">
-          <div className="col-12 col-md-12 col-lg-6 py-4">
-            <img src={data.img} alt="" className='details-img' style={{ borderRadius: '10px', height: '440px' }} />
+        <div className="row py-3 ">
+          <div className="col-12 col-md-12 col-lg-6 py-2">
+            <img src={data.img} alt="" className='details-imgs' style={{ borderRadius: '10px', }} />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 py-4 ">
+          <div className="col-12 col-md-12 col-lg-6 py-2 ">
 
             <p>{data.sortdescription ? data.longdescription : ''}</p>
           </div>
-          <div className="col-12 col-md-12 col-lg-6 py-4">
+          <div className="col-12 col-md-12 col-lg-6 py-2">
 
             <p>{data.sortdescription ? data.sortdescription : ''}</p>
           </div>
-          <div className="col-12 col-md-12 col-lg-6 py-4 ">
+          <div className="col-12 col-md-12 col-lg-6 py-2 ">
 
 
-            <img src={data?.sliderimg?.img_1} alt="" className='details-img' style={{ borderRadius: '10px', height: '440px' }} />
+            <img src={data?.sliderimg?.img_1} alt="" className='details-imgs' style={{ borderRadius: '10px', }} />
 
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container py-3">
         <div style={{ overflowX: 'auto' }}>
           <table className="table border">
             <thead>
@@ -85,7 +85,7 @@ function MapDetails() {
       </div>
       <div>
 
-        <div className='text-center py-5'>
+        <div className='text-center py-3'>
           <NavLink to="/contact" rel="noopener noreferrer">
             <button type="button" className="btn btn-primary btn-lg">Get Quotation</button>
           </NavLink>

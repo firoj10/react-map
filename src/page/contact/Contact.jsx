@@ -44,9 +44,9 @@ function Contact() {
   <div>
     <Header></Header>
       <div tabIndex="-1" autoFocus className="container">
-      <Link to='/' className='btn btn-primary text-light my-5'>
+      {/* <Link to='/' className='btn btn-primary text-light my-5'>
         Back to Homepage
-      </Link>
+      </Link> */}
 
       <section className="bg-light py-1 py-md-5">
         <div className="container">
