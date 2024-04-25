@@ -1,12 +1,784 @@
 <!doctype html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/fabd.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bengal Gi</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!doctype html>
+  <html lang="en">
+
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/fabd.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bengal Gi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
   </head>
+
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
- </body> 
+    <style>
+      .card-payment-blog {
+        position: relative;
+
+      }
+
+      .confermission-top {
+        background-color: #fff;
+        padding: 20px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      .card-payment-circel {
+        position: absolute;
+        top: 24%;
+        right: 4%;
+      }
+
+      .card-payment-div {
+        position: relative;
+      }
+
+      .card-payment-crcel-btn1 {
+        position: absolute;
+        top: 0;
+        left: 1%;
+        width: 2rem;
+        height: 2rem;
+        z-index: 999;
+        background-color: orange;
+        border: none !important;
+      }
+
+      .card-payment-crcel-btn2 {
+        position: absolute;
+        top: 0;
+        left: 45%;
+        width: 2rem;
+        height: 2rem;
+        z-index: 999;
+        background-color: orange;
+        border: none !important;
+      }
+
+      .card-payment-crcel-btn3 {
+        position: absolute;
+        top: 0;
+        left: 90%;
+        width: 2rem;
+        height: 2rem;
+        z-index: 999;
+        background-color: orange;
+        border: none !important;
+      }
+
+      .card-payment-blogsub {
+        background-color: #fff;
+        color: black;
+        border: 1px solid #ccc;
+        z-index: 1;
+        padding: 6px;
+        border-radius: 10px;
+      }
+
+      .card-payment-blogsub i {
+        font-size: 25px;
+        color: orange;
+      }
+
+      .input-box {
+        /* line-height: 45px; */
+        padding: 10px 10px;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        color: gray;
+        border: none !important;
+        width: 100% !important;
+        margin-top: 10px;
+
+      }
+
+      .section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #ccc;
+      }
+
+      .conf-links {
+        color: orange;
+        font-weight: bold;
+      }
+
+      .ThemeButton {
+        padding: 8px 15px;
+        border-radius: 8px;
+        background-color: orange;
+        color: #fff;
+        text-decoration: none;
+
+      }
+
+      .product-optionss p {
+        margin-bottom: 6px !important;
+        margin-top: 6px;
+        font-size: 12px !important;
+        font-weight: bold;
+      }
+
+      .tour-alart {
+        background-color: #fc56567a;
+        color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+      }
+    </style>
+
+    <div>
+      <?php
+
+if (isset($counts_json)) {
+    $counts = json_decode($counts_json, true);
+} else {
+    $counts = array();
+}
+?>
+    </div>
+    <!-- <h3><?php echo $counts['adult_count']; ?></h3>  -->
+
+    <div>
+      <section class="section">
+        <div class="container">
+          <div class="row  confermission-top">
+            <div class="col-12 col-md-8 col-lg-8">
+              <div class="d-flex align-item-center justify-content-between card-payment-blog">
+                <div class="border  text-center col-md-2  card-payment-blogsub">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <p>Add to Cart</p>
+                </div>
+
+                <div class="border  text-center col-md-2  card-payment-blogsub">
+                  <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                  <p>Payment</p>
+                </div>
+                <div class="border  text-center col-md-2  card-payment-blogsub">
+                  <i class="fa fa-print" aria-hidden="true"></i>
+                  <p>Print Voucher</p>
+                </div>
+                <div class=" col-md-12  card-payment-circel">
+                  <div class="card-payment-div m-4">
+                    <div class="progress" style="height: 1px;">
+                      <div class="" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100" style="z-index: -1;"></div>
+                    </div>
+                    <button type="button"
+                      class="card-payment-crcel-btn1  translate-middle btn btn-sm btn-primary rounded-pill">1</button>
+                    <button type="button"
+                      class="card-payment-crcel-btn2  translate-middle btn btn-sm btn-primary rounded-pill">2</button>
+                    <button type="button"
+                      class="card-payment-crcel-btn3 translate-middle btn btn-sm btn-secondary rounded-pill">3</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-4">
+              <div style="text-align: right !important;">
+                <p>Currently, you have 1 item(s) in your cart</p>
+                <a href="" class="conf-links">CONTINUE SHOPPING</a>
+              </div>
+
+            </div>
+          </div>
+          <form id="submitFor" action="<?php echo base_url('home/conformation_insert'); ?>" method="post">
+
+            <div class="row">
+
+              <div class="col-12 col-md-12 col-lg-9 px-0">
+                <div class="confermission-top">
+
+                  <h4> <i class="fa fa-users px-1" style="color: orange;"></i>Lead Passenger Details</h4>
+                  <div class="row">
+                    <div class="col-12">
+                      <h5 class="pt-3">Adult Details</h5>
+                    </div>
+                    <div class="col-12">
+                      <input class="d-none" name="counts" type="text"
+                        value="<?php echo htmlspecialchars($counts_json); ?>">
+                    </div>
+                    <?php for ($i = 0; $i < $counts['adult_count']; $i++) { ?>
+                    <div class="col-12">
+                      <p class="mb-0">Adalt
+                        <?php echo $i+1; ?>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="adult_first_name_<?= $i ?>" class="input-box fristName"
+                          placeholder="First Name" required>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="adult_last_name_<?= $i ?>" class="input-box" placeholder="Last Name*">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <div class="">
+                        <select name="adult_gender_<?= $i ?>" class="input-box" required>
+                          <option value="0" selected="selected" label="Select Genter">Select Genter</option>
+                          <option value="Male" label="Male  ">Male </option>
+                          <option value="Female" label="Female ">Female</option>
+
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                      <div class="">
+                        <input type="text" id="expreance" name="adult_date_birth_<?= $i ?>"
+                          class="input-box activities_date" placeholder="Date of Birth" required>
+
+
+                      </div>
+                    </div>
+
+                    <?php } ?>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <h5 class="pt-3">Child Details</h5>
+                    </div>
+                    <?php for ($i = 0; $i < $counts['child_count']; $i++) { ?>
+                    <div class="col-12">
+                      <p class="mb-0">Child
+                        <?php echo $i+1 ?>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="child_first_name_<?= $i?>" class="input-box" placeholder="First Name*"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="child_last_name_<?= $i ?>" class="input-box" placeholder="Last Name*"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <div class="">
+                        <select name="child_gender_<?= $i ?>" class="input-box" required>
+                          <option value="0" selected="selected" label="Select Genter">Select Genter</option>
+                          <option value="Male" label="Male  ">Male </option>
+                          <option value="Female" label="Female ">Female</option>
+
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                      <div class="">
+                        <input type="text" class="input-box activities_date" name="child_date_birth_<?= $i ?>"
+                          placeholder="Date of Birth" required>
+                      </div>
+                    </div>
+
+                    <?php } ?>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <h5 class="pt-3">Infant Details</h5>
+                    </div>
+                    <!-- $fkey = 'infant_first_name_' . $i;
+                $lkey = 'infant_last_name_' . $i;
+                $gkey = 'infant_gender_' . $i;
+                $akey = 'infant_date_birth_' . $i; -->
+                    <?php for ($i = 0; $i < $counts['infant_count']; $i++) { ?>
+                    <div class="col-12">
+                      <p class="mb-0">Infant
+                        <?php echo $i+1 ?>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="infant_first_name_<?= $i ?>" class="input-box"
+                          placeholder="First Name*" required>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="infant_last_name_<?= $i ?>" class="input-box" placeholder="Last Name*"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <div class="">
+                        <select name="infant_gender_<?= $i ?>" class="input-box" required>
+                          <option value="0" selected="selected" label="Select Genter">Select Genter</option>
+                          <option value="Male" label="Male  ">Male </option>
+                          <option value="Female" label="Female ">Female</option>
+
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                      <div class="">
+                        <input type="text" class="input-box activities_date" name="infant_date_birth_<?= $i ?>"
+                          placeholder="Date of Birth" required>
+                      </div>
+                    </div>
+
+
+
+                    <?php } ?>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <h5 class="pt-3">Contact Details</h5>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="email" class="input-box" placeholder="Email*" required>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="">
+                        <select name="calling_code" class="input-box" required>
+                          <option value="0" selected="selected" label="Country calling code ">Country calling code
+                          </option>
+                          <option value="3" label="DZ (+213) ">DZ (+213) </option>
+                          <option value="4" label="AD (+376) ">AD (+376) </option>
+                          <option value="2" label="AL (+355) ">AL (+355) </option>
+                          <option value="5" label="AG (+1268) ">AG (+1268) </option>
+                          <option value="6" label="AR (+54) ">AR (+54) </option>
+                          <option value="1" label="AF (+93) ">AF (+93) </option>
+                          <option value="7" label="AM (+374) ">AM (+374) </option>
+                          <option value="8" label="AW (+297) ">AW (+297) </option>
+                          <option value="9" label="AU (+61) ">AU (+61) </option>
+                          <option value="10" label="AT (+43) ">AT (+43) </option>
+                          <option value="11" label="AZ (+994) ">AZ (+994) </option>
+                          <option value="12" label="BS (+1242) ">BS (+1242) </option>
+                          <option value="13" label="BH (+973) ">BH (+973) </option>
+                          <option value="14" label="BD (+880) ">BD (+880) </option>
+                          <option value="15" label="BB (+1-246) ">BB (+1-246) </option>
+                          <option value="16" label="BY (+375) ">BY (+375) </option>
+                          <option value="17" label="BE (+32) ">BE (+32) </option>
+                          <option value="18" label="BZ (+501) ">BZ (+501) </option>
+                          <option value="19" label="BJ (+229) ">BJ (+229) </option>
+                          <option value="20" label="BM (+1441) ">BM (+1441) </option>
+                          <option value="21" label="BO (+591) ">BO (+591) </option>
+                          <option value="22" label="BQ (+599) ">BQ (+599) </option>
+                          <option value="23" label="BA (+387) ">BA (+387) </option>
+                          <option value="24" label="BW (+267) ">BW (+267) </option>
+                          <option value="25" label="BR (+55) ">BR (+55) </option>
+                          <option value="26" label="VG (+1284) ">VG (+1284) </option>
+                          <option value="27" label="null">null</option>
+                          <option value="28" label="BG (+359) ">BG (+359) </option>
+                          <option value="29" label="BI (+257) ">BI (+257) </option>
+                          <option value="30" label="KH (+855) ">KH (+855) </option>
+                          <option value="31" label="CM (+237) ">CM (+237) </option>
+                          <option value="32" label="CA (+1) ">CA (+1) </option>
+                          <option value="33" label="KY (+1345) ">KY (+1345) </option>
+                          <option value="34" label="CL (+56) ">CL (+56) </option>
+                          <option value="35" label="CN (+86) ">CN (+86) </option>
+                          <option value="36" label="CO (+57) ">CO (+57) </option>
+                          <option value="37" label="CD (+243) ">CD (+243) </option>
+                          <option value="38" label="null">null</option>
+                          <option value="39" label="CK (+682) ">CK (+682) </option>
+                          <option value="40" label="CR (+506) ">CR (+506) </option>
+                          <option value="41" label="HR (+385) ">HR (+385) </option>
+                          <option value="42" label="CU (+53) ">CU (+53) </option>
+                          <option value="43" label="CW (+599) ">CW (+599) </option>
+                          <option value="44" label="CY (+357) ">CY (+357) </option>
+                          <option value="45" label="CZ (+420) ">CZ (+420) </option>
+                          <option value="46" label="DK (+45) ">DK (+45) </option>
+                          <option value="47" label="DJ (+253) ">DJ (+253) </option>
+                          <option value="48" label="DO (+1809) ">DO (+1809) </option>
+                          <option value="49" label="EC (+593) ">EC (+593) </option>
+                          <option value="50" label="EG (+20) ">EG (+20) </option>
+                          <option value="51" label="SV (+503) ">SV (+503) </option>
+                          <option value="52" label="ER (+291) ">ER (+291) </option>
+                          <option value="53" label="EE (+372) ">EE (+372) </option>
+                          <option value="54" label="ET (+251) ">ET (+251) </option>
+                          <option value="55" label="FJ (+679) ">FJ (+679) </option>
+                          <option value="56" label="FI (+358) ">FI (+358) </option>
+                          <option value="57" label="FR (+33) ">FR (+33) </option>
+                          <option value="58" label="PF (+689) ">PF (+689) </option>
+                          <option value="59" label="GA (+241) ">GA (+241) </option>
+                          <option value="60" label="GM (+220) ">GM (+220) </option>
+                          <option value="61" label="GE (+995) ">GE (+995) </option>
+                          <option value="62" label="DE (+49) ">DE (+49) </option>
+                          <option value="63" label="GH (+233) ">GH (+233) </option>
+                          <option value="64" label="GI (+350) ">GI (+350) </option>
+                          <option value="65" label="GR (+30) ">GR (+30) </option>
+                          <option value="66" label="GL (+299) ">GL (+299) </option>
+                          <option value="67" label="GD (+1473) ">GD (+1473) </option>
+                          <option value="68" label="GP (+590) ">GP (+590) </option>
+                          <option value="69" label="GU (+1671) ">GU (+1671) </option>
+                          <option value="70" label="GT (+502) ">GT (+502) </option>
+                          <option value="71" label="GN (+224) ">GN (+224) </option>
+                          <option value="72" label="HT (+509) ">HT (+509) </option>
+                          <option value="73" label="HN (+504) ">HN (+504) </option>
+                          <option value="74" label="HK (+852) ">HK (+852) </option>
+                          <option value="75" label="HU (+36) ">HU (+36) </option>
+                          <option value="76" label="IS (+354) ">IS (+354) </option>
+                          <option value="77" label="IN (+91) ">IN (+91) </option>
+                          <option value="78" label="ID (+62) ">ID (+62) </option>
+                          <option value="79" label="IR (+98) ">IR (+98) </option>
+                          <option value="80" label="IQ (+964) ">IQ (+964) </option>
+                          <option value="81" label="IE (+353) ">IE (+353) </option>
+                          <option value="82" label="IL (+972) ">IL (+972) </option>
+                          <option value="83" label="IT (+39) ">IT (+39) </option>
+                          <option value="84" label="CI (+225) ">CI (+225) </option>
+                          <option value="85" label="JM (+1876) ">JM (+1876) </option>
+                          <option value="86" label="JP (+81) ">JP (+81) </option>
+                          <option value="87" label="JO (+962) ">JO (+962) </option>
+                          <option value="88" label="KZ (+7) ">KZ (+7) </option>
+                          <option value="89" label="KE (+254) ">KE (+254) </option>
+                          <option value="90" label="XK (+383) ">XK (+383) </option>
+                          <option value="91" label="KW (+965) ">KW (+965) </option>
+                          <option value="92" label="KG (+996) ">KG (+996) </option>
+                          <option value="93" label="LA (+856) ">LA (+856) </option>
+                          <option value="94" label="LV (+371) ">LV (+371) </option>
+                          <option value="95" label="LB (+961) ">LB (+961) </option>
+                          <option value="96" label="LY (+218) ">LY (+218) </option>
+                          <option value="97" label="LI (+423) ">LI (+423) </option>
+                          <option value="98" label="LT (+370) ">LT (+370) </option>
+                          <option value="99" label="LU (+352) ">LU (+352) </option>
+                          <option value="100" label="MO (+853) ">MO (+853) </option>
+                          <option value="101" label="MK (+389) ">MK (+389) </option>
+                          <option value="102" label="MG (+261) ">MG (+261) </option>
+                          <option value="103" label="MW (+265) ">MW (+265) </option>
+                          <option value="104" label="MY (+60) ">MY (+60) </option>
+                          <option value="105" label="MV (+960) ">MV (+960) </option>
+                          <option value="106" label="ML (+223) ">ML (+223) </option>
+                          <option value="107" label="MT (+356) ">MT (+356) </option>
+                          <option value="108" label="MQ (+596) ">MQ (+596) </option>
+                          <option value="109" label="MU (+230) ">MU (+230) </option>
+                          <option value="110" label="MX (+52) ">MX (+52) </option>
+                          <option value="111" label="FM (+691) ">FM (+691) </option>
+                          <option value="112" label="MD (+373) ">MD (+373) </option>
+                          <option value="113" label="MC (+377) ">MC (+377) </option>
+                          <option value="114" label="MN (+976) ">MN (+976) </option>
+                          <option value="115" label="ME (+382) ">ME (+382) </option>
+                          <option value="116" label="MA (+212) ">MA (+212) </option>
+                          <option value="117" label="MZ (+258) ">MZ (+258) </option>
+                          <option value="118" label="MM (+95) ">MM (+95) </option>
+                          <option value="119" label="NA (+264) ">NA (+264) </option>
+                          <option value="120" label="NP (+977) ">NP (+977) </option>
+                          <option value="121" label="NL (+31) ">NL (+31) </option>
+                          <option value="122" label="AN (+599) ">AN (+599) </option>
+                          <option value="123" label="NC (+687) ">NC (+687) </option>
+                          <option value="124" label="NZ (+64) ">NZ (+64) </option>
+                          <option value="125" label="NI (+505) ">NI (+505) </option>
+                          <option value="126" label="NG (+234) ">NG (+234) </option>
+                          <option value="127" label="NF (+6723) ">NF (+6723) </option>
+                          <option value="128" label="KP (+850) ">KP (+850) </option>
+                          <option value="129" label="MP (+1670) ">MP (+1670) </option>
+                          <option value="130" label="NO (+47) ">NO (+47) </option>
+                          <option value="131" label="OM (+968) ">OM (+968) </option>
+                          <option value="132" label="PK (+92) ">PK (+92) </option>
+                          <option value="133" label="PW (+680) ">PW (+680) </option>
+                          <option value="134" label="PS (+970) ">PS (+970) </option>
+                          <option value="135" label="PA (+507) ">PA (+507) </option>
+                          <option value="136" label="PG (+675) ">PG (+675) </option>
+                          <option value="137" label="PY (+595) ">PY (+595) </option>
+                          <option value="138" label="PE (+51) ">PE (+51) </option>
+                          <option value="139" label="PH (+63) ">PH (+63) </option>
+                          <option value="140" label="PL (+48) ">PL (+48) </option>
+                          <option value="141" label="PT (+351) ">PT (+351) </option>
+                          <option value="142" label="PR (+1787) ">PR (+1787) </option>
+                          <option value="143" label="QA (+974) ">QA (+974) </option>
+                          <option value="144" label="CG (+242) ">CG (+242) </option>
+                          <option value="145" label="RE (+262) ">RE (+262) </option>
+                          <option value="146" label="RO (+40) ">RO (+40) </option>
+                          <option value="147" label="RU (+7) ">RU (+7) </option>
+                          <option value="148" label="RW (+250) ">RW (+250) </option>
+                          <option value="149" label="BL (+590) ">BL (+590) </option>
+                          <option value="150" label="null">null</option>
+                          <option value="151" label="KN (+1869) ">KN (+1869) </option>
+                          <option value="152" label="LC (+1758) ">LC (+1758) </option>
+                          <option value="153" label="MF (+590) ">MF (+590) </option>
+                          <option value="154" label="VC (+1784) ">VC (+1784) </option>
+                          <option value="155" label="WS (+685) ">WS (+685) </option>
+                          <option value="156" label="null">null</option>
+                          <option value="157" label="SA (+966) ">SA (+966) </option>
+                          <option value="158" label="SN (+221) ">SN (+221) </option>
+                          <option value="159" label="RS (+381) ">RS (+381) </option>
+                          <option value="160" label="SC (+248) ">SC (+248) </option>
+                          <option value="161" label="SL (+232) ">SL (+232) </option>
+                          <option value="162" label="SG (+65) ">SG (+65) </option>
+                          <option value="163" label="SK (+421) ">SK (+421) </option>
+                          <option value="164" label="SI (+386) ">SI (+386) </option>
+                          <option value="165" label="ZA (+27) ">ZA (+27) </option>
+                          <option value="166" label="KR (+82) ">KR (+82) </option>
+                          <option value="167" label="ES (+34) ">ES (+34) </option>
+                          <option value="168" label="LK (+94) ">LK (+94) </option>
+                          <option value="169" label="SX (+721) ">SX (+721) </option>
+                          <option value="170" label="SD (+249) ">SD (+249) </option>
+                          <option value="171" label="SR (+597) ">SR (+597) </option>
+                          <option value="172" label="SZ (+268) ">SZ (+268) </option>
+                          <option value="173" label="SE (+46) ">SE (+46) </option>
+                          <option value="174" label="CH (+41) ">CH (+41) </option>
+                          <option value="175" label="SY (+963) ">SY (+963) </option>
+                          <option value="176" label="TW (+886) ">TW (+886) </option>
+                          <option value="177" label="TJ (+992) ">TJ (+992) </option>
+                          <option value="178" label="TZ (+255) ">TZ (+255) </option>
+                          <option value="179" label="TH (+66) ">TH (+66) </option>
+                          <option value="180" label="TG (+228) ">TG (+228) </option>
+                          <option value="181" label="TO (+676) ">TO (+676) </option>
+                          <option value="182" label="TT (+1868) ">TT (+1868) </option>
+                          <option value="183" label="TN (+216) ">TN (+216) </option>
+                          <option value="184" label="TR (+90) ">TR (+90) </option>
+                          <option value="185" label="TM (+993) ">TM (+993) </option>
+                          <option value="186" label="TC (+1649) ">TC (+1649) </option>
+                          <option value="187" label="UG (+256) ">UG (+256) </option>
+                          <option value="188" label="UA (+380) ">UA (+380) </option>
+                          <option value="189" label="AE (+971) ">AE (+971) </option>
+                          <option value="190" label="GB (+44) ">GB (+44) </option>
+                          <option value="191" label="US (+1) ">US (+1) </option>
+                          <option value="192" label="UY (+598) ">UY (+598) </option>
+                          <option value="193" label="UZ (+998) ">UZ (+998) </option>
+                          <option value="194" label="VU (+678) ">VU (+678) </option>
+                          <option value="195" label="VE (+58) ">VE (+58) </option>
+                          <option value="196" label="VN (+84) ">VN (+84) </option>
+                          <option value="197" label="VI (+1340) ">VI (+1340) </option>
+                          <option value="198" label="YE (+967) ">YE (+967) </option>
+                          <option value="199" label="ZM (+260) ">ZM (+260) </option>
+                          <option value="200" label="ZW (+263) ">ZW (+263) </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="">
+                        <input type="text" name="phone_number" class="input-box" placeholder="Phone Number" required>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="pt-5 confermission-top">
+                  <h5>Test Booking Product
+                    <span> - Without Transfers</span>
+                  </h5>
+
+                  <div class="">
+                    <input type="text" class="input-box" placeholder="Remark">
+                  </div>
+
+                </div>
+                <div class="pt-5 confermission-top">
+                  <h5 class="p-2"><span><i class="fa fa-credit-card-alt " style="color: orange;"></i></span>
+                    Choose a Payment Method</h5>
+
+                  <div class="">
+
+                    <div class="input-box" style="color: black !important;">
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">Credit Card / Debit Card
+
+                      </label><br>
+                      <div>
+                        <div class="d-flex justify-content-start input-box">
+                          <p>Internet Handling charges (2.5%)</p>
+                          <p class="px-5 fw-bold">AED 0.03</p>
+
+                        </div>
+                        <p><span class="fw-bold" style="color: black !important;">Note</span> : In the next
+                          step you will be redirected to your banks website to verify yourself.</p>
+                      </div>
+                    </div>
+
+                    <div class=" input-box" style="color: black !important;">
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">Credit Limit
+
+                      </label><br>
+                    </div>
+                  </div>
+
+                </div>
+                <div class=" row pt-5 confermission-top mx-0" id="contag">
+                  <div class="checkterm col-12 col-md-6">
+
+                    <div>
+                      <input type="checkbox" class="requiredCheckbox"> <label for="">By Clicking Pay Now You
+                        agree that you have read and understood our</label>
+                    </div>
+                    <a data-target="#Termspopup" data-toggle="modal" class="conf-links">Terms and
+                      Conditions.</a>
+                    <span class="checkmark">
+
+                    </span></label>
+                  </div>
+
+                  <div class="col-12 col-md-6 text-end">
+                    <a href="#" class="ThemeButton"><span ng-bind="'Pay By Credit Limit' | translate"
+                        class="ng-binding">Pay Now</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-3">
+                <div class="product-optionss confermission-top">
+                  <h4 class="border-bottom pb-1"><i class="fa fa-prducts"></i> Test Product</h4>
+                  <div class="tour-alart " style="">
+                    <div><i class="fa fa-times-circle px-1" aria-hidden="true"></i></div>
+                    <div>
+                      <p class="fw-normal">Sorry to inform you that this service is not available,
+                        kindly remove this service and add other service option to proceed further.</p>
+                    </div>
+
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p>Tour Option</p>
+                    <p> Test Booking Product</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p> Date</p>
+                    <p> 8/3/2024</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p> Transfer Type</p>
+                    <p>Without Transfers</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p> Transfer Timings</p>
+                    <p>as per selected time slot</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p>Pax</p>
+                    <p> 1 Adult</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p style="color:red"> Last Date to Cancel:</p>
+                    <p style="color:red"> Non Refundable</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p> Availability</p>
+                    <p> Not Available</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center">
+                    <p>Amount Incl. VAT:</p>
+                    <p>AED 1.05</p>
+                  </div>
+                </div>
+
+                <div class="confermission-top ">
+                  <div class="product-optionss">
+                    <h6>Final Payment</h6>
+                    <div class="d-flex justify-content-between align-item-center">
+                      <p>Total Amount Incl. VAT</p>
+                      <p>AED 1.05</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-item-center">
+                      <p>Internet Handling charges (2.5%)</p>
+                      <p>AED 0.03</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between align-item-center pt-3">
+                    <p class="fs-5 fw-bold">Final Amount</p>
+                    <p class="fs-5 fw-bold">AED 1.08</p>
+                  </div>
+                </div>
+              </div>
+              <input type="submit" value="Submit">
+          </form>
+        </div>
+
+    </div>
+
+
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+
+
+    <script>
+      $(function () {
+        $('.activities_date').daterangepicker({
+          singleDatePicker: true,
+          showDropdowns: true,
+          minYear: 1901,
+          maxYear: parseInt(moment().format('YYYY'), 10)
+        }, function (start, end, label) {
+          var years = moment().diff(start, 'years');
+
+        });
+      });
+    </script>
+
+    <script>
+      //  var guestData = <?php echo isset($counts_json) ? $counts_json : '0'; ?>;
+      //  var guestDetailsData = JSON.stringify({guestData: guestData});
+      //  console.log(guestDetailsData);
+
+      // var guestData = <?php echo isset($counts_json) ? $counts_json : '0'; ?>;
+      //     var guestDetailsData = JSON.stringify({guestData: guestData});
+
+      //     formData.push({name: 'guestDetailsData', value: guestDetailsData});
+
+      $(document).ready(function () {
+        $('#submitFor').submit(function (event) {
+          event.preventDefault();
+          var formData = $(this).serializeArray();
+
+
+          $.ajax({
+            type: 'POST',
+            url: '<?php echo base_url("/home/conformation_insert"); ?>',
+            data: formData,
+            dataType: 'json',
+            success: function (response) {
+              if (response.status == 'success') {
+                alert('Data inserted successfully.');
+                window.location.href = response.redirect_url;
+              } else {
+                alert('Failed to insert data.');
+              }
+            }
+          });
+        });
+      });
+
+
+
+    </script>
+  </body>
+
+  </html>
+
+</body>

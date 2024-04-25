@@ -1,5 +1,5 @@
 
-import about from './../../../public/slider/gi-bg1.jpg'
+import about from './../../../public/slider/about.jpg'
 
 import "./Service.css";
 function Aboutus() {
