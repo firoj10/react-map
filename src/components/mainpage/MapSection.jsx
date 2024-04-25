@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import about from './../../../public/map1.jpeg'
+import about from './../../../public/map-final.png'
 import "./MapSection.css";
 function MapSection() {
     return (
