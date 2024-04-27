@@ -34,7 +34,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
             nextEl: '.swiper-button-next', 
             prevEl: '.swiper-button-prev', 
           }}
-        className="mySwiper pt-5"
+        className="mySwiper "
       >
       <div className="swiper-button-prev"></div> 
       <div className="swiper-button-next"></div> 
@@ -42,7 +42,6 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
         <SwiperSlide data-hash="slide2" className=''><img src={img_2? img_2 :''}  alt="" /></SwiperSlide>
         <SwiperSlide data-hash="slide1" className=''><img src={img_1? img_1 : ''} alt="" /></SwiperSlide>
         <SwiperSlide data-hash="slide3" className=''><img src={img_3? img_3 :''}  alt="" /></SwiperSlide>
-        {/* <SwiperSlide data-hash="slide1" className=''><img src={img_4? img_4 : ''} alt="" /></SwiperSlide> */}
         <SwiperSlide data-hash="slide2" className=''><img src={img_4? img_4 :''}  alt="" /></SwiperSlide>
         <SwiperSlide data-hash="slide3" className=''><img src={img_5? img_5 :''}  alt="" /></SwiperSlide>
    

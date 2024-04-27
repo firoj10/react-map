@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from './../../public/logo11.png'
+import logo from './../../public/logo.jpg'
 
 import "./map.css";
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
           <div className="" style={{ alignItems: 'center' }}>
             
             <Link to='/' >
-            <img src={logo} className='logo' alt=""  />
+            <img src={logo} className='logo py-2' alt=""  />
       </Link>
           </div>
          

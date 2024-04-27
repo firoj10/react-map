@@ -24,7 +24,7 @@ function MapDetails() {
   return (
     <div tabIndex="-1" autoFocus>
       <Header></Header>
-      <div tabIndex="-1" autoFocus className=" py-4 text-center" style={{ backgroundColor: 'white', color: 'Black' }}><h1 className="container mb-0">{data.name}</h1></div>
+      <div tabIndex="-1" autoFocus className=" py-2 text-center" style={{ backgroundColor: 'white', color: 'Black' }}><h1 className="container mb-0">{data.name}</h1></div>
       <Slider key={data.id} data={data}></Slider>
       <div className='container pt-4'>
         <h3>{data.name}</h3>
