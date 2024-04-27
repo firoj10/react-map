@@ -176,7 +176,7 @@ function LeafletMap() {
                     <h6 className='fw-bold'>{location.name}</h6><span className=''>({location.district}) </span>
                   </div>
                   {/* <p>{location.description}</p> */}
-                  <p className='m-2 fw-bold fs-7'>{location.material ? location.material : ' '}</p>
+                  {/* <p className='m-2 fw-bold fs-7'>{location.material ? location.material : ' '}</p> */}
                    <p className='m-1 description'>{location.productlist ?.des1 ? location.productlist.des1 : ' '}</p>
                    <p className='m-1 description'>{location.productlist ?.des2 ? location.productlist.des2 : ' '}</p> 
                  <p className='m-1 description'>{location.productlist ?.des3 ? location.productlist.des3 : ' '}</p>
