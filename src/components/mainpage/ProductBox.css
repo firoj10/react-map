@@ -1,5 +1,10 @@
 
 
+.card-div
+   {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
 
 
 /* card errect */
@@ -27,6 +32,13 @@
       opacity: 1;
     }
   }
+}
+@media only screen and (max-width : 600px) {
+  .card-div
+   {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+}
 }
 
 

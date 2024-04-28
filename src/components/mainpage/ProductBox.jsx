@@ -42,20 +42,20 @@ function ProductBox() {
                             <div className="row">
 
                                 {locations && locations.slice(0, showAll ? locations.length : visibleProducts).map((location, index) => (
-                                    <div key={index} className="col-12 col-md-4 col-lg-3 my-4">
-                                        <div className="card p-2 card card__one card__three">
+                                    <div key={index} className="col-12 col-md-4 col-lg-3 card-div my-4">
+                                        <div className="card p-2 border-0 card card__one card__three">
                                             <a className="img-card" href="#">
                                                 <Link to={`/mapDetails/${location.id}`}> <img className='img-fluid rounded' style={{ height: '250px', width: '100%' }} src={location.img} alt={location.name} /></Link>
                                             </a>
-                                            <div className="card-content py-3">
+                                            <div className="card-content text-center py-3">
                                                 <h4 className='mb-1'>{location.name}</h4>
                                                 <div>
-                                                    <p className="text-primary mb-0" style={{ fontSize: '20px', }}>
-                                                        <span style={{ color: "orange" }}><BiStar /></span>
-                                                        <span style={{ color: "orange" }}><BiStar /></span>
-                                                        <span style={{ color: "orange" }}><BiStar /></span>
+                                                    {/* <p className="text-primary mb-0" style={{ fontSize: '20px', }}>
+                                                        <span style={{  }}><BiStar /></span>
+                                                        <span style={{  }}><BiStar /></span>
+                                                        <span style={{  }}><BiStar /></span>
 
-                                                    </p>
+                                                    </p> */}
                                                 </div>
                                                 <div className="card-read-more  mt-3">
 
