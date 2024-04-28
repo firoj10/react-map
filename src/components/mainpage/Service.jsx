@@ -2,7 +2,7 @@
 import "./Service.css";
 
 import { MdCardTravel, MdExplore, MdFilterVintage, MdWidgets } from "react-icons/md";
-import { BiSync, BiTrendingUp } from "react-icons/bi";
+import {  BiSync, BiTrendingUp } from "react-icons/bi";
 function Service() {
     return (
         <>
@@ -17,7 +17,7 @@ function Service() {
           
           </div>
         </div>
-        <hr  className="w-50 mx-auto  mb-xl-9 border-dark-subtle"/>
+        {/* <hr  className="w-50 mx-auto  mb-xl-9 border-dark-subtle"/> */}
       </div>
     </div>
   </div>
@@ -77,6 +77,7 @@ Navigating the complexities of supply chain management and regulatory compliance
         <div  className="card border-0     ">
           <div  className="card-body text-center p-1">
           <p className="text-primary" style={{fontSize:'40px', }}><MdExplore/></p>
+         
             <h4  className="mb-4">Ecosystem Enhancement through Partnership</h4>
             <p style={{ textAlign: "justify"}} className="mb-1 text-secondary"> 
 

@@ -28,12 +28,12 @@ function Blog() {
         <div className="container">
           <div className="row justify-content-between">
             {blogs && blogs.slice(0, 4).map((item, index) => (
-              <div key={index} className="col-md-6 item px-4">
+              <div key={index} className="col-md-6 item px-4  ">
                 <div>
-                  <img className="rounded blog-img" src={item.image}  alt="" />
+                  <img className="rounded blog-img card__one" src={item.image}  alt="" />
                 </div>
                 <div className="">
-                  <h5 className="py-2">{item.title}</h5>
+                  <h5 className="py-1">{item.title}</h5>
                   <div className="seperator"></div>
                   <p style={{ textAlign: "justify" }}>{item.content}</p>
 

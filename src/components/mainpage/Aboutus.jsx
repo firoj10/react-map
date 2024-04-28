@@ -1,7 +1,7 @@
 
 import about from './../../../public/slider/about.jpg'
 
-import "./Service.css";
+import "./Aboutus.css";
 function Aboutus() {
     return (
         <>
@@ -19,7 +19,7 @@ function Aboutus() {
                 <div className="container">
                     <div className="row gy-3 pt-2 gy-md-4 gy-lg-0 align-items-lg-center">
                         <div className="col-12 col-lg-6 col-xl-6">
-                            <img className="img-fluid rounded" loading="lazy" src={about} alt="About 1" />
+                            <img className="img-fluid rounded card__one" loading="lazy" src={about} alt="About 1" />
                         </div>
                         <div className="col-12 col-lg-6 col-xl-6">
                             <div className="row justify-content-xl-center">
